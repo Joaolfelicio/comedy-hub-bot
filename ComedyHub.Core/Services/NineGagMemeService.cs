@@ -1,9 +1,11 @@
 ﻿using ComedyHub.Core.Infrastructure.Gateway.Contracts;
+using ComedyHub.Core.Infrastructure.NineGagModels.Models;
 using ComedyHub.Core.Models;
 using ComedyHub.Core.Services.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ComedyHub.Core.Services
 {
@@ -15,9 +17,9 @@ namespace ComedyHub.Core.Services
             _nineGagGateway = nineGagGateway;
         }
 
-        public MemeModel GetNineGagMeme()
+        public async Task<NineGagModel> GetNineGagMeme()
         {
-            _nineGagGateway.GetMeme();
+            return await _nineGagGateway.GetMeme();
         }
     }
 }

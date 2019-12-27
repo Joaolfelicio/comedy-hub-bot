@@ -17,7 +17,14 @@ namespace ComedyHub.Core.Components
 
         public void MemeProcessor()
         {
-            _memeFetcher.GetMeme();
+            try
+            {
+                var meme = _memeFetcher.GetMeme();
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
     }
 }

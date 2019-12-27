@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace ComedyHub.Core.Infrastructure.Gateway
 {
@@ -15,8 +16,8 @@ namespace ComedyHub.Core.Infrastructure.Gateway
     {
         public async Task<NineGagModel> GetMeme()
         {
-            NineGagModel nineGagModel = new NineGagModel();
-            nineGagModel = null;
+            NineGagModel jsonModel = new NineGagModel();
+            jsonModel = null;
 
             using (HttpClient client = new HttpClient())
             {
@@ -28,11 +29,12 @@ namespace ComedyHub.Core.Infrastructure.Gateway
                 if (response.IsSuccessStatusCode)
                 {
                     var data = await response.Content.ReadAsStringAsync();
-                    var test = JsonConvert.DeserializeObject<NineGagModel>(data);
-                    return test;
+                    jsonModel = JsonConvert.DeserializeObject<NineGagModel>(data);
+
+                    return jsonModel;
                 }
             }
-            return nineGagModel;
+            return jsonModel;
         }
     }
 }
