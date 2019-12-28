@@ -4,8 +4,8 @@ using System.Text;
 
 namespace ComedyHub.Core.Configuration.Contracts
 {
-    public interface INineGagApi
+    public interface INineGagApiSettings
     {
-        public string Url { get; set; }
+        string Url { get; }
     }
 }

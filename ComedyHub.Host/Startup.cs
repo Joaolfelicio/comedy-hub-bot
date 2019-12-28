@@ -17,6 +17,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Serialization;
 
@@ -37,18 +38,21 @@ namespace ComedyHub.Host
             services.AddOptions();
             services.AddControllers()
                     .AddNewtonsoftJson(options => options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver());
-            services.AddScoped<INineGagMemeService, NineGagMemeService>();
-            services.AddScoped<INineGagGateway, NineGagGateway>();
-            services.AddScoped<IMemeFetcher, MemeFetcher>();
-            services.AddScoped<IMemeOrchestrator, MemeOrchestrator>();
+            
 
-            services.AddScoped<IApplicationSettings, ApplicationSettings>();
-            var applicationSettings = Configuration.GetSection(nameof(ApplicationSettings));
-            services.Configure<IApplicationSettings>(applicationSettings);
+            services.AddSingleton<INineGagFetchService, NineGagFetchService>();
+            services.AddSingleton<INineGagGateway, NineGagGateway>();
+            services.AddSingleton<IMemeProcessor, MemeProcessor>();
+            services.AddSingleton<IMemeOrchestrator, MemeOrchestrator>();
+            services.AddSingleton<INineGagComponent, NineGagComponent>();
+            services.AddSingleton<INineGagFilterService, NineGagFilterService>();
+            services.AddSingleton<INineGagMapperService, NineGagMapperService>();
 
-            services.AddScoped<INineGagApi, NineGagApi>();
-            var nineGagApi = Configuration.GetSection(nameof(NineGagApi));
-            services.Configure<INineGagApi>(nineGagApi);
+            services.Configure<ApplicationSettings>(Configuration.GetSection(nameof(ApplicationSettings)));
+            services.AddSingleton<IApplicationSettings>(sp => sp.GetRequiredService<IOptions<ApplicationSettings>>().Value);
+
+            services.Configure<NineGagApiSettings>(Configuration.GetSection(nameof(NineGagApiSettings)));
+            services.AddSingleton<INineGagApiSettings>(sp => sp.GetRequiredService<IOptions<NineGagApiSettings>>().Value);
 
             services.AddSwaggerGen(c =>
             {

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace ComedyHub.Core.Infrastructure.NineGagModels
 {
-    public class Tag
+    public class NGImages
     {
-        public string key { get; set; }
-        public string url { get; set; }
+        public NGImage Image700 { get; set; }
+        public NGImage Image460 { get; set; }
     }
 }

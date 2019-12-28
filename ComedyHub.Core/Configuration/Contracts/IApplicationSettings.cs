@@ -6,6 +6,6 @@ namespace ComedyHub.Core.Configuration.Contracts
 {
     public interface IApplicationSettings
     {
-        string ServicesToFetch { get; set; }
+        string ServicesToFetch { get;}
     }
 }

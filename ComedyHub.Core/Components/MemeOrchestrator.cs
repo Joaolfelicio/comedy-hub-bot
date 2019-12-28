@@ -8,18 +8,18 @@ namespace ComedyHub.Core.Components
 {
     public class MemeOrchestrator : IMemeOrchestrator
     {
-        private readonly IMemeFetcher _memeFetcher;
+        private readonly IMemeProcessor _memeProcessor;
 
-        public MemeOrchestrator(IMemeFetcher memeFetcher)
+        public MemeOrchestrator(IMemeProcessor memeProcessor)
         {
-            _memeFetcher = memeFetcher;
+            _memeProcessor = memeProcessor;
         }
 
-        public void MemeProcessor()
+        public void Process()
         {
             try
             {
-                var meme = _memeFetcher.GetMeme();
+                var meme = _memeProcessor.ProcessMeme();
             }
             catch (Exception ex)
             {

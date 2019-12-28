@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace ComedyHub.Core.Components.Contracts
 {
-    public interface IMemeFetcher
+    public interface IMemeProcessor
     {
-        Task<NineGagModel> GetMeme();
+        Task<MemeModel> ProcessMeme();
     }
 }

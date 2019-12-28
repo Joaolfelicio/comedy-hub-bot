@@ -7,6 +7,6 @@ namespace ComedyHub.Core.Components.Contracts
 {
     public interface IMemeOrchestrator
     {
-        void MemeProcessor();
+        void Process();
     }
 }

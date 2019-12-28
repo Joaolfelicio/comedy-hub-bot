@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace ComedyHub.Core.Services.Contracts
 {
-    public interface INineGagMemeService
+    public interface INineGagFetchService
     {
-        Task<NineGagModel> GetNineGagMeme();
+        Task<NineGagModel> GetNineGagModelMeme();
     }
 }

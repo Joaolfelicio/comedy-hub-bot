@@ -20,7 +20,7 @@ namespace ComedyHub.Host.Controllers
         [HttpGet("Process")]
         public void ProcessMeme()
         {
-            _memeOrchestrator.MemeProcessor();
+            _memeOrchestrator.Process();
         }
     }
 }

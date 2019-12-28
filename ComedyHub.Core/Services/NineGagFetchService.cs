@@ -9,15 +9,15 @@ using System.Threading.Tasks;
 
 namespace ComedyHub.Core.Services
 {
-    public class NineGagMemeService : INineGagMemeService
+    public class NineGagFetchService : INineGagFetchService
     {
         readonly INineGagGateway _nineGagGateway;
-        public NineGagMemeService(INineGagGateway nineGagGateway)
+        public NineGagFetchService(INineGagGateway nineGagGateway)
         {
             _nineGagGateway = nineGagGateway;
         }
 
-        public async Task<NineGagModel> GetNineGagMeme()
+        public async Task<NineGagModel> GetNineGagModelMeme()
         {
             return await _nineGagGateway.GetMeme();
         }

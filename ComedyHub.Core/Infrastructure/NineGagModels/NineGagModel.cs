@@ -7,6 +7,6 @@ namespace ComedyHub.Core.Infrastructure.NineGagModels.Models
 {
     public class NineGagModel
     {
-        public Data Data { get; set; }
+        public NGData Data { get; set; }
     }
 }

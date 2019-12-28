@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ComedyHub.Core.Infrastructure.NineGagModels
 {
-    public class PostSection
+    public class NGPostSection
     {
         public string name { get; set; }
         public string url { get; set; }

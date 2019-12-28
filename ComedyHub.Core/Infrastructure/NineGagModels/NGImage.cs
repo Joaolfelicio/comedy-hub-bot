@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ComedyHub.Core.Infrastructure.NineGagModels
 {
-    public class Image
+    public class NGImage
     {
         public int Width { get; set; }
         public int Height { get; set; }

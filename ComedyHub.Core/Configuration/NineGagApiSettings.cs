@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ComedyHub.Core.Configuration
 {
-    public class NineGagApi : INineGagApi
+    public class NineGagApiSettings : INineGagApiSettings
     {
         public string Url { get ; set ; }
     }

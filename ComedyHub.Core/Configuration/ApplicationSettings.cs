@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ComedyHub.Core.Configuration.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
