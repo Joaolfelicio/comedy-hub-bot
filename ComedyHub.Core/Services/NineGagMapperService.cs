@@ -12,20 +12,27 @@ namespace ComedyHub.Core.Services
     {
         public MemeModel NineGagModelToMeme(NGPost ngPost)
         {
+            //TODO Fix this, its sending the ascii
+            var test = "My father &#039;s Kryptonite";
+
+            byte[] bytesTitle = Encoding.ASCII.GetBytes(test);
+
+            string titleDecoded = Encoding.ASCII.GetString(bytesTitle);
+
             var tags = new List<string>();
 
             foreach (var tag in ngPost.Tags)
             {
-                tags.Add(tag.key);
+                tags.Add(tag.key.Replace(" ", ""));
             }
 
             // Unix Epoch
             DateTime dateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0);
-
+            
             return new MemeModel()
             {
                 Id = ngPost.Id,
-                Title = ngPost.Title,
+                Title = titleDecoded,
                 ImageUrl = ngPost.Images.Image700.Url,
                 MediaFile = ngPost.Type,
                 Url = ngPost.Url,
