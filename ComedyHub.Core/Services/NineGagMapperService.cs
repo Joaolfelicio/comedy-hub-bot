@@ -1,4 +1,5 @@
-﻿using ComedyHub.Core.Infrastructure.NineGagModels;
+﻿using ComedyHub.Core.Helpers;
+using ComedyHub.Core.Infrastructure.NineGagModels;
 using ComedyHub.Core.Models;
 using ComedyHub.Core.Services.Contracts;
 using System;
@@ -34,7 +35,7 @@ namespace ComedyHub.Core.Services
                 UpVoteCount = ngPost.UpVoteCount,
                 DownVoteCount = ngPost.DownVoteCount,
                 CommentsCount = ngPost.CommentsCount,
-                Provider = "9GAG"
+                Provider = Constants.ProviderNineGag
             };
         }
     }

@@ -8,19 +8,31 @@ using Microsoft.AspNetCore.Mvc;
 namespace ComedyHub.Host.Controllers
 {
     [ApiController]
-    [Route("api/Memes")]
+    [Route("api/[Controller]")]
     public class MemesController : Controller
     {
         readonly IMemeOrchestrator _memeOrchestrator;
-        public MemesController(IMemeOrchestrator memeOrchestrator)
+        private readonly IMemeProcessor _memeProcessor;
+
+        public MemesController(IMemeOrchestrator memeOrchestrator,
+                               IMemeProcessor memeProcessor)
         {
             _memeOrchestrator = memeOrchestrator;
+            _memeProcessor = memeProcessor;
         }
 
-        [HttpGet("Process")]
+        [HttpGet]
         public void ProcessMeme()
         {
             _memeOrchestrator.Process();
+        }
+
+        [HttpGet("GetMeme")]
+        public async Task<IActionResult> GetMeme()
+        {
+            var meme = await _memeProcessor.ProcessMeme();
+
+            return Ok(meme);
         }
     }
 }

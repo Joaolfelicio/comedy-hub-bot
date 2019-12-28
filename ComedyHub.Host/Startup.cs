@@ -47,6 +47,8 @@ namespace ComedyHub.Host
             services.AddSingleton<INineGagComponent, NineGagComponent>();
             services.AddSingleton<INineGagFilterService, NineGagFilterService>();
             services.AddSingleton<INineGagMapperService, NineGagMapperService>();
+            services.AddSingleton<IPublishComponent, PublishComponent>();
+            services.AddSingleton<IPublishTwitterService, PublishTwitterService>();
 
             services.Configure<ApplicationSettings>(Configuration.GetSection(nameof(ApplicationSettings)));
             services.AddSingleton<IApplicationSettings>(sp => sp.GetRequiredService<IOptions<ApplicationSettings>>().Value);

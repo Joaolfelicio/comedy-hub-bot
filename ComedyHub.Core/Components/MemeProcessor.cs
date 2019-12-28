@@ -1,6 +1,7 @@
 ﻿using ComedyHub.Core.Components.Contracts;
 using ComedyHub.Core.Configuration;
 using ComedyHub.Core.Configuration.Contracts;
+using ComedyHub.Core.Helpers;
 using ComedyHub.Core.Infrastructure.NineGagModels.Models;
 using ComedyHub.Core.Models;
 using ComedyHub.Core.Services.Contracts;
@@ -14,16 +15,12 @@ namespace ComedyHub.Core.Components
 {
     public class MemeProcessor : IMemeProcessor
     {
-
-        private readonly INineGagFetchService _nineGagFetchService;
         private readonly IApplicationSettings _applicationSettings;
         private readonly INineGagComponent _nineGagComponent;
 
-        public MemeProcessor(INineGagFetchService nineGagFetchService, 
-                             IApplicationSettings applicationSettings,
+        public MemeProcessor(IApplicationSettings applicationSettings,
                              INineGagComponent nineGagComponent)
         {
-            _nineGagFetchService = nineGagFetchService;
             _applicationSettings = applicationSettings;
             _nineGagComponent = nineGagComponent;
         }
@@ -41,11 +38,11 @@ namespace ComedyHub.Core.Components
 
             Random random = new Random();
 
-            int randomNum = random.Next(servicesToFetch.Length - 1);
+            int randomNum = random.Next(servicesToFetch.Length);
 
             switch (servicesToFetch[randomNum])
             {
-                case "NineGag":
+                case Constants.ProviderNineGag:
                     return await _nineGagComponent.GetNineGagMeme();
 
                 case "Reddit":

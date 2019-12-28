@@ -1,4 +1,5 @@
-﻿using ComedyHub.Core.Infrastructure.NineGagModels;
+﻿using ComedyHub.Core.Helpers;
+using ComedyHub.Core.Infrastructure.NineGagModels;
 using ComedyHub.Core.Infrastructure.NineGagModels.Models;
 using ComedyHub.Core.Services.Contracts;
 using System;
@@ -15,14 +16,14 @@ namespace ComedyHub.Core.Services
 
             foreach (var ngPost in nineGag.Data.Posts)
             {
-                if(ngPost.Type == "Photo")
+                if(ngPost.Type == Constants.MediaFilePhoto)
                 {
                     posts.Add(ngPost);
                 }
             }
 
             Random random = new Random();
-            int randomNum = random.Next(posts.Count - 1);
+            int randomNum = random.Next(posts.Count);
 
             NGPost randomPost = posts[randomNum];
             
