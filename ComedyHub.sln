@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComedyHub.Host", "ComedyHub.Host\ComedyHub.Host.csproj", "{8A7EA446-351C-498A-851D-03641D25564C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{737AA9CD-02BB-4715-9D63-508C6715D16A} = {737AA9CD-02BB-4715-9D63-508C6715D16A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComedyHub.Core", "ComedyHub.Core\ComedyHub.Core.csproj", "{737AA9CD-02BB-4715-9D63-508C6715D16A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A7EA446-351C-498A-851D-03641D25564C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7EA446-351C-498A-851D-03641D25564C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7EA446-351C-498A-851D-03641D25564C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7EA446-351C-498A-851D-03641D25564C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737AA9CD-02BB-4715-9D63-508C6715D16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737AA9CD-02BB-4715-9D63-508C6715D16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737AA9CD-02BB-4715-9D63-508C6715D16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737AA9CD-02BB-4715-9D63-508C6715D16A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4E8F4FD-8D01-4A87-B6D4-60454CB269B7}
+	EndGlobalSection
+EndGlobal

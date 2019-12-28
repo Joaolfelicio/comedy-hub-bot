@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ComedyHub.Core.Components;
 using ComedyHub.Core.Components.Contracts;
 using ComedyHub.Core.Configuration;
+using ComedyHub.Core.Configuration.Contracts;
 using ComedyHub.Core.Infrastructure.Gateway;
 using ComedyHub.Core.Infrastructure.Gateway.Contracts;
 using ComedyHub.Core.Services;
@@ -40,11 +41,14 @@ namespace ComedyHub.Host
             services.AddScoped<INineGagGateway, NineGagGateway>();
             services.AddScoped<IMemeFetcher, MemeFetcher>();
             services.AddScoped<IMemeOrchestrator, MemeOrchestrator>();
+
             services.AddScoped<IApplicationSettings, ApplicationSettings>();
-            
             var applicationSettings = Configuration.GetSection(nameof(ApplicationSettings));
             services.Configure<IApplicationSettings>(applicationSettings);
 
+            services.AddScoped<INineGagApi, NineGagApi>();
+            var nineGagApi = Configuration.GetSection(nameof(NineGagApi));
+            services.Configure<INineGagApi>(nineGagApi);
 
             services.AddSwaggerGen(c =>
             {
