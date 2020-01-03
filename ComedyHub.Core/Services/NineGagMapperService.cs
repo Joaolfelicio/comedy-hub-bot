@@ -12,7 +12,8 @@ namespace ComedyHub.Core.Services
     {
         public MemeModel NineGagModelToMeme(NGPost ngPost)
         {
-            //TODO Fix this, its sending the ascii
+            //TODO Fix this, its sending the ascii,
+            //     Add notification component
             var test = "My father &#039;s Kryptonite";
 
             byte[] bytesTitle = Encoding.ASCII.GetBytes(test);
@@ -33,7 +34,7 @@ namespace ComedyHub.Core.Services
             {
                 Id = ngPost.Id,
                 Title = titleDecoded,
-                ImageUrl = ngPost.Images.Image700.Url,
+                ImageUrl = ngPost.Images.Image460.Url,
                 MediaFile = ngPost.Type,
                 Url = ngPost.Url,
                 Tags = tags,
