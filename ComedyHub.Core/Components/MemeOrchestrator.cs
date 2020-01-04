@@ -11,12 +11,15 @@ namespace ComedyHub.Core.Components
     {
         private readonly IMemeProcessor _memeProcessor;
         private readonly IPublishComponent _publishComponent;
+        private readonly INotificationComponent _notificationComponent;
 
         public MemeOrchestrator(IMemeProcessor memeProcessor,
-                                IPublishComponent publishComponent)
+                                IPublishComponent publishComponent,
+                                INotificationComponent notificationComponent)
         {
             _memeProcessor = memeProcessor;
             _publishComponent = publishComponent;
+            _notificationComponent = notificationComponent;
         }
 
         public async Task Process()
@@ -25,11 +28,14 @@ namespace ComedyHub.Core.Components
             {
                 var meme = await _memeProcessor.ProcessMeme();
 
-                _publishComponent.PublishMeme(meme);
-            }
-            catch (Exception ex)
-            {
+                var publishedObj = _publishComponent.PublishMeme(meme);
 
+                _notificationComponent.SendSucessfulNotification(publishedObj);
+
+            }
+            catch (Exception exception)
+            {
+                _notificationComponent.SendFailureNotification(exception);   
             }
         }
     }

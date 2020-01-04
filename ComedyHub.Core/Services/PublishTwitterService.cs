@@ -1,6 +1,7 @@
 ﻿using ComedyHub.Core.Helpers;
 using ComedyHub.Core.Models;
 using ComedyHub.Core.Services.Contracts;
+using ComedyHub.Model.Publish;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,7 +15,7 @@ namespace ComedyHub.Core.Services
 {
     public class PublishTwitterService : IPublishTwitterService
     {
-        public string PublishTwitter(MemeModel memeModel)
+        public PublishedModel PublishTwitter(MemeModel memeModel)
         {
             var imageList = new List<byte[]>();
 
@@ -43,7 +44,13 @@ namespace ComedyHub.Core.Services
                 
             };
 
-            return Tweet.PublishTweet(title, tweetParameters).ToString();
+            var tweetPublished = Tweet.PublishTweet(title, tweetParameters);
+
+            return new PublishedModel()
+            {
+                PublishedURL = tweetPublished.Url,
+                Message = $"Successfully published: {tweetPublished.Text}"
+            };
         }
     }
 }
