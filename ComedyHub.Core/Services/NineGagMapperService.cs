@@ -12,14 +12,6 @@ namespace ComedyHub.Core.Services
     {
         public MemeModel NineGagModelToMeme(NGPost ngPost)
         {
-            //TODO Fix this, its sending the ascii,
-            //     Add notification component
-            var test = "My father &#039;s Kryptonite";
-
-            byte[] bytesTitle = Encoding.ASCII.GetBytes(test);
-
-            string titleDecoded = Encoding.ASCII.GetString(bytesTitle);
-
             var tags = new List<string>();
 
             foreach (var tag in ngPost.Tags)
@@ -33,7 +25,7 @@ namespace ComedyHub.Core.Services
             return new MemeModel()
             {
                 Id = ngPost.Id,
-                Title = titleDecoded,
+                Title = ngPost.Title,
                 ImageUrl = ngPost.Images.Image460.Url,
                 MediaFile = ngPost.Type,
                 Url = ngPost.Url,
@@ -43,7 +35,7 @@ namespace ComedyHub.Core.Services
                 UpVoteCount = ngPost.UpVoteCount,
                 DownVoteCount = ngPost.DownVoteCount,
                 CommentsCount = ngPost.CommentsCount,
-                Provider = Constants.ProviderNineGag
+                Provider = Constants.NineGag
             };
         }
     }

@@ -7,6 +7,6 @@ namespace ComedyHub.Core.Components.Contracts
 {
     public interface IPublishComponent
     {
-        void PublishMeme(MemeModel memeModel);
+        string PublishMeme(MemeModel memeModel);
     }
 }

@@ -7,6 +7,6 @@ namespace ComedyHub.Core.Services.Contracts
 {
     public interface IPublishTwitterService
     {
-        void PublishTwitter(MemeModel memeModel);
+        string PublishTwitter(MemeModel memeModel);
     }
 }

@@ -14,7 +14,7 @@ namespace ComedyHub.Core.Services
 {
     public class PublishTwitterService : IPublishTwitterService
     {
-        public void PublishTwitter(MemeModel memeModel)
+        public string PublishTwitter(MemeModel memeModel)
         {
             var imageList = new List<byte[]>();
 
@@ -25,8 +25,8 @@ namespace ComedyHub.Core.Services
                 title = title + " #" + tag;
             }
 
-            Auth.SetUserCredentials(PrivateTokens.CONSUMER_KEY, PrivateTokens.CONSUMER_SECRET,
-                                    PrivateTokens.ACCESS_TOKEN, PrivateTokens.ACCESS_TOKEN_SECRET);
+            Auth.SetUserCredentials(PrivateTokens.CONSUMER_KEY_TWITTER, PrivateTokens.CONSUMER_SECRET_TWITTER,
+                                    PrivateTokens.ACCESS_TOKEN_TWITTER, PrivateTokens.ACCESS_TOKEN_SECRET_TWITTER);
 
             using (var webClient = new WebClient())
             {
@@ -43,7 +43,7 @@ namespace ComedyHub.Core.Services
                 
             };
 
-            Tweet.PublishTweet(title, tweetParameters);
+            return Tweet.PublishTweet(title, tweetParameters).ToString();
         }
     }
 }

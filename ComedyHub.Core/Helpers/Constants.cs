@@ -7,6 +7,6 @@ namespace ComedyHub.Core.Helpers
     public class Constants
     {
         public const string  MediaFilePhoto = "Photo";
-        public const string  ProviderNineGag = "9GAG";
+        public const string  NineGag = "NineGag";
     }
 }

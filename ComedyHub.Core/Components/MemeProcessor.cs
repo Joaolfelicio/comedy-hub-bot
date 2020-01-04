@@ -42,7 +42,7 @@ namespace ComedyHub.Core.Components
 
             switch (servicesToFetch[randomNum])
             {
-                case Constants.ProviderNineGag:
+                case Constants.NineGag:
                     return await _nineGagComponent.GetNineGagMeme();
 
                 case "Reddit":

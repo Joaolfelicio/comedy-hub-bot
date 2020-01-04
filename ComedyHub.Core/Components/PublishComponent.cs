@@ -15,9 +15,9 @@ namespace ComedyHub.Core.Components
         {
             _publishTwitterService = publishTwitterService;
         }
-        public void PublishMeme(MemeModel memeModel)
+        public string PublishMeme(MemeModel memeModel)
         {
-            _publishTwitterService.PublishTwitter(memeModel);
+            return _publishTwitterService.PublishTwitter(memeModel);
         }
     }
 }
