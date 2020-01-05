@@ -49,7 +49,10 @@ namespace ComedyHub.Core.Services
             return new PublishedModel()
             {
                 PublishedURL = tweetPublished.Url,
-                Message = $"Successfully published: {tweetPublished.Text}"
+                Message = $"Successfully published",
+                MemeProvider = Constants.NineGag,
+                PublishedAt = "Twitter",
+                ImageUrl = memeModel.ImageUrl
             };
         }
     }

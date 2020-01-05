@@ -2,12 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ComedyHub.Core.Components.Contracts
 {
     public interface INotificationComponent
     {
-        void SendSucessfulNotification(PublishedModel publishedModel);
-        void SendFailureNotification(Exception exception);
+        Task SendSucessfulNotification(PublishedModel publishedModel);
+        Task SendFailureNotification(Exception exception);
     }
 }

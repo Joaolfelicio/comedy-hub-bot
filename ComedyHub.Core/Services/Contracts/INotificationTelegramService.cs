@@ -2,12 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ComedyHub.Core.Services.Contracts
 {
     public interface INotificationTelegramService
     {
-        void SendTelegramSucessNotification(PublishedModel memePublished);
-        void SendTelegramFailureNotification(Exception exception);
+        Task SendTelegramSucessNotification(PublishedModel memePublished);
+        Task SendTelegramFailureNotification(Exception exception);
     }
 }

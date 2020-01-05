@@ -58,6 +58,9 @@ namespace ComedyHub.Host
             services.Configure<NineGagApiSettings>(Configuration.GetSection(nameof(NineGagApiSettings)));
             services.AddSingleton<INineGagApiSettings>(sp => sp.GetRequiredService<IOptions<NineGagApiSettings>>().Value);
 
+            services.Configure<TelegramApiSettings>(Configuration.GetSection(nameof(TelegramApiSettings)));
+            services.AddSingleton<ITelegramApiSettings>(sp => sp.GetRequiredService<IOptions<TelegramApiSettings>>().Value);
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });

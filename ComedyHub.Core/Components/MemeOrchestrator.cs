@@ -30,12 +30,12 @@ namespace ComedyHub.Core.Components
 
                 var publishedObj = _publishComponent.PublishMeme(meme);
 
-                _notificationComponent.SendSucessfulNotification(publishedObj);
+                await _notificationComponent.SendSucessfulNotification(publishedObj);
 
             }
             catch (Exception exception)
             {
-                _notificationComponent.SendFailureNotification(exception);   
+                await _notificationComponent.SendFailureNotification(exception);   
             }
         }
     }
