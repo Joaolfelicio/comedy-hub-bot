@@ -7,7 +7,6 @@ namespace ComedyHub.Core.Configuration.Contracts
     public interface ITelegramApiSettings
     {
         string Url { get; }
-        int ReceiverId { get; }
         string ParseMode { get; }
     }
 }

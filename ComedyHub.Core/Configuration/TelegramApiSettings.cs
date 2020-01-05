@@ -8,7 +8,6 @@ namespace ComedyHub.Core.Configuration
     public class TelegramApiSettings : ITelegramApiSettings
     {
         public string Url { get; set; }
-        public int ReceiverId { get; set; }
         public string ParseMode { get; set; }
     }
 }

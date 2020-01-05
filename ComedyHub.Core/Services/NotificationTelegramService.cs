@@ -38,7 +38,7 @@ namespace ComedyHub.Core.Services
                                $"<b>Published at:</b> {memePublished.PublishedAt}.\n" +
                                $"<b>Meme from:</b> {memePublished.MemeProvider} ",
 
-                        ChatId = _telegramApiSettings.ReceiverId,
+                        ChatId = PrivateTokens.TELEGRAM_MESSAGE_RECEIVER_ID,
                         ParseMode = _telegramApiSettings.ParseMode,
                         PhotoUrl = memePublished.ImageUrl
                     };
@@ -70,7 +70,7 @@ namespace ComedyHub.Core.Services
                                $"<b>Message:</b> {exception.Message}.\n" +
                                $"<b>Stack Trace:</b> <pre> {exception.StackTrace} </pre>",
 
-                        ChatId = _telegramApiSettings.ReceiverId,
+                        ChatId = PrivateTokens.TELEGRAM_MESSAGE_RECEIVER_ID,
                         ParseMode = _telegramApiSettings.ParseMode
                     };
 
