@@ -5,6 +5,7 @@ using ComedyHub.Model.Publish;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Text;
 using Tweetinvi;
@@ -26,22 +27,18 @@ namespace ComedyHub.Core.Services
                 title = title + " #" + tag;
             }
 
-            Auth.SetUserCredentials(PrivateTokens.CONSUMER_KEY_TWITTER, PrivateTokens.CONSUMER_SECRET_TWITTER,
-                                    PrivateTokens.ACCESS_TOKEN_TWITTER, PrivateTokens.ACCESS_TOKEN_SECRET_TWITTER);
 
             using (var webClient = new WebClient())
             {
                 byte[] imageBytes = webClient.DownloadData(memeModel.ImageUrl);
 
                 imageList.Add(imageBytes);
-
             }
 
             var tweetParameters = new PublishTweetOptionalParameters()
             {
                 PossiblySensitive = memeModel.Nsfw,
-                MediaBinaries = imageList,
-                
+                MediaBinaries = imageList
             };
 
             var tweetPublished = Tweet.PublishTweet(title, tweetParameters);

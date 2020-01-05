@@ -8,5 +8,6 @@ namespace ComedyHub.Core.Helpers
     {
         public const string  MediaFilePhoto = "Photo";
         public const string  NineGag = "NineGag";
+        public const string  Reddit = "Reddit";
     }
 }

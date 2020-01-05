@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ComedyHub.Core.Components.Contracts;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
 namespace ComedyHub.Host.Controllers
 {
@@ -22,9 +23,17 @@ namespace ComedyHub.Host.Controllers
         }
 
         [HttpGet]
-        public void ProcessMeme()
+        public async Task<IActionResult> ProcessMeme()
         {
-            _memeOrchestrator.Process();
+            try
+            {
+                await _memeOrchestrator.Process();
+                return Ok();
+            }
+            catch
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
         }
 
         [HttpGet("GetMeme")]
@@ -32,6 +41,10 @@ namespace ComedyHub.Host.Controllers
         {
             var meme = await _memeProcessor.ProcessMeme();
 
+            if (meme == null)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
             return Ok(meme);
         }
     }

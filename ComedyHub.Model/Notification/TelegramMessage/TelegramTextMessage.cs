@@ -10,6 +10,7 @@ namespace ComedyHub.Model.Notification.TelegramMessage
         [JsonProperty("chat_id")]
         public int ChatId { get; set; }
 
+        [JsonProperty("text")]
         public string Text { get; set; }
 
         [JsonProperty("parse_mode")]

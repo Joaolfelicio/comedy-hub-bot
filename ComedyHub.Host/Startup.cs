@@ -6,6 +6,8 @@ using ComedyHub.Core.Components;
 using ComedyHub.Core.Components.Contracts;
 using ComedyHub.Core.Configuration;
 using ComedyHub.Core.Configuration.Contracts;
+using ComedyHub.Core.Helpers;
+using ComedyHub.Core.Helpers.Contracts;
 using ComedyHub.Core.Infrastructure.Gateway;
 using ComedyHub.Core.Infrastructure.Gateway.Contracts;
 using ComedyHub.Core.Services;
@@ -51,6 +53,7 @@ namespace ComedyHub.Host
             services.AddSingleton<IPublishTwitterService, PublishTwitterService>();
             services.AddSingleton<INotificationComponent, NotificationComponent>();
             services.AddSingleton<INotificationTelegramService, NotificationTelegramService>();
+            services.AddSingleton<ITwitterAuth, TwitterAuth>();
 
             services.Configure<ApplicationSettings>(Configuration.GetSection(nameof(ApplicationSettings)));
             services.AddSingleton<IApplicationSettings>(sp => sp.GetRequiredService<IOptions<ApplicationSettings>>().Value);
@@ -60,6 +63,9 @@ namespace ComedyHub.Host
 
             services.Configure<TelegramApiSettings>(Configuration.GetSection(nameof(TelegramApiSettings)));
             services.AddSingleton<ITelegramApiSettings>(sp => sp.GetRequiredService<IOptions<TelegramApiSettings>>().Value);
+
+            services.Configure<TwitterBotSettings>(Configuration.GetSection(nameof(TwitterBotSettings)));
+            services.AddSingleton<ITwitterBotSettings>(sp => sp.GetRequiredService<IOptions<TwitterBotSettings>>().Value);
 
             services.AddSwaggerGen(c =>
             {

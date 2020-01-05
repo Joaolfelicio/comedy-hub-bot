@@ -1,11 +1,9 @@
 ﻿using ComedyHub.Core.Services.Contracts;
 using ComedyHub.Model.Publish;
 using System;
-using System.Collections.Generic;
 using System.Text;
 using ComedyHub.Core.Helpers;
 using System.Threading.Tasks;
-using System.Net;
 using ComedyHub.Core.Configuration.Contracts;
 using System.Net.Http;
 using ComedyHub.Model.Notification.TelegramMessage;

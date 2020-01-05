@@ -5,16 +5,17 @@ using ComedyHub.Model.Meme.NineGagMeme;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Web;
 
 namespace ComedyHub.Core.Services
 {
     public class NineGagMapperService : INineGagMapperService
     {
-        public MemeModel NineGagModelToMeme(Post ngPost)
+        public MemeModel NineGagModelToMeme(Post post)
         {
             var tags = new List<string>();
 
-            foreach (var tag in ngPost.Tags)
+            foreach (var tag in post.Tags)
             {
                 tags.Add(tag.key.Replace(" ", ""));
             }
@@ -24,17 +25,17 @@ namespace ComedyHub.Core.Services
             
             return new MemeModel()
             {
-                Id = ngPost.Id,
-                Title = ngPost.Title,
-                ImageUrl = ngPost.Images.Image460.Url,
-                MediaFile = ngPost.Type,
-                Url = ngPost.Url,
+                Id = post.Id,
+                Title = HttpUtility.HtmlDecode(post.Title),
+                ImageUrl = post.Images.Image460.Url,
+                MediaFile = post.Type,
+                Url = post.Url,
                 Tags = tags,
-                PublishedDate = dateTime.AddSeconds(ngPost.CreationTs),
-                Nsfw = ngPost.Nsfw == 0 ? false : true,
-                UpVoteCount = ngPost.UpVoteCount,
-                DownVoteCount = ngPost.DownVoteCount,
-                CommentsCount = ngPost.CommentsCount,
+                PublishedDate = dateTime.AddSeconds(post.CreationTs),
+                Nsfw = post.Nsfw == 0 ? false : true,
+                UpVoteCount = post.UpVoteCount,
+                DownVoteCount = post.DownVoteCount,
+                CommentsCount = post.CommentsCount,
                 Provider = Constants.NineGag
             };
         }
