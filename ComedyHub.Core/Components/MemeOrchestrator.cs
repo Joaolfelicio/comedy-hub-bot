@@ -1,4 +1,5 @@
 ﻿using ComedyHub.Core.Components.Contracts;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,6 +12,7 @@ namespace ComedyHub.Core.Components
         private readonly IMemeProcessor _memeProcessor;
         private readonly IPublishComponent _publishComponent;
         private readonly INotificationComponent _notificationComponent;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
 
         public MemeOrchestrator(IMemeProcessor memeProcessor,
                                 IPublishComponent publishComponent,
@@ -34,7 +36,8 @@ namespace ComedyHub.Core.Components
             }
             catch (Exception exception)
             {
-                await _notificationComponent.SendFailureNotification(exception);   
+                logger.Error(exception);
+                await _notificationComponent.SendFailureNotification(exception);
             }
         }
     }

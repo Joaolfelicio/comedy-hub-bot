@@ -8,14 +8,16 @@ using System.Threading.Tasks;
 using System.Net;
 using ComedyHub.Core.Configuration.Contracts;
 using System.Net.Http;
-using ComedyHub.Model.Notification.Telegram;
+using ComedyHub.Model.Notification.TelegramMessage;
 using Newtonsoft.Json;
+using NLog;
 
 namespace ComedyHub.Core.Services
 {
     public class NotificationTelegramService : INotificationTelegramService
     {
         private readonly ITelegramApiSettings _telegramApiSettings;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
 
         public NotificationTelegramService(ITelegramApiSettings telegramApiSettings)
         {
@@ -48,9 +50,9 @@ namespace ComedyHub.Core.Services
                     var response = await httpClient.PostAsync(UrlTelegramOnSuccess, data);
                 }
             }
-            catch
+            catch (Exception exception)
             {
-                //TODO: logg    
+                logger.Error(exception);
             }
         }
 
@@ -79,9 +81,9 @@ namespace ComedyHub.Core.Services
                     var response = await httpClient.PostAsync(UrlTelegramOnFailure, data);
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                //TODO: logg    
+                logger.Error(ex);
             }
         }
 

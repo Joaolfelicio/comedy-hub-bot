@@ -25,7 +25,6 @@ namespace ComedyHub.Core.Components
         public async Task SendFailureNotification(Exception exception)
         {
             await _notificationTelegramService.SendTelegramFailureNotification(exception);
-            throw new NotImplementedException();
         }
     }
 }
