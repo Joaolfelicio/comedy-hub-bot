@@ -1,5 +1,4 @@
-﻿using ComedyHub.Core.Infrastructure.NineGagModels;
-using ComedyHub.Core.Infrastructure.NineGagModels.Models;
+﻿using ComedyHub.Model.Meme.NineGagMeme;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,6 +7,6 @@ namespace ComedyHub.Core.Services.Contracts
 {
     public interface INineGagFilterService
     {
-        NGPost NineGagFilter(NineGagModel nineGag);
+        Post NineGagFilter(NineGagModel nineGag);
     }
 }

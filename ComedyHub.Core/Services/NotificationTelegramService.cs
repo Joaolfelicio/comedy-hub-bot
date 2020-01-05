@@ -22,19 +22,19 @@ namespace ComedyHub.Core.Services
             _telegramApiSettings = telegramApiSettings;
         }
 
-        private string UrlTelegram => _telegramApiSettings.Url + PrivateTokens.ACCESS_TOKEN_TELEGRAM + "/sendPhoto";
-
         public async Task SendTelegramSucessNotification(PublishedModel memePublished)
         {
+            string UrlTelegramOnSuccess = _telegramApiSettings.Url + PrivateTokens.ACCESS_TOKEN_TELEGRAM + "/sendPhoto";
+
             try
             {
                 using (var httpClient = new HttpClient())
                 {
                     var telegramMessage = new TelegramPhotoMessage()
                     {
-                        Text = $"<a href=\"{memePublished.PublishedURL}\">{memePublished.Message}.</a>" +
-                               $"\nPublished at: {memePublished.PublishedAt}." +
-                               $"\nMeme from: {memePublished.MemeProvider} ",
+                        Caption = $"<a href=\"{memePublished.PublishedURL}\">{memePublished.Message}.</a>\n" +
+                               $"<b>Published at:</b> {memePublished.PublishedAt}.\n" +
+                               $"<b>Meme from:</b> {memePublished.MemeProvider} ",
 
                         ChatId = _telegramApiSettings.ReceiverId,
                         ParseMode = _telegramApiSettings.ParseMode,
@@ -45,18 +45,44 @@ namespace ComedyHub.Core.Services
 
                     var data = new StringContent(messageJson, Encoding.UTF8, "application/json");
 
-                    var response = await httpClient.PostAsync(UrlTelegram, data);
+                    var response = await httpClient.PostAsync(UrlTelegramOnSuccess, data);
                 }
             }
             catch
             {
-                //logg
+                //TODO: logg    
             }
         }
 
         public async Task SendTelegramFailureNotification(Exception exception)
         {
-            throw new NotImplementedException();
+            string UrlTelegramOnFailure = _telegramApiSettings.Url + PrivateTokens.ACCESS_TOKEN_TELEGRAM + "/sendMessage";
+            
+            try
+            {
+                using (var httpClient = new HttpClient())
+                {
+                    var telegramMessage = new TelegramTextMessage()
+                    {
+                        Text = $"<b>Failed to publish meme.</b>\n" +
+                               $"<b>Message:</b> {exception.Message}.\n" +
+                               $"<b>Stack Trace:</b> <pre> {exception.StackTrace} </pre>",
+
+                        ChatId = _telegramApiSettings.ReceiverId,
+                        ParseMode = _telegramApiSettings.ParseMode
+                    };
+
+                    var messageJson = JsonConvert.SerializeObject(telegramMessage);
+
+                    var data = new StringContent(messageJson, Encoding.UTF8, "application/json");
+
+                    var response = await httpClient.PostAsync(UrlTelegramOnFailure, data);
+                }
+            }
+            catch
+            {
+                //TODO: logg    
+            }
         }
 
     }

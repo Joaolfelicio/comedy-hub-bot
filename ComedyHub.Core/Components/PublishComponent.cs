@@ -1,6 +1,6 @@
 ﻿using ComedyHub.Core.Components.Contracts;
-using ComedyHub.Core.Models;
 using ComedyHub.Core.Services.Contracts;
+using ComedyHub.Model.Meme;
 using ComedyHub.Model.Publish;
 using System;
 using System.Collections.Generic;

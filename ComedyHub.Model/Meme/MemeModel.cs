@@ -1,9 +1,8 @@
-﻿using ComedyHub.Core.Infrastructure.NineGagModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ComedyHub.Core.Models
+namespace ComedyHub.Model.Meme
 {
     public class MemeModel
     {

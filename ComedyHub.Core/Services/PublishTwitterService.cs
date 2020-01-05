@@ -1,6 +1,6 @@
 ﻿using ComedyHub.Core.Helpers;
-using ComedyHub.Core.Models;
 using ComedyHub.Core.Services.Contracts;
+using ComedyHub.Model.Meme;
 using ComedyHub.Model.Publish;
 using System;
 using System.Collections.Generic;
@@ -49,7 +49,7 @@ namespace ComedyHub.Core.Services
             return new PublishedModel()
             {
                 PublishedURL = tweetPublished.Url,
-                Message = $"Successfully published",
+                Message = $"Successfully published meme.",
                 MemeProvider = Constants.NineGag,
                 PublishedAt = "Twitter",
                 ImageUrl = memeModel.ImageUrl

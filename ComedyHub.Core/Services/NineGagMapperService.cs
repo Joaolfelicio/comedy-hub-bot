@@ -1,7 +1,7 @@
 ﻿using ComedyHub.Core.Helpers;
-using ComedyHub.Core.Infrastructure.NineGagModels;
-using ComedyHub.Core.Models;
 using ComedyHub.Core.Services.Contracts;
+using ComedyHub.Model.Meme;
+using ComedyHub.Model.Meme.NineGagMeme;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,7 +10,7 @@ namespace ComedyHub.Core.Services
 {
     public class NineGagMapperService : INineGagMapperService
     {
-        public MemeModel NineGagModelToMeme(NGPost ngPost)
+        public MemeModel NineGagModelToMeme(Post ngPost)
         {
             var tags = new List<string>();
 

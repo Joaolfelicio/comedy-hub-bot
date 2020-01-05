@@ -1,11 +1,10 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ComedyHub.Core.Infrastructure.NineGagModels
+namespace ComedyHub.Model.Meme.NineGagMeme
 {
-    public class NGImage
+    public class Image
     {
         public int Width { get; set; }
         public int Height { get; set; }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ComedyHub.Model.Notification.Telegram
 {
-    public class TelegramMessage
+    public class TelegramTextMessage
     {
         [JsonProperty("chat_id")]
         public int ChatId { get; set; }

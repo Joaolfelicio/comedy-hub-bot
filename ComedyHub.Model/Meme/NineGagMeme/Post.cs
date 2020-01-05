@@ -1,11 +1,10 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ComedyHub.Core.Infrastructure.NineGagModels
+namespace ComedyHub.Model.Meme.NineGagMeme
 {
-    public class NGPost
+    public class Post
     {
         public string Id { get; set; }
         public string Url { get; set; }
@@ -15,10 +14,10 @@ namespace ComedyHub.Core.Infrastructure.NineGagModels
         public int UpVoteCount { get; set; }
         public int DownVoteCount { get; set; }
         public long CreationTs { get; set; }
-        public NGImages Images { get; set; }
+        public Images Images { get; set; }
         public int CommentsCount { get; set; }
-        public NGPostSection PostSection { get; set; }
-        public List<NGTag> Tags { get; set; }
+        public PostSection PostSection { get; set; }
+        public List<Tag> Tags { get; set; }
         public string DescriptionHtml { get; set; }
     }
 }

@@ -1,5 +1,4 @@
-﻿using ComedyHub.Core.Infrastructure.NineGagModels.Models;
-using ComedyHub.Core.Models;
+﻿using ComedyHub.Model.Meme;
 using System;
 using System.Collections.Generic;
 using System.Text;

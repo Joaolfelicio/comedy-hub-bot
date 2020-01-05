@@ -2,9 +2,8 @@
 using ComedyHub.Core.Configuration;
 using ComedyHub.Core.Configuration.Contracts;
 using ComedyHub.Core.Helpers;
-using ComedyHub.Core.Infrastructure.NineGagModels.Models;
-using ComedyHub.Core.Models;
 using ComedyHub.Core.Services.Contracts;
+using ComedyHub.Model.Meme;
 using System;
 using System.Collections.Generic;
 using System.Linq;

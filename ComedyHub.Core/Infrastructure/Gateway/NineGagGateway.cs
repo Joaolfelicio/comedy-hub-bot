@@ -1,6 +1,4 @@
 ﻿using ComedyHub.Core.Infrastructure.Gateway.Contracts;
-using ComedyHub.Core.Infrastructure.NineGagModels.Models;
-using ComedyHub.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -10,6 +8,7 @@ using System.Data;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using ComedyHub.Core.Configuration.Contracts;
+using ComedyHub.Model.Meme.NineGagMeme;
 
 namespace ComedyHub.Core.Infrastructure.Gateway
 {
