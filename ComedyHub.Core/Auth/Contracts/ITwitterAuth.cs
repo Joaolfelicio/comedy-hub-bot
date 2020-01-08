@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ComedyHub.Core.Helpers.Contracts
+namespace ComedyHub.Core.Auth.Contracts
 {
     public interface ITwitterAuth
     {
