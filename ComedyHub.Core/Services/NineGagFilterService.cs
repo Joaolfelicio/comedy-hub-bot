@@ -13,10 +13,13 @@ namespace ComedyHub.Core.Services
     public class NineGagFilterService : INineGagFilterService
     {
         private readonly IFilterService _filterService;
+        private readonly IApplicationSettings _applicationSettings;
 
-        public NineGagFilterService(IFilterService filterService)
+        public NineGagFilterService(IFilterService filterService,
+                                    IApplicationSettings applicationSettings)
         {
             _filterService = filterService;
+            _applicationSettings = applicationSettings;
         }
 
         public NineGagPost NineGagFilter(NineGagModel nineGag)
@@ -34,24 +37,36 @@ namespace ComedyHub.Core.Services
         {
             var posts = new List<NineGagPost>();
 
-                foreach (var post in nineGag.Data.Posts)
+            //The default tags on the appsettings
+            var defaultTags = _applicationSettings.DefaultTags.Split(';');
+
+
+            foreach (var post in nineGag.Data.Posts)
+            {
+                var tags = new List<string>(defaultTags);
+
+                var title = post.Title;
+
+                // Add the tags to the tags list
+                foreach (var tag in post.Tags)
                 {
-                    var title = post.Title;
-
-                    // Add the tags to the title so we are able to compare
-                    foreach (var tag in post.Tags)
-                    {
-                        var cleanTag = tag.Key.Replace(" ", "");
-
-                        title = title + " #" + cleanTag;
-                    }
-
-                    // Decode HTML code to normal text
-                    if (_filterService.HasMemeAlreadyPosted(title) == false)
-                    {
-                        posts.Add(post);
-                    }
+                    tags.Add(tag.Key);
                 }
+
+                // Add the tags to the title so we are able to compare
+                foreach (var tag in tags)
+                {
+                    var cleanTag = tag.Replace(" ", "");
+
+                    title = title + " #" + cleanTag;
+                }
+
+                // Decode HTML code to normal text
+                if (_filterService.HasMemeAlreadyPosted(title) == false)
+                {
+                    posts.Add(post);
+                }
+            }
             return posts;
         }
 

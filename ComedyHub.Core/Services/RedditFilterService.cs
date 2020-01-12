@@ -1,4 +1,5 @@
-﻿using ComedyHub.Core.Services.Contracts;
+﻿using ComedyHub.Core.Configuration.Contracts;
+using ComedyHub.Core.Services.Contracts;
 using Reddit.Controllers;
 using System;
 using System.Collections.Generic;
@@ -9,10 +10,13 @@ namespace ComedyHub.Core.Services
     public class RedditFilterService : IRedditFilterService
     {
         private readonly IFilterService _filterService;
+        private readonly IApplicationSettings _applicationSettings;
 
-        public RedditFilterService(IFilterService filterService)
+        public RedditFilterService(IFilterService filterService,
+                                   IApplicationSettings applicationSettings)
         {
             _filterService = filterService;
+            _applicationSettings = applicationSettings;
         }
 
         public Post RedditFilter(List<Post> posts)
@@ -28,14 +32,29 @@ namespace ComedyHub.Core.Services
         {
             var distinctPosts = new List<Post>();
 
+
+            //The default tags on the appsettings
+            var defaultTags = _applicationSettings.DefaultTags.Split(';');
+
             foreach (var post in posts)
             {
-                if(_filterService.HasMemeAlreadyPosted(post.Title) == false)
+                var tags = new List<string>(defaultTags);
+
+                var title = post.Title;
+
+                // Add the tags to the title so we are able to compare
+                foreach (var tag in tags)
+                {
+                    var cleanTag = tag.Replace(" ", "");
+
+                    title = title + " #" + cleanTag;
+                }
+
+                if (_filterService.HasMemeAlreadyPosted(title) == false)
                 {
                     distinctPosts.Add(post);
                 }
             }
-
             return distinctPosts;
         }
     }

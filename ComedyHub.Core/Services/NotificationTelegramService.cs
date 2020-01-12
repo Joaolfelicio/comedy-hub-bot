@@ -31,7 +31,7 @@ namespace ComedyHub.Core.Services
             var telegramMessage = new TelegramPhotoMessage()
             {
                 Caption = $"<a href=\"{memePublished.PublishedURL}\">{memePublished.Message}.</a>\n" +
-                       $"<b>Published at:</b> {memePublished.PublishedAt}.\n" +
+                       $"<b>Published To:</b> {memePublished.PublishedAt}.\n" +
                        $"<b>Meme from:</b> {memePublished.MemeProvider} ",
                 ChatId = Auth.ReceiverInfo.TELEGRAM_MESSAGE_RECEIVER_ID,
                 ParseMode = _telegramApiSettings.ParseMode,

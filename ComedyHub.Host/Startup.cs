@@ -58,6 +58,7 @@ namespace ComedyHub.Host
             services.AddSingleton<IRedditFetchService, RedditFetchService>();
             services.AddSingleton<IRedditFilterService, RedditFilterService>();
             services.AddSingleton<IRedditMapperService, RedditMapperService>();
+            services.AddSingleton<IMapperService, MapperService>();
 
             services.Configure<ApplicationSettings>(Configuration.GetSection(nameof(ApplicationSettings)));
             services.AddSingleton<IApplicationSettings>(sp => sp.GetRequiredService<IOptions<ApplicationSettings>>().Value);

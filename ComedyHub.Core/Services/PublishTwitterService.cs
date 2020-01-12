@@ -22,16 +22,6 @@ namespace ComedyHub.Core.Services
         { 
             var imageList = new List<byte[]>();
 
-            var title = memeModel.Title;
-
-            if(memeModel.Tags != null)
-            {
-                foreach (var tag in memeModel.Tags)
-                {
-                    title = title + " #" + tag;
-                }
-            }
-
             using (var webClient = new WebClient())
             {
                 byte[] imageBytes = webClient.DownloadData(memeModel.ImageUrl);
@@ -44,7 +34,7 @@ namespace ComedyHub.Core.Services
                 MediaBinaries = imageList
             };
             //TODO: Should the publishtweet be here or on the gateway
-            var tweetPublished = Tweet.PublishTweet(title, tweetParameters);
+            var tweetPublished = Tweet.PublishTweet(memeModel.Title, tweetParameters);
 
             return new PublishedModel()
             {

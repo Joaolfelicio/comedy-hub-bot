@@ -13,27 +13,23 @@ namespace ComedyHub.Core.Components
         private readonly IMemeProcessor _memeProcessor;
         private readonly IPublishComponent _publishComponent;
         private readonly INotificationComponent _notificationComponent;
-        private readonly ITwitterAuth _twitterAuth;
         private static Logger logger = LogManager.GetCurrentClassLogger();
 
         public ITwitterAuth TwitterAuth { get; }
 
         public MemeOrchestrator(IMemeProcessor memeProcessor,
                                 IPublishComponent publishComponent,
-                                INotificationComponent notificationComponent,
-                                ITwitterAuth twitterAuth)
+                                INotificationComponent notificationComponent)
         {
             _memeProcessor = memeProcessor;
             _publishComponent = publishComponent;
             _notificationComponent = notificationComponent;
-            _twitterAuth = twitterAuth;
         }
 
         public async Task Process()
         {
             try
             {
-
                 var meme = await _memeProcessor.ProcessMeme();
 
                 var publishedObj = _publishComponent.PublishMeme(meme);

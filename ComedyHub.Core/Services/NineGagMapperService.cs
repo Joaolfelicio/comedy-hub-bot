@@ -10,6 +10,13 @@ namespace ComedyHub.Core.Services
 {
     public class NineGagMapperService : INineGagMapperService
     {
+        private readonly IMapperService _mapperService;
+
+        public NineGagMapperService(IMapperService mapperService)
+        {
+            _mapperService = mapperService;
+        }
+
         public MemeModel NineGagModelToMeme(NineGagPost post)
         {
             var tags = new List<string>();
@@ -22,7 +29,7 @@ namespace ComedyHub.Core.Services
             // Unix Epoch
             DateTime dateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0);
             
-            return new MemeModel()
+            var meme = new MemeModel()
             {
                 Id = post.Id,
                 Title = HttpUtility.HtmlDecode(post.Title),
@@ -37,6 +44,10 @@ namespace ComedyHub.Core.Services
                 CommentsCount = post.CommentsCount,
                 Provider = Constants.MemeProvider.NineGag
             };
+
+            meme = _mapperService.MapToMemeModel(meme);
+
+            return meme;
         }
     }
 }

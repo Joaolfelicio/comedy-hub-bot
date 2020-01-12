@@ -8,5 +8,6 @@ namespace ComedyHub.Core.Configuration
     public class ApplicationSettings : IApplicationSettings
     {
         public string ServicesToFetch { get; set; }
+        public string DefaultTags { get; set; }
     }
 }
