@@ -47,10 +47,9 @@ namespace ComedyHub.Core.Services
                     }
 
                     // Decode HTML code to normal text
-                    if (_filterService.HasMemeAlreadyPosted(title))
+                    if (_filterService.HasMemeAlreadyPosted(title) == false)
                     {
                         posts.Add(post);
-                        break;
                     }
                 }
             return posts;
@@ -58,13 +57,13 @@ namespace ComedyHub.Core.Services
 
         private List<NineGagPost> KeepPostsMediaTypePhoto(List<NineGagPost> posts)
         {
-            var imagesPosts = new List<NineGagPost>(posts);
+            var imagesPosts = new List<NineGagPost>();
 
             foreach (var post in posts)
             {
-                if (post.Type != Constants.MediaType.MediaFilePhoto)
+                if (post.Type == Constants.MediaType.MediaFilePhoto)
                 {
-                    imagesPosts.Remove(post);
+                    imagesPosts.Add(post);
                 }
             }
             return imagesPosts;
