@@ -1,6 +1,6 @@
 ﻿using ComedyHub.Core.Infrastructure.Gateway.Contracts;
+using ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels;
 using ComedyHub.Core.Services.Contracts;
-using ComedyHub.Model.Meme.NineGagMeme;
 using System;
 using System.Collections.Generic;
 using System.Text;

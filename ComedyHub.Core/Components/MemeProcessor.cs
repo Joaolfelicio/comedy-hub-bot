@@ -1,7 +1,6 @@
 ﻿using ComedyHub.Core.Components.Contracts;
 using ComedyHub.Core.Configuration;
 using ComedyHub.Core.Configuration.Contracts;
-using ComedyHub.Core.Helpers;
 using ComedyHub.Core.Services.Contracts;
 using ComedyHub.Model.Meme;
 using System;
@@ -41,10 +40,10 @@ namespace ComedyHub.Core.Components
 
             switch (servicesToFetch[randomNum])
             {
-                case Constants.NineGag:
+                case Constants.MemeProvider.NineGag:
                     return await _nineGagComponent.GetNineGagMeme();
 
-                case Constants.Reddit:
+                case Constants.MemeProvider.Reddit:
                     return await _nineGagComponent.GetNineGagMeme();
 
                 default:

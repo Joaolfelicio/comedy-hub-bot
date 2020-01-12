@@ -1,5 +1,5 @@
-﻿using ComedyHub.Core.Helpers;
-using ComedyHub.Core.Services.Contracts;
+﻿using ComedyHub.Core.Services.Contracts;
+using ComedyHub.Core;
 using ComedyHub.Model.Meme;
 using ComedyHub.Model.Publish;
 using System;
@@ -11,13 +11,15 @@ using System.Text;
 using Tweetinvi;
 using Tweetinvi.Models;
 using Tweetinvi.Parameters;
+using ComedyHub.Core.Auth.Contracts;
 
 namespace ComedyHub.Core.Services
 {
     public class PublishTwitterService : IPublishTwitterService
     {
+
         public PublishedModel PublishTwitter(MemeModel memeModel)
-        {
+        { 
             var imageList = new List<byte[]>();
 
             var title = memeModel.Title;
@@ -27,11 +29,9 @@ namespace ComedyHub.Core.Services
                 title = title + " #" + tag;
             }
 
-
             using (var webClient = new WebClient())
             {
                 byte[] imageBytes = webClient.DownloadData(memeModel.ImageUrl);
-
                 imageList.Add(imageBytes);
             }
 
@@ -47,7 +47,7 @@ namespace ComedyHub.Core.Services
             {
                 PublishedURL = tweetPublished.Url,
                 Message = $"Successfully published meme.",
-                MemeProvider = Constants.NineGag,
+                MemeProvider = Constants.MemeProvider.NineGag,
                 PublishedAt = "Twitter",
                 ImageUrl = memeModel.ImageUrl
             };

@@ -1,13 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using ComedyHub.Core.Auth;
+using ComedyHub.Core.Auth.Contracts;
 using ComedyHub.Core.Components;
 using ComedyHub.Core.Components.Contracts;
 using ComedyHub.Core.Configuration;
 using ComedyHub.Core.Configuration.Contracts;
-using ComedyHub.Core.Helpers;
-using ComedyHub.Core.Helpers.Contracts;
 using ComedyHub.Core.Infrastructure.Gateway;
 using ComedyHub.Core.Infrastructure.Gateway.Contracts;
 using ComedyHub.Core.Services;
@@ -54,6 +50,8 @@ namespace ComedyHub.Host
             services.AddSingleton<INotificationComponent, NotificationComponent>();
             services.AddSingleton<INotificationTelegramService, NotificationTelegramService>();
             services.AddSingleton<ITwitterAuth, TwitterAuth>();
+            services.AddSingleton<ITelegramGateway, TelegramGateway>();
+            services.AddSingleton<IFilterService, FilterService>();
 
             services.Configure<ApplicationSettings>(Configuration.GetSection(nameof(ApplicationSettings)));
             services.AddSingleton<IApplicationSettings>(sp => sp.GetRequiredService<IOptions<ApplicationSettings>>().Value);

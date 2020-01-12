@@ -1,5 +1,5 @@
-﻿using ComedyHub.Core.Components.Contracts;
-using ComedyHub.Core.Helpers.Contracts;
+﻿using ComedyHub.Core.Auth.Contracts;
+using ComedyHub.Core.Components.Contracts;
 using NLog;
 using System;
 using System.Collections.Generic;
@@ -33,7 +33,6 @@ namespace ComedyHub.Core.Components
         {
             try
             {
-                _twitterAuth.SetTwitterAuth();
 
                 var meme = await _memeProcessor.ProcessMeme();
 
@@ -45,7 +44,9 @@ namespace ComedyHub.Core.Components
             catch (Exception exception)
             {
                 logger.Error(exception);
+
                 await _notificationComponent.SendFailureNotification(exception);
+
                 throw;
             }
         }

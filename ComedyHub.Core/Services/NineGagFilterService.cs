@@ -1,7 +1,7 @@
-﻿using ComedyHub.Core.Configuration.Contracts;
-using ComedyHub.Core.Helpers;
+﻿using ComedyHub.Core.Auth.Contracts;
+using ComedyHub.Core.Configuration.Contracts;
+using ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels;
 using ComedyHub.Core.Services.Contracts;
-using ComedyHub.Model.Meme.NineGagMeme;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,16 +12,15 @@ namespace ComedyHub.Core.Services
 {
     public class NineGagFilterService : INineGagFilterService
     {
-        private readonly ITwitterBotSettings _twitterBotSettings;
+        private readonly IFilterService _filterService;
 
-        public NineGagFilterService(ITwitterBotSettings twitterBotSettings)
+        public NineGagFilterService(IFilterService filterService)
         {
-            _twitterBotSettings = twitterBotSettings;
+            _filterService = filterService;
         }
 
         public Post NineGagFilter(NineGagModel nineGag)
         {
-
             var posts = RemoveDuplicates(nineGag);
 
             var postsMediaTypePhoto = KeepPostsMediaTypePhoto(posts);
@@ -35,14 +34,6 @@ namespace ComedyHub.Core.Services
         {
             var posts = new List<Post>(nineGag.Data.Posts);
 
-            string botScreenName = _twitterBotSettings.BotScreenName;
-            int numberStatusToFetch = _twitterBotSettings.NumStatusToFetch;
-
-            var lastTweets = Timeline.GetUserTimeline(botScreenName, numberStatusToFetch);
-
-            foreach (var postedTweet in lastTweets)
-            {
-
                 foreach (var post in posts)
                 {
                     var title = post.Title;
@@ -50,20 +41,18 @@ namespace ComedyHub.Core.Services
                     // Add the tags to the title so we are able to compare
                     foreach (var tag in post.Tags)
                     {
-                        var cleanTag = tag.key.Replace(" ", "");
+                        var cleanTag = tag.Key.Replace(" ", "");
 
                         title = title + " #" + cleanTag;
                     }
 
                     // Decode HTML code to normal text
-                    if (postedTweet.Text == HttpUtility.HtmlDecode(title))
+                    if (_filterService.HasMemeAlreadyPosted(title))
                     {
                         posts.Remove(post);
                         break;
                     }
                 }
-            }
-
             return posts;
         }
 
@@ -73,7 +62,7 @@ namespace ComedyHub.Core.Services
 
             foreach (var post in posts)
             {
-                if (post.Type != Constants.MediaFilePhoto)
+                if (post.Type != Constants.MediaType.MediaFilePhoto)
                 {
                     imagesPosts.Remove(post);
                 }

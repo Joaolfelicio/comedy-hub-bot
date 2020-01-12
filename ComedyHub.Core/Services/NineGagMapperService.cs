@@ -1,7 +1,6 @@
-﻿using ComedyHub.Core.Helpers;
+﻿using ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels;
 using ComedyHub.Core.Services.Contracts;
 using ComedyHub.Model.Meme;
-using ComedyHub.Model.Meme.NineGagMeme;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -17,7 +16,7 @@ namespace ComedyHub.Core.Services
 
             foreach (var tag in post.Tags)
             {
-                tags.Add(tag.key.Replace(" ", ""));
+                tags.Add(tag.Key.Replace(" ", ""));
             }
 
             // Unix Epoch
@@ -36,7 +35,7 @@ namespace ComedyHub.Core.Services
                 UpVoteCount = post.UpVoteCount,
                 DownVoteCount = post.DownVoteCount,
                 CommentsCount = post.CommentsCount,
-                Provider = Constants.NineGag
+                Provider = Constants.MemeProvider.NineGag
             };
         }
     }

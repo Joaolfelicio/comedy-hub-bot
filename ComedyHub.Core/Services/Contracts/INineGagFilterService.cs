@@ -1,4 +1,4 @@
-﻿using ComedyHub.Model.Meme.NineGagMeme;
+﻿using ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels;
 using System;
 using System.Collections.Generic;
 using System.Text;

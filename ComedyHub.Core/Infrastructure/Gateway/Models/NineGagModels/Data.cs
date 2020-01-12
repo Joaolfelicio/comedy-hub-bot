@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ComedyHub.Model.Meme.NineGagMeme
+namespace ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels
 {
     public class Data
     {
