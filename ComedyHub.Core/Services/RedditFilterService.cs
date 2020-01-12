@@ -26,6 +26,7 @@ namespace ComedyHub.Core.Services
 
         private List<Post> RemoveDuplicates(List<Post> posts)
         {
+            //TODO: Instead of removing from the list, just add to it, so c# is able to track it
             var distinctPosts = new List<Post>(posts);
 
             foreach (var post in distinctPosts)
