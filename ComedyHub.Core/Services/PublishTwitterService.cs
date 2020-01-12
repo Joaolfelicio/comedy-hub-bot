@@ -24,9 +24,12 @@ namespace ComedyHub.Core.Services
 
             var title = memeModel.Title;
 
-            foreach (var tag in memeModel.Tags)
+            if(memeModel.Tags != null)
             {
-                title = title + " #" + tag;
+                foreach (var tag in memeModel.Tags)
+                {
+                    title = title + " #" + tag;
+                }
             }
 
             using (var webClient = new WebClient())
@@ -40,14 +43,14 @@ namespace ComedyHub.Core.Services
                 PossiblySensitive = memeModel.Nsfw,
                 MediaBinaries = imageList
             };
-
+            //TODO: Should the publishtweet be here or on the gateway
             var tweetPublished = Tweet.PublishTweet(title, tweetParameters);
 
             return new PublishedModel()
             {
                 PublishedURL = tweetPublished.Url,
                 Message = $"Successfully published meme.",
-                MemeProvider = Constants.MemeProvider.NineGag,
+                MemeProvider = memeModel.Provider,
                 PublishedAt = "Twitter",
                 ImageUrl = memeModel.ImageUrl
             };

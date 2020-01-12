@@ -24,9 +24,9 @@ namespace ComedyHub.Core.Components
         }
         public async Task<MemeModel> GetNineGagMeme()
         {
-            var nineGagModel = await _nineGagFetchService.GetNineGagModelMeme();
+            var nineGagModels = await _nineGagFetchService.GetNineGagModelMeme();
 
-            var nineGagPostModel = _nineGagFilterService.NineGagFilter(nineGagModel);
+            var nineGagPostModel = _nineGagFilterService.NineGagFilter(nineGagModels);
 
             var memeModel = _nineGagMapperService.NineGagModelToMeme(nineGagPostModel);
 

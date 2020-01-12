@@ -8,6 +8,6 @@ namespace ComedyHub.Core.Infrastructure.Gateway.Contracts
 {
     public interface INineGagGateway
     {
-        Task<NineGagModel> GetMeme();
+        Task<NineGagModel> GetNineGagMeme();
     }
 }

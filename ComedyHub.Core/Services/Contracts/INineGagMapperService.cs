@@ -8,6 +8,6 @@ namespace ComedyHub.Core.Services.Contracts
 {
     public interface INineGagMapperService
     {
-        MemeModel NineGagModelToMeme(Post ngPost);
+        MemeModel NineGagModelToMeme(NineGagPost ngPost);
     }
 }

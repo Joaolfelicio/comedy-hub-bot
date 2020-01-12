@@ -19,20 +19,20 @@ namespace ComedyHub.Core.Services
             _filterService = filterService;
         }
 
-        public Post NineGagFilter(NineGagModel nineGag)
+        public NineGagPost NineGagFilter(NineGagModel nineGag)
         {
             var posts = RemoveDuplicates(nineGag);
 
             var postsMediaTypePhoto = KeepPostsMediaTypePhoto(posts);
 
-            var randomCleanPost = GetRandomPost(postsMediaTypePhoto);
+            var randomCleanPost = _filterService.GetRandomPost(postsMediaTypePhoto, null).Item1;
 
             return randomCleanPost;
         }
 
-        private List<Post> RemoveDuplicates(NineGagModel nineGag)
+        private List<NineGagPost> RemoveDuplicates(NineGagModel nineGag)
         {
-            var posts = new List<Post>(nineGag.Data.Posts);
+            var posts = new List<NineGagPost>(nineGag.Data.Posts);
 
                 foreach (var post in posts)
                 {
@@ -56,9 +56,9 @@ namespace ComedyHub.Core.Services
             return posts;
         }
 
-        private List<Post> KeepPostsMediaTypePhoto(List<Post> posts)
+        private List<NineGagPost> KeepPostsMediaTypePhoto(List<NineGagPost> posts)
         {
-            var imagesPosts = new List<Post>(posts);
+            var imagesPosts = new List<NineGagPost>(posts);
 
             foreach (var post in posts)
             {
@@ -68,25 +68,6 @@ namespace ComedyHub.Core.Services
                 }
             }
             return imagesPosts;
-        }
-
-        private Post GetRandomPost(List<Post> posts)
-        {
-            Random random = new Random();
-            Post randomPost = new Post();
-
-            int randomNum = random.Next(posts.Count);
-
-            try
-            {
-                randomPost = posts[randomNum];
-            }
-            catch 
-            {
-                throw new Exception($"No memes to post, number of memes available after filtering: {posts.Count}");
-            }
-
-            return randomPost;
         }
     }
 

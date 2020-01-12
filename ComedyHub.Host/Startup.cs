@@ -37,7 +37,7 @@ namespace ComedyHub.Host
             services.AddControllers()
                     .AddNewtonsoftJson(options => options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver());
             
-
+            //TODO: REFACTOR ALL OF THIS
             services.AddSingleton<INineGagFetchService, NineGagFetchService>();
             services.AddSingleton<INineGagGateway, NineGagGateway>();
             services.AddSingleton<IMemeProcessor, MemeProcessor>();
@@ -51,7 +51,13 @@ namespace ComedyHub.Host
             services.AddSingleton<INotificationTelegramService, NotificationTelegramService>();
             services.AddSingleton<ITwitterAuth, TwitterAuth>();
             services.AddSingleton<ITelegramGateway, TelegramGateway>();
+            services.AddSingleton<IRedditGateway, RedditGateway>();
             services.AddSingleton<IFilterService, FilterService>();
+            services.AddSingleton<IRedditAuth, RedditAuth>();
+            services.AddSingleton<IRedditComponent, RedditComponent>(); 
+            services.AddSingleton<IRedditFetchService, RedditFetchService>();
+            services.AddSingleton<IRedditFilterService, RedditFilterService>();
+            services.AddSingleton<IRedditMapperService, RedditMapperService>();
 
             services.Configure<ApplicationSettings>(Configuration.GetSection(nameof(ApplicationSettings)));
             services.AddSingleton<IApplicationSettings>(sp => sp.GetRequiredService<IOptions<ApplicationSettings>>().Value);
@@ -64,6 +70,9 @@ namespace ComedyHub.Host
 
             services.Configure<TwitterBotSettings>(Configuration.GetSection(nameof(TwitterBotSettings)));
             services.AddSingleton<ITwitterBotSettings>(sp => sp.GetRequiredService<IOptions<TwitterBotSettings>>().Value);
+
+            services.Configure<RedditApiSettings>(Configuration.GetSection(nameof(RedditApiSettings)));
+            services.AddSingleton<IRedditApiSettings>(sp => sp.GetRequiredService<IOptions<RedditApiSettings>>().Value);
 
             services.AddSwaggerGen(c =>
             {

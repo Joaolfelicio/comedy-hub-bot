@@ -15,12 +15,15 @@ namespace ComedyHub.Core.Components
     {
         private readonly IApplicationSettings _applicationSettings;
         private readonly INineGagComponent _nineGagComponent;
+        private readonly IRedditComponent _redditComponent;
 
         public MemeProcessor(IApplicationSettings applicationSettings,
-                             INineGagComponent nineGagComponent)
+                             INineGagComponent nineGagComponent,
+                             IRedditComponent redditComponent)
         {
             _applicationSettings = applicationSettings;
             _nineGagComponent = nineGagComponent;
+            _redditComponent = redditComponent;
         }
 
 
@@ -44,7 +47,7 @@ namespace ComedyHub.Core.Components
                     return await _nineGagComponent.GetNineGagMeme();
 
                 case Constants.MemeProvider.Reddit:
-                    return await _nineGagComponent.GetNineGagMeme();
+                    return _redditComponent.GetRedditMeme();
 
                 default:
                     return await _nineGagComponent.GetNineGagMeme();

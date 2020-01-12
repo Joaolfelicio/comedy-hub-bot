@@ -20,7 +20,7 @@ namespace ComedyHub.Core.Infrastructure.Gateway
         {
             _nineGagApiSettings = nineGagApiSettings;
         }
-        public async Task<NineGagModel> GetMeme()
+        public async Task<NineGagModel> GetNineGagMeme()
         {
             NineGagModel memeModel = new NineGagModel();
             memeModel = null;

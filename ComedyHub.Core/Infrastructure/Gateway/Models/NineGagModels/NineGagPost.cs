@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels
 {
-    public class Post
+    public class NineGagPost
     {
         public string Id { get; set; }
         public string Url { get; set; }

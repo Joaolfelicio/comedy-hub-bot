@@ -7,6 +7,6 @@ namespace ComedyHub.Core.Services.Contracts
 {
     public interface INineGagFilterService
     {
-        Post NineGagFilter(NineGagModel nineGag);
+        NineGagPost NineGagFilter(NineGagModel nineGag);
     }
 }

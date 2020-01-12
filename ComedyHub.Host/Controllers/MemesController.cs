@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using ComedyHub.Core.Components.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+using Reddit;
+using ComedyHub.Core.Infrastructure.Gateway.Contracts;
 
 namespace ComedyHub.Host.Controllers
 {
@@ -14,12 +16,15 @@ namespace ComedyHub.Host.Controllers
     {
         readonly IMemeOrchestrator _memeOrchestrator;
         private readonly IMemeProcessor _memeProcessor;
+        private readonly IRedditGateway _redditGateway;
 
         public MemesController(IMemeOrchestrator memeOrchestrator,
-                               IMemeProcessor memeProcessor)
+                               IMemeProcessor memeProcessor,
+                               IRedditGateway redditGateway)
         {
             _memeOrchestrator = memeOrchestrator;
             _memeProcessor = memeProcessor;
+            _redditGateway = redditGateway;
         }
 
         [HttpGet]
@@ -40,6 +45,18 @@ namespace ComedyHub.Host.Controllers
         public async Task<IActionResult> GetMeme()
         {
             var meme = await _memeProcessor.ProcessMeme();
+
+            if (meme == null)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
+            return Ok(meme);
+        }
+
+        [HttpGet("test")]
+        public async Task<IActionResult> test()
+        {
+            var meme = _redditGateway.GetRedditMeme();
 
             if (meme == null)
             {

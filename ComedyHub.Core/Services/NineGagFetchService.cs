@@ -18,7 +18,7 @@ namespace ComedyHub.Core.Services
 
         public async Task<NineGagModel> GetNineGagModelMeme()
         {
-            return await _nineGagGateway.GetMeme();
+            return await _nineGagGateway.GetNineGagMeme();
         }
     }
 }

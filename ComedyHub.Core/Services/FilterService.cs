@@ -1,6 +1,8 @@
 ﻿using ComedyHub.Core.Auth.Contracts;
 using ComedyHub.Core.Configuration.Contracts;
+using ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels;
 using ComedyHub.Core.Services.Contracts;
+using Reddit.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -21,6 +23,21 @@ namespace ComedyHub.Core.Services
             _twitterAuth = twitterAuth;
         }
 
+        //TODO: Confirm if this is good
+        public Tuple<NineGagPost, Post> GetRandomPost(List<NineGagPost> nineGagposts, List<Post> redditPosts)
+        {
+            var random = new Random();
+
+            if (redditPosts == null)
+            {
+                return new Tuple<NineGagPost, Post>(nineGagposts[random.Next(nineGagposts.Count)], null);
+            }
+            else
+            {
+                return new Tuple<NineGagPost, Post>(null, redditPosts[random.Next(redditPosts.Count)]);
+            }
+        }
+
         public bool HasMemeAlreadyPosted(string memeTitle)
         {
 
@@ -36,7 +53,7 @@ namespace ComedyHub.Core.Services
 
             foreach (var postedTweet in lastTweets)
             {
-                if(postedTweet.Text == cleanMemeTitle)
+                if (postedTweet.Text == cleanMemeTitle)
                 {
                     return true;
                 }

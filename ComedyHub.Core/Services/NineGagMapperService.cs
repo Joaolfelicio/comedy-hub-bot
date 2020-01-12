@@ -10,7 +10,7 @@ namespace ComedyHub.Core.Services
 {
     public class NineGagMapperService : INineGagMapperService
     {
-        public MemeModel NineGagModelToMeme(Post post)
+        public MemeModel NineGagModelToMeme(NineGagPost post)
         {
             var tags = new List<string>();
 
