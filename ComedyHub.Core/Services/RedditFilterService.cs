@@ -19,21 +19,20 @@ namespace ComedyHub.Core.Services
         {
             var distinctPosts = RemoveDuplicates(posts);
 
-            var randomCleanPost = _filterService.GetRandomPost(null, distinctPosts).Item2;
+            var randomCleanPost = distinctPosts[_filterService.GetRandomPost(distinctPosts)];
 
             return randomCleanPost;
         }
 
         private List<Post> RemoveDuplicates(List<Post> posts)
         {
-            //TODO: Instead of removing from the list, just add to it, so c# is able to track it
-            var distinctPosts = new List<Post>(posts);
+            var distinctPosts = new List<Post>();
 
-            foreach (var post in distinctPosts)
+            foreach (var post in posts)
             {
-                if(_filterService.HasMemeAlreadyPosted(post.Title))
+                if(_filterService.HasMemeAlreadyPosted(post.Title) == false)
                 {
-                    distinctPosts.Remove(post);
+                    distinctPosts.Add(post);
                 }
             }
 

@@ -25,16 +25,16 @@ namespace ComedyHub.Core.Services
 
             var postsMediaTypePhoto = KeepPostsMediaTypePhoto(posts);
 
-            var randomCleanPost = _filterService.GetRandomPost(postsMediaTypePhoto, null).Item1;
+            var randomCleanPost = postsMediaTypePhoto[_filterService.GetRandomPost(postsMediaTypePhoto)];
 
             return randomCleanPost;
         }
 
         private List<NineGagPost> RemoveDuplicates(NineGagModel nineGag)
         {
-            var posts = new List<NineGagPost>(nineGag.Data.Posts);
+            var posts = new List<NineGagPost>();
 
-                foreach (var post in posts)
+                foreach (var post in nineGag.Data.Posts)
                 {
                     var title = post.Title;
 
@@ -49,7 +49,7 @@ namespace ComedyHub.Core.Services
                     // Decode HTML code to normal text
                     if (_filterService.HasMemeAlreadyPosted(title))
                     {
-                        posts.Remove(post);
+                        posts.Add(post);
                         break;
                     }
                 }

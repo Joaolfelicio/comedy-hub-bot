@@ -10,6 +10,6 @@ namespace ComedyHub.Core.Services.Contracts
     public interface IFilterService
     {
         bool HasMemeAlreadyPosted(string memeTitle);
-        Tuple<NineGagPost, Post> GetRandomPost(List<NineGagPost> nineGagposts, List<Post> redditPosts);
+        int GetRandomPost<T>(List<T> posts);
     }
 }

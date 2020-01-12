@@ -23,19 +23,11 @@ namespace ComedyHub.Core.Services
             _twitterAuth = twitterAuth;
         }
 
-        //TODO: Confirm if this is good
-        public Tuple<NineGagPost, Post> GetRandomPost(List<NineGagPost> nineGagposts, List<Post> redditPosts)
+        public int GetRandomPost<T>(List<T> posts)
         {
             var random = new Random();
 
-            if (redditPosts == null)
-            {
-                return new Tuple<NineGagPost, Post>(nineGagposts[random.Next(nineGagposts.Count)], null);
-            }
-            else
-            {
-                return new Tuple<NineGagPost, Post>(null, redditPosts[random.Next(redditPosts.Count)]);
-            }
+            return random.Next(posts.Count);
         }
 
         public bool HasMemeAlreadyPosted(string memeTitle)
