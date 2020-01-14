@@ -28,7 +28,7 @@ namespace ComedyHub.Core.Services
 
             var postsMediaTypePhoto = KeepPostsMediaTypePhoto(posts);
 
-            var randomCleanPost = postsMediaTypePhoto[_filterService.GetRandomPost(postsMediaTypePhoto)];
+            var randomCleanPost = _filterService.GetRandomPost(postsMediaTypePhoto);
 
             return randomCleanPost;
         }

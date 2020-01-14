@@ -23,11 +23,12 @@ namespace ComedyHub.Core.Services
             _twitterAuth = twitterAuth;
         }
 
-        public int GetRandomPost<T>(List<T> posts)
+        public T GetRandomPost<T>(List<T> posts)
         {
             var random = new Random();
+            var randomPostIndex = random.Next(posts.Count);
 
-            return random.Next(posts.Count);
+            return posts[randomPostIndex];
         }
 
         public bool HasMemeAlreadyPosted(string memeTitle)

@@ -23,7 +23,7 @@ namespace ComedyHub.Core.Services
         {
             var distinctPosts = RemoveDuplicates(posts);
 
-            var randomCleanPost = distinctPosts[_filterService.GetRandomPost(distinctPosts)];
+            var randomCleanPost = _filterService.GetRandomPost(distinctPosts);
 
             return randomCleanPost;
         }
