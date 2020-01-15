@@ -18,6 +18,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Serialization;
+using Serilog;
+using System.IO;
 
 namespace ComedyHub.Host
 {
@@ -25,7 +27,14 @@ namespace ComedyHub.Host
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            Configuration = new ConfigurationBuilder()
+                            .SetBasePath(Directory.GetCurrentDirectory())
+                            .AddJsonFile(path: "appsettings.json", optional: false, reloadOnChange: true)
+                            .Build();
+
+            Log.Logger = new LoggerConfiguration()
+                        .ReadFrom.Configuration(configuration)
+                        .CreateLogger();
         }
 
         public IConfiguration Configuration { get; }
@@ -98,6 +107,8 @@ namespace ComedyHub.Host
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSerilogRequestLogging();
 
             app.UseRouting();
 

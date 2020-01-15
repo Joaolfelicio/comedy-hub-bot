@@ -11,7 +11,7 @@ COPY ["ComedyHub.Core/ComedyHub.Core.csproj", "ComedyHub.Core/"]
 COPY ["ComedyHub.Model/ComedyHub.Model.csproj", "ComedyHub.Model/"]
 RUN dotnet restore "ComedyHub.Host/ComedyHub.Host.csproj"
 COPY . .
-WORKDIR "/src/ComedyHub.Host"
+WORKDIR "ComedyHub.Host"
 RUN dotnet build "ComedyHub.Host.csproj" -c Release -o /app/build
 
 FROM build AS publish
@@ -20,4 +20,4 @@ RUN dotnet publish "ComedyHub.Host.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ComedyHub.Host.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet ComedyHub.Host.dll

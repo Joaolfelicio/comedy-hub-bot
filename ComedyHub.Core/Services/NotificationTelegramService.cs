@@ -8,22 +8,24 @@ using ComedyHub.Core.Configuration.Contracts;
 using System.Net.Http;
 using ComedyHub.Model.Notification.TelegramMessage;
 using Newtonsoft.Json;
-using NLog;
 using ComedyHub.Core.Infrastructure.Gateway.Contracts;
+using Microsoft.Extensions.Logging;
 
 namespace ComedyHub.Core.Services
 {
     public class NotificationTelegramService : INotificationTelegramService
     {
-        private static Logger logger = LogManager.GetCurrentClassLogger();
+        private readonly ILogger<NotificationTelegramService> _logger;
         private readonly ITelegramGateway _telegramGateway;
         private readonly ITelegramApiSettings _telegramApiSettings;
 
         public NotificationTelegramService(ITelegramGateway telegramGateway,
-                                           ITelegramApiSettings telegramApiSettings)
+                                           ITelegramApiSettings telegramApiSettings,
+                                           ILogger<NotificationTelegramService> logger)
         {
             _telegramGateway = telegramGateway;
             _telegramApiSettings = telegramApiSettings;
+            _logger = logger;
         }
 
         public async Task SendTelegramSucessNotification(PublishedModel memePublished)
@@ -41,10 +43,12 @@ namespace ComedyHub.Core.Services
             try
             {
                 await _telegramGateway.SendPhotoMessage(telegramMessage);
+
+                _logger.LogInformation("Sucessfully sent success notification");
             }
             catch (Exception exception)
             {
-                logger.Error(exception);
+                _logger.LogError(exception, "Failed to send success notification");
             }
         }
 
@@ -62,10 +66,11 @@ namespace ComedyHub.Core.Services
             try
             {
                 await _telegramGateway.SendTextMessage(telegramMessage);
+                _logger.LogInformation("Sucessfully sent failure notification");
             }
             catch (Exception ex)
             {
-                logger.Error(ex);
+                _logger.LogError(ex, "Failed to send failure notification");
             }
         }
 

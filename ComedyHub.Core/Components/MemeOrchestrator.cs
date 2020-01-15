@@ -1,6 +1,6 @@
 ﻿using ComedyHub.Core.Auth.Contracts;
 using ComedyHub.Core.Components.Contracts;
-using NLog;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,17 +13,17 @@ namespace ComedyHub.Core.Components
         private readonly IMemeProcessor _memeProcessor;
         private readonly IPublishComponent _publishComponent;
         private readonly INotificationComponent _notificationComponent;
-        private static Logger logger = LogManager.GetCurrentClassLogger();
-
-        public ITwitterAuth TwitterAuth { get; }
+        private readonly ILogger<MemeOrchestrator> _logger;
 
         public MemeOrchestrator(IMemeProcessor memeProcessor,
                                 IPublishComponent publishComponent,
-                                INotificationComponent notificationComponent)
+                                INotificationComponent notificationComponent,
+                                ILogger<MemeOrchestrator> logger)
         {
             _memeProcessor = memeProcessor;
             _publishComponent = publishComponent;
             _notificationComponent = notificationComponent;
+            _logger = logger;
         }
 
         public async Task Process()
@@ -34,12 +34,15 @@ namespace ComedyHub.Core.Components
 
                 var publishedObj = _publishComponent.PublishMeme(meme);
 
+                _logger.LogInformation("Sucessfully published meme");
+
                 await _notificationComponent.SendSucessfulNotification(publishedObj);
+
 
             }
             catch (Exception exception)
             {
-                logger.Error(exception);
+                _logger.LogError(exception, "Failed to process meme");
 
                 await _notificationComponent.SendFailureNotification(exception);
 

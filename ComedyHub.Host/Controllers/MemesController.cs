@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Reddit;
 using ComedyHub.Core.Infrastructure.Gateway.Contracts;
+using Microsoft.Extensions.Logging;
 
 namespace ComedyHub.Host.Controllers
 {
@@ -14,17 +15,17 @@ namespace ComedyHub.Host.Controllers
     [Route("api/[Controller]")]
     public class MemesController : Controller
     {
-        readonly IMemeOrchestrator _memeOrchestrator;
+        private readonly IMemeOrchestrator _memeOrchestrator;
         private readonly IMemeProcessor _memeProcessor;
-        private readonly IRedditGateway _redditGateway;
+        private readonly ILogger<MemesController> _logger;
 
         public MemesController(IMemeOrchestrator memeOrchestrator,
                                IMemeProcessor memeProcessor,
-                               IRedditGateway redditGateway)
+                               ILogger<MemesController> logger)
         {
             _memeOrchestrator = memeOrchestrator;
             _memeProcessor = memeProcessor;
-            _redditGateway = redditGateway;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -32,7 +33,10 @@ namespace ComedyHub.Host.Controllers
         {
             try
             {
+                _logger.LogInformation("Called ProcessMeme");
+
                 await _memeOrchestrator.Process();
+
                 return Ok();
             }
             catch
@@ -45,18 +49,6 @@ namespace ComedyHub.Host.Controllers
         public async Task<IActionResult> GetMeme()
         {
             var meme = await _memeProcessor.ProcessMeme();
-
-            if (meme == null)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError);
-            }
-            return Ok(meme);
-        }
-
-        [HttpGet("test")]
-        public async Task<IActionResult> test()
-        {
-            var meme = _redditGateway.GetRedditMeme();
 
             if (meme == null)
             {
