@@ -8,6 +8,7 @@ using ComedyHub.Core.Infrastructure.Gateway;
 using ComedyHub.Core.Infrastructure.Gateway.Contracts;
 using ComedyHub.Core.Services;
 using ComedyHub.Core.Services.Contracts;
+using ComedyHub.Host.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -45,44 +46,21 @@ namespace ComedyHub.Host
             services.AddOptions();
             services.AddControllers()
                     .AddNewtonsoftJson(options => options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver());
-            
-            //TODO: REFACTOR ALL OF THIS
-            services.AddSingleton<INineGagFetchService, NineGagFetchService>();
-            services.AddSingleton<INineGagGateway, NineGagGateway>();
-            services.AddSingleton<IMemeProcessor, MemeProcessor>();
-            services.AddSingleton<IMemeOrchestrator, MemeOrchestrator>();
-            services.AddSingleton<INineGagComponent, NineGagComponent>();
-            services.AddSingleton<INineGagFilterService, NineGagFilterService>();
-            services.AddSingleton<INineGagMapperService, NineGagMapperService>();
-            services.AddSingleton<IPublishComponent, PublishComponent>();
-            services.AddSingleton<IPublishTwitterService, PublishTwitterService>();
-            services.AddSingleton<INotificationComponent, NotificationComponent>();
-            services.AddSingleton<INotificationTelegramService, NotificationTelegramService>();
-            services.AddSingleton<ITwitterAuth, TwitterAuth>();
-            services.AddSingleton<ITelegramGateway, TelegramGateway>();
-            services.AddSingleton<IRedditGateway, RedditGateway>();
-            services.AddSingleton<IFilterService, FilterService>();
-            services.AddSingleton<IRedditAuth, RedditAuth>();
-            services.AddSingleton<IRedditComponent, RedditComponent>(); 
-            services.AddSingleton<IRedditFetchService, RedditFetchService>();
-            services.AddSingleton<IRedditFilterService, RedditFilterService>();
-            services.AddSingleton<IRedditMapperService, RedditMapperService>();
-            services.AddSingleton<IMapperService, MapperService>();
 
-            services.Configure<ApplicationSettings>(Configuration.GetSection(nameof(ApplicationSettings)));
-            services.AddSingleton<IApplicationSettings>(sp => sp.GetRequiredService<IOptions<ApplicationSettings>>().Value);
+            // Register all the services
+            services.RegisterServices();
 
-            services.Configure<NineGagApiSettings>(Configuration.GetSection(nameof(NineGagApiSettings)));
-            services.AddSingleton<INineGagApiSettings>(sp => sp.GetRequiredService<IOptions<NineGagApiSettings>>().Value);
+            // Register all the components
+            services.RegisterComponents();
 
-            services.Configure<TelegramApiSettings>(Configuration.GetSection(nameof(TelegramApiSettings)));
-            services.AddSingleton<ITelegramApiSettings>(sp => sp.GetRequiredService<IOptions<TelegramApiSettings>>().Value);
+            // Register all the infra
+            services.RegisterInfrastructure();
 
-            services.Configure<TwitterBotSettings>(Configuration.GetSection(nameof(TwitterBotSettings)));
-            services.AddSingleton<ITwitterBotSettings>(sp => sp.GetRequiredService<IOptions<TwitterBotSettings>>().Value);
+            // Register all the auth
+            services.RegisterAuth();
 
-            services.Configure<RedditApiSettings>(Configuration.GetSection(nameof(RedditApiSettings)));
-            services.AddSingleton<IRedditApiSettings>(sp => sp.GetRequiredService<IOptions<RedditApiSettings>>().Value);
+            // Register all the configurations
+            services.RegisterConfigurations(Configuration);
 
             services.AddSwaggerGen(c =>
             {

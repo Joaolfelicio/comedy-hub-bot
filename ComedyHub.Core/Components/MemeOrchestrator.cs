@@ -37,8 +37,6 @@ namespace ComedyHub.Core.Components
                 _logger.LogInformation("Sucessfully published meme");
 
                 await _notificationComponent.SendSucessfulNotification(publishedObj);
-
-
             }
             catch (Exception exception)
             {

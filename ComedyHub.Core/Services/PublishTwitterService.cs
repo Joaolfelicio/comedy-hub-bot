@@ -33,7 +33,6 @@ namespace ComedyHub.Core.Services
                 PossiblySensitive = memeModel.Nsfw,
                 MediaBinaries = imageList
             };
-            //TODO: Should the publishtweet be here or on the gateway
             var tweetPublished = Tweet.PublishTweet(memeModel.Title, tweetParameters);
 
             return new PublishedModel()
