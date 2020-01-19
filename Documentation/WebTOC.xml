@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="2455e98f-c5d5-4127-88ea-8495ac8550a9" Title="ComedyHub.Core.Auth Namespace" Url="html/N-ComedyHub.Core.Auth.htm">
+    <HelpTOCNode Id="937a8a3a-f355-42cb-8717-f00fbf27a10e" Title="AccessToken Class" Url="html/T-ComedyHub.Core.Auth.AccessToken.htm">
+      <HelpTOCNode Title="AccessToken Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.AccessToken.htm" />
+      <HelpTOCNode Id="866ff6fa-e593-461f-8157-5793a732088a" Title="AccessToken Fields" Url="html/Fields.T-ComedyHub.Core.Auth.AccessToken.htm">
+        <HelpTOCNode Title="ACCESS_TOKEN_SECRET_TWITTER Field" Url="html/F-ComedyHub.Core.Auth.AccessToken.ACCESS_TOKEN_SECRET_TWITTER.htm" />
+        <HelpTOCNode Title="ACCESS_TOKEN_TELEGRAM Field" Url="html/F-ComedyHub.Core.Auth.AccessToken.ACCESS_TOKEN_TELEGRAM.htm" />
+        <HelpTOCNode Title="ACCESS_TOKEN_TWITTER Field" Url="html/F-ComedyHub.Core.Auth.AccessToken.ACCESS_TOKEN_TWITTER.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="920cd761-e9ab-4412-8f60-859d6aab590d" Title="AppInfo Class" Url="html/T-ComedyHub.Core.Auth.AppInfo.htm">
+      <HelpTOCNode Title="AppInfo Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.AppInfo.htm" />
+      <HelpTOCNode Id="a7cf402b-4922-4a8d-affd-74c29a93a0c7" Title="AppInfo Fields" Url="html/Fields.T-ComedyHub.Core.Auth.AppInfo.htm">
+        <HelpTOCNode Title="REDDIT_APP_ID Field" Url="html/F-ComedyHub.Core.Auth.AppInfo.REDDIT_APP_ID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="04405509-c53a-4e98-9bea-62e34e37a6ef" Title="ConsumerToken Class" Url="html/T-ComedyHub.Core.Auth.ConsumerToken.htm">
+      <HelpTOCNode Title="ConsumerToken Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.ConsumerToken.htm" />
+      <HelpTOCNode Id="107411b0-e709-4076-adfa-aa1d211f22dc" Title="ConsumerToken Fields" Url="html/Fields.T-ComedyHub.Core.Auth.ConsumerToken.htm">
+        <HelpTOCNode Title="CONSUMER_KEY_TWITTER Field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_KEY_TWITTER.htm" />
+        <HelpTOCNode Title="CONSUMER_REFRESH_REDDIT Field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_REFRESH_REDDIT.htm" />
+        <HelpTOCNode Title="CONSUMER_SECRET_REDDIT Field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_SECRET_REDDIT.htm" />
+        <HelpTOCNode Title="CONSUMER_SECRET_TWITTER Field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_SECRET_TWITTER.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="85970bd8-825c-4d9f-aee4-42d05e7e1a82" Title="ReceiverInfo Class" Url="html/T-ComedyHub.Core.Auth.ReceiverInfo.htm">
+      <HelpTOCNode Title="ReceiverInfo Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.ReceiverInfo.htm" />
+      <HelpTOCNode Id="369b5bc6-1239-4f32-a3c1-8aa5ba3be54d" Title="ReceiverInfo Fields" Url="html/Fields.T-ComedyHub.Core.Auth.ReceiverInfo.htm">
+        <HelpTOCNode Title="TELEGRAM_MESSAGE_RECEIVER_ID Field" Url="html/F-ComedyHub.Core.Auth.ReceiverInfo.TELEGRAM_MESSAGE_RECEIVER_ID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c3833c7a-3c2c-421d-b4b5-d5c5983f8b8d" Title="RedditAuth Class" Url="html/T-ComedyHub.Core.Auth.RedditAuth.htm">
+      <HelpTOCNode Title="RedditAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.RedditAuth.htm" />
+      <HelpTOCNode Id="19147c39-39a8-4069-bbb0-429d6bdb1da3" Title="RedditAuth Methods" Url="html/Methods.T-ComedyHub.Core.Auth.RedditAuth.htm">
+        <HelpTOCNode Title="SetRedditAuth Method " Url="html/M-ComedyHub.Core.Auth.RedditAuth.SetRedditAuth.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e1507fe5-8b3c-4a71-8ef3-efe48bb07729" Title="TwitterAuth Class" Url="html/T-ComedyHub.Core.Auth.TwitterAuth.htm">
+      <HelpTOCNode Title="TwitterAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.TwitterAuth.htm" />
+      <HelpTOCNode Id="f78aae83-255a-4c8b-95bd-95dd1bc105de" Title="TwitterAuth Methods" Url="html/Methods.T-ComedyHub.Core.Auth.TwitterAuth.htm">
+        <HelpTOCNode Title="SetTwitterAuth Method " Url="html/M-ComedyHub.Core.Auth.TwitterAuth.SetTwitterAuth.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="76bdac0d-7d6f-44d7-84aa-78c302caf6b7" Title="ComedyHub.Core.Auth.Contracts Namespace" Url="html/N-ComedyHub.Core.Auth.Contracts.htm">
+    <HelpTOCNode Id="d829415f-d8b0-4fd2-a41b-009b2f2f0d55" Title="IRedditAuth Interface" Url="html/T-ComedyHub.Core.Auth.Contracts.IRedditAuth.htm">
+      <HelpTOCNode Title="IRedditAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.Contracts.IRedditAuth.htm" />
+      <HelpTOCNode Id="326a2e16-4d96-484a-a9df-b377b668a3b7" Title="IRedditAuth Methods" Url="html/Methods.T-ComedyHub.Core.Auth.Contracts.IRedditAuth.htm">
+        <HelpTOCNode Title="SetRedditAuth Method " Url="html/M-ComedyHub.Core.Auth.Contracts.IRedditAuth.SetRedditAuth.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="91e053bc-5e0c-4896-836f-3e708bb89976" Title="ITwitterAuth Interface" Url="html/T-ComedyHub.Core.Auth.Contracts.ITwitterAuth.htm">
+      <HelpTOCNode Title="ITwitterAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.Contracts.ITwitterAuth.htm" />
+      <HelpTOCNode Id="1faf4fd4-b103-4fe0-8537-f2a690ae85a4" Title="ITwitterAuth Methods" Url="html/Methods.T-ComedyHub.Core.Auth.Contracts.ITwitterAuth.htm">
+        <HelpTOCNode Title="SetTwitterAuth Method " Url="html/M-ComedyHub.Core.Auth.Contracts.ITwitterAuth.SetTwitterAuth.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="92c8d745-453d-4a43-a8bf-670c7e83f072" Title="ComedyHub.Core.Components Namespace" Url="html/N-ComedyHub.Core.Components.htm">
+    <HelpTOCNode Id="2cf32ef5-a601-4b7e-83aa-82747b94f41d" Title="MemeOrchestrator Class" Url="html/T-ComedyHub.Core.Components.MemeOrchestrator.htm">
+      <HelpTOCNode Title="MemeOrchestrator Members" Url="html/AllMembers.T-ComedyHub.Core.Components.MemeOrchestrator.htm" />
+      <HelpTOCNode Title="MemeOrchestrator Constructor " Url="html/M-ComedyHub.Core.Components.MemeOrchestrator.-ctor.htm" />
+      <HelpTOCNode Id="bc2103c2-2c02-4ace-ae89-4a90de19f526" Title="MemeOrchestrator Fields" Url="html/Fields.T-ComedyHub.Core.Components.MemeOrchestrator.htm">
+        <HelpTOCNode Title="_logger Field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._logger.htm" />
+        <HelpTOCNode Title="_memeProcessor Field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._memeProcessor.htm" />
+        <HelpTOCNode Title="_notificationComponent Field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._notificationComponent.htm" />
+        <HelpTOCNode Title="_publishComponent Field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._publishComponent.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="605385e4-48dd-4db2-a955-9cd13790da55" Title="MemeOrchestrator Methods" Url="html/Methods.T-ComedyHub.Core.Components.MemeOrchestrator.htm">
+        <HelpTOCNode Title="Process Method " Url="html/M-ComedyHub.Core.Components.MemeOrchestrator.Process.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c500762d-25c4-4afd-bc11-d7d405962e2e" Title="MemeProcessor Class" Url="html/T-ComedyHub.Core.Components.MemeProcessor.htm">
+      <HelpTOCNode Title="MemeProcessor Members" Url="html/AllMembers.T-ComedyHub.Core.Components.MemeProcessor.htm" />
+      <HelpTOCNode Title="MemeProcessor Constructor " Url="html/M-ComedyHub.Core.Components.MemeProcessor.-ctor.htm" />
+      <HelpTOCNode Id="d23dc00a-0592-4e3a-ae0e-929c3763988d" Title="MemeProcessor Fields" Url="html/Fields.T-ComedyHub.Core.Components.MemeProcessor.htm">
+        <HelpTOCNode Title="_applicationSettings Field" Url="html/F-ComedyHub.Core.Components.MemeProcessor._applicationSettings.htm" />
+        <HelpTOCNode Title="_nineGagComponent Field" Url="html/F-ComedyHub.Core.Components.MemeProcessor._nineGagComponent.htm" />
+        <HelpTOCNode Title="_redditComponent Field" Url="html/F-ComedyHub.Core.Components.MemeProcessor._redditComponent.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9831f2dd-2831-42a9-9e96-0c389cb2c929" Title="MemeProcessor Methods" Url="html/Methods.T-ComedyHub.Core.Components.MemeProcessor.htm">
+        <HelpTOCNode Title="ProcessMeme Method " Url="html/M-ComedyHub.Core.Components.MemeProcessor.ProcessMeme.htm" />
+        <HelpTOCNode Title="ProcessRandomService Method " Url="html/M-ComedyHub.Core.Components.MemeProcessor.ProcessRandomService.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e7f783df-dbde-4e88-ab2e-e64c0dd5eb46" Title="NineGagComponent Class" Url="html/T-ComedyHub.Core.Components.NineGagComponent.htm">
+      <HelpTOCNode Title="NineGagComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.NineGagComponent.htm" />
+      <HelpTOCNode Title="NineGagComponent Constructor " Url="html/M-ComedyHub.Core.Components.NineGagComponent.-ctor.htm" />
+      <HelpTOCNode Id="0eee8efe-574f-482e-872d-07c1052a6ca2" Title="NineGagComponent Fields" Url="html/Fields.T-ComedyHub.Core.Components.NineGagComponent.htm">
+        <HelpTOCNode Title="_filterService Field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._filterService.htm" />
+        <HelpTOCNode Title="_logger Field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._logger.htm" />
+        <HelpTOCNode Title="_nineGagFetchService Field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._nineGagFetchService.htm" />
+        <HelpTOCNode Title="_nineGagMapperService Field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._nineGagMapperService.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3a8b80dc-4ca4-4805-933f-21f00fc697a1" Title="NineGagComponent Methods" Url="html/Methods.T-ComedyHub.Core.Components.NineGagComponent.htm">
+        <HelpTOCNode Title="GetNineGagMeme Method " Url="html/M-ComedyHub.Core.Components.NineGagComponent.GetNineGagMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6f1495ff-a58d-4598-8cc1-6a227686febc" Title="NotificationComponent Class" Url="html/T-ComedyHub.Core.Components.NotificationComponent.htm">
+      <HelpTOCNode Title="NotificationComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.NotificationComponent.htm" />
+      <HelpTOCNode Title="NotificationComponent Constructor " Url="html/M-ComedyHub.Core.Components.NotificationComponent.-ctor.htm" />
+      <HelpTOCNode Id="e5281965-115c-471c-a7d4-9495ee1a8748" Title="NotificationComponent Fields" Url="html/Fields.T-ComedyHub.Core.Components.NotificationComponent.htm">
+        <HelpTOCNode Title="_notificationTelegramService Field" Url="html/F-ComedyHub.Core.Components.NotificationComponent._notificationTelegramService.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a915fcc9-a8e5-4236-a934-9e3e122d8fb0" Title="NotificationComponent Methods" Url="html/Methods.T-ComedyHub.Core.Components.NotificationComponent.htm">
+        <HelpTOCNode Title="SendFailureNotification Method " Url="html/M-ComedyHub.Core.Components.NotificationComponent.SendFailureNotification.htm" />
+        <HelpTOCNode Title="SendSucessfulNotification Method " Url="html/M-ComedyHub.Core.Components.NotificationComponent.SendSucessfulNotification.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b3cdad68-2d86-4947-8be2-de8084cf86d0" Title="PublishComponent Class" Url="html/T-ComedyHub.Core.Components.PublishComponent.htm">
+      <HelpTOCNode Title="PublishComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.PublishComponent.htm" />
+      <HelpTOCNode Title="PublishComponent Constructor " Url="html/M-ComedyHub.Core.Components.PublishComponent.-ctor.htm" />
+      <HelpTOCNode Id="b9ae93c0-d73b-470c-a56e-d0653bd770da" Title="PublishComponent Fields" Url="html/Fields.T-ComedyHub.Core.Components.PublishComponent.htm">
+        <HelpTOCNode Title="_publishTwitterService Field" Url="html/F-ComedyHub.Core.Components.PublishComponent._publishTwitterService.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="28f96a54-93dc-45df-8570-c99455dd89b9" Title="PublishComponent Methods" Url="html/Methods.T-ComedyHub.Core.Components.PublishComponent.htm">
+        <HelpTOCNode Title="PublishMeme Method " Url="html/M-ComedyHub.Core.Components.PublishComponent.PublishMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="46db71e0-a5ab-4c1c-82b1-403759a8a2df" Title="RedditComponent Class" Url="html/T-ComedyHub.Core.Components.RedditComponent.htm">
+      <HelpTOCNode Title="RedditComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.RedditComponent.htm" />
+      <HelpTOCNode Title="RedditComponent Constructor " Url="html/M-ComedyHub.Core.Components.RedditComponent.-ctor.htm" />
+      <HelpTOCNode Id="530ee65d-5c91-4bed-ba19-e251a3be950f" Title="RedditComponent Fields" Url="html/Fields.T-ComedyHub.Core.Components.RedditComponent.htm">
+        <HelpTOCNode Title="_filterService Field" Url="html/F-ComedyHub.Core.Components.RedditComponent._filterService.htm" />
+        <HelpTOCNode Title="_logger Field" Url="html/F-ComedyHub.Core.Components.RedditComponent._logger.htm" />
+        <HelpTOCNode Title="_redditFetchService Field" Url="html/F-ComedyHub.Core.Components.RedditComponent._redditFetchService.htm" />
+        <HelpTOCNode Title="_redditMapperService Field" Url="html/F-ComedyHub.Core.Components.RedditComponent._redditMapperService.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e0ab15c9-3981-42d8-b98b-bb11d8870346" Title="RedditComponent Methods" Url="html/Methods.T-ComedyHub.Core.Components.RedditComponent.htm">
+        <HelpTOCNode Title="GetRedditMeme Method " Url="html/M-ComedyHub.Core.Components.RedditComponent.GetRedditMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="0fb010e0-8bc9-42d1-9545-0f35b5f43fb4" Title="ComedyHub.Core.Components.Contracts Namespace" Url="html/N-ComedyHub.Core.Components.Contracts.htm">
+    <HelpTOCNode Id="8f262407-b0aa-4bdc-8b8d-1646595fb0c9" Title="IMemeOrchestrator Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.htm">
+      <HelpTOCNode Title="IMemeOrchestrator Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.htm" />
+      <HelpTOCNode Id="df53a305-6417-4049-b99d-45ff29574311" Title="IMemeOrchestrator Methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.htm">
+        <HelpTOCNode Title="Process Method " Url="html/M-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.Process.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="87a9c423-5b49-4f27-a5ff-ac393d7e1417" Title="IMemeProcessor Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IMemeProcessor.htm">
+      <HelpTOCNode Title="IMemeProcessor Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IMemeProcessor.htm" />
+      <HelpTOCNode Id="45736371-206a-4e44-9388-07a2eeef36b1" Title="IMemeProcessor Methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.IMemeProcessor.htm">
+        <HelpTOCNode Title="ProcessMeme Method " Url="html/M-ComedyHub.Core.Components.Contracts.IMemeProcessor.ProcessMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3afc868f-65bb-44c8-9b04-a1415e1a3b24" Title="INineGagComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.INineGagComponent.htm">
+      <HelpTOCNode Title="INineGagComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.INineGagComponent.htm" />
+      <HelpTOCNode Id="085ff2db-4019-4e0b-aab4-e96826fa33ad" Title="INineGagComponent Methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.INineGagComponent.htm">
+        <HelpTOCNode Title="GetNineGagMeme Method " Url="html/M-ComedyHub.Core.Components.Contracts.INineGagComponent.GetNineGagMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="68066c3d-a6bf-4cec-855f-0501e2828801" Title="INotificationComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.INotificationComponent.htm">
+      <HelpTOCNode Title="INotificationComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.INotificationComponent.htm" />
+      <HelpTOCNode Id="5e3b4aa7-645d-4544-aaaf-41f1d2a2209e" Title="INotificationComponent Methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.INotificationComponent.htm">
+        <HelpTOCNode Title="SendFailureNotification Method " Url="html/M-ComedyHub.Core.Components.Contracts.INotificationComponent.SendFailureNotification.htm" />
+        <HelpTOCNode Title="SendSucessfulNotification Method " Url="html/M-ComedyHub.Core.Components.Contracts.INotificationComponent.SendSucessfulNotification.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b668090d-6776-454b-b85a-1d6c2e3a9549" Title="IPublishComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IPublishComponent.htm">
+      <HelpTOCNode Title="IPublishComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IPublishComponent.htm" />
+      <HelpTOCNode Id="7c690e90-eb20-463a-82ba-3914e04bb642" Title="IPublishComponent Methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.IPublishComponent.htm">
+        <HelpTOCNode Title="PublishMeme Method " Url="html/M-ComedyHub.Core.Components.Contracts.IPublishComponent.PublishMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="75b0e423-4945-41dc-9d4b-6de719aa9f1a" Title="IRedditComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IRedditComponent.htm">
+      <HelpTOCNode Title="IRedditComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IRedditComponent.htm" />
+      <HelpTOCNode Id="98403b78-d5cd-45a4-9d18-7cbee4ebb957" Title="IRedditComponent Methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.IRedditComponent.htm">
+        <HelpTOCNode Title="GetRedditMeme Method " Url="html/M-ComedyHub.Core.Components.Contracts.IRedditComponent.GetRedditMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="61c92017-4e5d-4ac3-9304-8dea36633a5b" Title="ComedyHub.Core.Configuration Namespace" Url="html/N-ComedyHub.Core.Configuration.htm">
+    <HelpTOCNode Id="64ae4a59-0aa5-4f58-9a08-eb7dc624bf6a" Title="ApplicationSettings Class" Url="html/T-ComedyHub.Core.Configuration.ApplicationSettings.htm">
+      <HelpTOCNode Title="ApplicationSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.ApplicationSettings.htm" />
+      <HelpTOCNode Id="b90b9cb3-0b0f-411e-8fa6-a64fb4ff1032" Title="ApplicationSettings Properties" Url="html/Properties.T-ComedyHub.Core.Configuration.ApplicationSettings.htm">
+        <HelpTOCNode Title="DefaultTags Property " Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.DefaultTags.htm" />
+        <HelpTOCNode Title="ServicesToFetch Property " Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.ServicesToFetch.htm" />
+        <HelpTOCNode Title="SizeLimitMegaBytes Property " Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.SizeLimitMegaBytes.htm" />
+        <HelpTOCNode Title="SupportedImageExtensions Property " Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.SupportedImageExtensions.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="564fe61f-50a6-4069-ba03-3e105ff9eb1c" Title="NineGagApiSettings Class" Url="html/T-ComedyHub.Core.Configuration.NineGagApiSettings.htm">
+      <HelpTOCNode Title="NineGagApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.NineGagApiSettings.htm" />
+      <HelpTOCNode Id="57929b55-a581-443a-9b47-8c7762b05533" Title="NineGagApiSettings Properties" Url="html/Properties.T-ComedyHub.Core.Configuration.NineGagApiSettings.htm">
+        <HelpTOCNode Title="Url Property " Url="html/P-ComedyHub.Core.Configuration.NineGagApiSettings.Url.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a257eabe-e54c-46cf-bd08-4a1dc90bd4c6" Title="RedditApiSettings Class" Url="html/T-ComedyHub.Core.Configuration.RedditApiSettings.htm">
+      <HelpTOCNode Title="RedditApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.RedditApiSettings.htm" />
+      <HelpTOCNode Id="04c6ae80-44a2-4a01-ae34-43a656de30d1" Title="RedditApiSettings Properties" Url="html/Properties.T-ComedyHub.Core.Configuration.RedditApiSettings.htm">
+        <HelpTOCNode Title="NumPostsToReceive Property " Url="html/P-ComedyHub.Core.Configuration.RedditApiSettings.NumPostsToReceive.htm" />
+        <HelpTOCNode Title="SubredditToFetch Property " Url="html/P-ComedyHub.Core.Configuration.RedditApiSettings.SubredditToFetch.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2a395730-b3b5-4549-a465-718ffdbfb351" Title="TelegramApiSettings Class" Url="html/T-ComedyHub.Core.Configuration.TelegramApiSettings.htm">
+      <HelpTOCNode Title="TelegramApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.TelegramApiSettings.htm" />
+      <HelpTOCNode Id="cd11535c-e92c-44b6-a6fc-05437fc6dd05" Title="TelegramApiSettings Properties" Url="html/Properties.T-ComedyHub.Core.Configuration.TelegramApiSettings.htm">
+        <HelpTOCNode Title="ParseMode Property " Url="html/P-ComedyHub.Core.Configuration.TelegramApiSettings.ParseMode.htm" />
+        <HelpTOCNode Title="Url Property " Url="html/P-ComedyHub.Core.Configuration.TelegramApiSettings.Url.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7f79d67f-666b-4e30-9df9-ccebe4a5b2bd" Title="TwitterBotSettings Class" Url="html/T-ComedyHub.Core.Configuration.TwitterBotSettings.htm">
+      <HelpTOCNode Title="TwitterBotSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.TwitterBotSettings.htm" />
+      <HelpTOCNode Id="5bb848c0-5517-4056-9205-753ac590d3de" Title="TwitterBotSettings Properties" Url="html/Properties.T-ComedyHub.Core.Configuration.TwitterBotSettings.htm">
+        <HelpTOCNode Title="BotScreenName Property " Url="html/P-ComedyHub.Core.Configuration.TwitterBotSettings.BotScreenName.htm" />
+        <HelpTOCNode Title="NumStatusToFetch Property " Url="html/P-ComedyHub.Core.Configuration.TwitterBotSettings.NumStatusToFetch.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="f701d143-3894-4702-bb71-9c4d6722c3a8" Title="ComedyHub.Core.Configuration.Contracts Namespace" Url="html/N-ComedyHub.Core.Configuration.Contracts.htm">
+    <HelpTOCNode Id="fc077fb0-f053-4039-8cd5-cf41f033d4f8" Title="IApplicationSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.htm">
+      <HelpTOCNode Title="IApplicationSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.htm" />
+      <HelpTOCNode Id="bcbeceb8-bb2b-4889-bbe6-eeb72fd8118e" Title="IApplicationSettings Properties" Url="html/Properties.T-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.htm">
+        <HelpTOCNode Title="DefaultTags Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.DefaultTags.htm" />
+        <HelpTOCNode Title="ServicesToFetch Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.ServicesToFetch.htm" />
+        <HelpTOCNode Title="SizeLimitMegaBytes Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.SizeLimitMegaBytes.htm" />
+        <HelpTOCNode Title="SupportedImageExtensions Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.SupportedImageExtensions.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8397e2a8-c5a7-4803-a565-08ee000d78d7" Title="INineGagApiSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.htm">
+      <HelpTOCNode Title="INineGagApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.htm" />
+      <HelpTOCNode Id="77db79d8-e222-4290-991a-de2b5cd4838d" Title="INineGagApiSettings Properties" Url="html/Properties.T-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.htm">
+        <HelpTOCNode Title="Url Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.Url.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="061a00d8-d2d6-4b31-b57b-28d8bc8a77e8" Title="IRedditApiSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.htm">
+      <HelpTOCNode Title="IRedditApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.htm" />
+      <HelpTOCNode Id="077608fc-9d81-4944-add6-302af505726c" Title="IRedditApiSettings Properties" Url="html/Properties.T-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.htm">
+        <HelpTOCNode Title="NumPostsToReceive Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.NumPostsToReceive.htm" />
+        <HelpTOCNode Title="SubredditToFetch Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.SubredditToFetch.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="89aeb6f0-b0a8-451d-88e7-c4d75925d9d0" Title="ITelegramApiSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.htm">
+      <HelpTOCNode Title="ITelegramApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.htm" />
+      <HelpTOCNode Id="5d52c54c-4920-4a8f-9777-3a47dc06f747" Title="ITelegramApiSettings Properties" Url="html/Properties.T-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.htm">
+        <HelpTOCNode Title="ParseMode Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.ParseMode.htm" />
+        <HelpTOCNode Title="Url Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.Url.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d860ae30-71e8-4709-8681-6d7b3ca4afcc" Title="ITwitterBotSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.htm">
+      <HelpTOCNode Title="ITwitterBotSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.htm" />
+      <HelpTOCNode Id="3207aeb9-4333-4b0d-8669-02ac5b545c3c" Title="ITwitterBotSettings Properties" Url="html/Properties.T-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.htm">
+        <HelpTOCNode Title="BotScreenName Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.BotScreenName.htm" />
+        <HelpTOCNode Title="NumStatusToFetch Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.NumStatusToFetch.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="745236fd-bdf3-48ec-854c-7e880f1cd0b6" Title="ComedyHub.Core.Constants Namespace" Url="html/N-ComedyHub.Core.Constants.htm">
+    <HelpTOCNode Id="65e310d5-87f3-44ca-b24a-dcef89f81b50" Title="MediaType Class" Url="html/T-ComedyHub.Core.Constants.MediaType.htm">
+      <HelpTOCNode Title="MediaType Members" Url="html/AllMembers.T-ComedyHub.Core.Constants.MediaType.htm" />
+      <HelpTOCNode Id="7766a5a7-3130-4ae7-a98f-3e09ca6a0742" Title="MediaType Fields" Url="html/Fields.T-ComedyHub.Core.Constants.MediaType.htm">
+        <HelpTOCNode Title="MediaFileAnimated Field" Url="html/F-ComedyHub.Core.Constants.MediaType.MediaFileAnimated.htm" />
+        <HelpTOCNode Title="MediaFilePhoto Field" Url="html/F-ComedyHub.Core.Constants.MediaType.MediaFilePhoto.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bee12b61-e10e-4495-8753-d1e5455c5c20" Title="MemeProvider Class" Url="html/T-ComedyHub.Core.Constants.MemeProvider.htm">
+      <HelpTOCNode Title="MemeProvider Members" Url="html/AllMembers.T-ComedyHub.Core.Constants.MemeProvider.htm" />
+      <HelpTOCNode Id="f5640d8f-1b68-4441-accb-c4b48fa39eee" Title="MemeProvider Fields" Url="html/Fields.T-ComedyHub.Core.Constants.MemeProvider.htm">
+        <HelpTOCNode Title="NineGag Field" Url="html/F-ComedyHub.Core.Constants.MemeProvider.NineGag.htm" />
+        <HelpTOCNode Title="Reddit Field" Url="html/F-ComedyHub.Core.Constants.MemeProvider.Reddit.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="4c7dd691-5e59-4640-b55d-abd79f37fb2c" Title="ComedyHub.Core.Infrastructure.Gateway Namespace" Url="html/N-ComedyHub.Core.Infrastructure.Gateway.htm">
+    <HelpTOCNode Id="b8cc86dd-3014-4085-a676-614ca17bd38c" Title="ContentGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.htm">
+      <HelpTOCNode Title="ContentGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.htm" />
+      <HelpTOCNode Id="3e27fa2c-0fe1-41f9-b3f6-730bb973d16f" Title="ContentGateway Methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.htm">
+        <HelpTOCNode Title="GetContentHeaders Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.GetContentHeaders.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f690047d-3583-44d8-9237-e80fb9c644f6" Title="NineGagGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm">
+      <HelpTOCNode Title="NineGagGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm" />
+      <HelpTOCNode Title="NineGagGateway Constructor " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.-ctor.htm" />
+      <HelpTOCNode Id="c5d93567-d6bb-4b1e-9ca2-52cf1b24fb6c" Title="NineGagGateway Fields" Url="html/Fields.T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm">
+        <HelpTOCNode Title="_nineGagApiSettings Field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway._nineGagApiSettings.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3e2f3915-0be7-472f-b23f-a48a937e1d1f" Title="NineGagGateway Methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm">
+        <HelpTOCNode Title="GetNineGagMeme Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.GetNineGagMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7092e049-9283-4b25-8960-9b8a47991cfd" Title="RedditGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm">
+      <HelpTOCNode Title="RedditGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm" />
+      <HelpTOCNode Title="RedditGateway Constructor " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.-ctor.htm" />
+      <HelpTOCNode Id="a9d691d1-1cd9-425c-b38f-eef91bf4712f" Title="RedditGateway Fields" Url="html/Fields.T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm">
+        <HelpTOCNode Title="_redditApiSettings Field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.RedditGateway._redditApiSettings.htm" />
+        <HelpTOCNode Title="_redditAuth Field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.RedditGateway._redditAuth.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="388caf00-6489-4d31-ba1c-4540d3a1b20b" Title="RedditGateway Methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm">
+        <HelpTOCNode Title="GetRedditMeme Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.GetRedditMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="41168ec7-fb50-4405-bb1c-bcc9d4912076" Title="TelegramGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm">
+      <HelpTOCNode Title="TelegramGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm" />
+      <HelpTOCNode Title="TelegramGateway Constructor " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.-ctor.htm" />
+      <HelpTOCNode Id="57c613ed-3429-4a48-905f-f06e277f33ca" Title="TelegramGateway Fields" Url="html/Fields.T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm">
+        <HelpTOCNode Title="_telegramApiSettings Field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway._telegramApiSettings.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3fae6098-f0ec-4cec-950d-7a515d37e54f" Title="TelegramGateway Methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm">
+        <HelpTOCNode Title="ConvertToJsonData Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.ConvertToJsonData.htm" />
+        <HelpTOCNode Title="SendPhotoMessage Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.SendPhotoMessage.htm" />
+        <HelpTOCNode Title="SendTextMessage Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.SendTextMessage.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="1b233d12-3844-439e-91dd-a843382ab5f8" Title="ComedyHub.Core.Infrastructure.Gateway.Contracts Namespace" Url="html/N-ComedyHub.Core.Infrastructure.Gateway.Contracts.htm">
+    <HelpTOCNode Id="e5c6ae80-da0c-415d-9837-59c9898350a2" Title="IContentGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.htm">
+      <HelpTOCNode Title="IContentGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.htm" />
+      <HelpTOCNode Id="b314d1c4-5015-4808-b90b-26bd875eca11" Title="IContentGateway Methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.htm">
+        <HelpTOCNode Title="GetContentHeaders Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.GetContentHeaders.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cdb7869b-a587-467d-b035-7479dbc2164f" Title="INineGagGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.htm">
+      <HelpTOCNode Title="INineGagGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.htm" />
+      <HelpTOCNode Id="2adb253a-943f-4501-b9b9-53f5e9e4f3d7" Title="INineGagGateway Methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.htm">
+        <HelpTOCNode Title="GetNineGagMeme Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.GetNineGagMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d333d690-76b5-4a4d-aa2d-d06997676b52" Title="IRedditGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.htm">
+      <HelpTOCNode Title="IRedditGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.htm" />
+      <HelpTOCNode Id="8095bbb2-61a6-43b6-a628-3e8a9436c303" Title="IRedditGateway Methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.htm">
+        <HelpTOCNode Title="GetRedditMeme Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.GetRedditMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e2c8ff31-c606-4837-a2b6-e0d457d31106" Title="ITelegramGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.htm">
+      <HelpTOCNode Title="ITelegramGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.htm" />
+      <HelpTOCNode Id="132455e0-5993-468f-b53c-576f57c818a6" Title="ITelegramGateway Methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.htm">
+        <HelpTOCNode Title="SendPhotoMessage Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.SendPhotoMessage.htm" />
+        <HelpTOCNode Title="SendTextMessage Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.SendTextMessage.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="173f9e2c-ae29-4451-a373-9ffb367c8c4f" Title="ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels Namespace" Url="html/N-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.htm">
+    <HelpTOCNode Id="a113ba67-a32b-4e4d-9c2b-166ae844257d" Title="Data Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.htm">
+      <HelpTOCNode Title="Data Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.htm" />
+      <HelpTOCNode Id="8a30c84f-43cc-4137-908f-996796786eb1" Title="Data Properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.htm">
+        <HelpTOCNode Title="NextCursor Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.NextCursor.htm" />
+        <HelpTOCNode Title="Posts Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.Posts.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8615453d-d87d-4071-b05c-1f02de7e3897" Title="Image Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.htm">
+      <HelpTOCNode Title="Image Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.htm" />
+      <HelpTOCNode Id="75f6fd92-5f81-4d14-a6d9-be10f88faf85" Title="Image Properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.htm">
+        <HelpTOCNode Title="Height Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.Height.htm" />
+        <HelpTOCNode Title="Url Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.Url.htm" />
+        <HelpTOCNode Title="WebpUrl Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.WebpUrl.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.Width.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3197b622-5c4a-47a9-9a53-c8bd49f58ceb" Title="Images Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.htm">
+      <HelpTOCNode Title="Images Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.htm" />
+      <HelpTOCNode Id="9df25b5c-4030-4f26-91fd-0e25913d0fe8" Title="Images Properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.htm">
+        <HelpTOCNode Title="Image460 Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.Image460.htm" />
+        <HelpTOCNode Title="Image700 Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.Image700.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c7577b20-c7b9-47c8-b99b-2b90dc10ff61" Title="NineGagModel Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.htm">
+      <HelpTOCNode Title="NineGagModel Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.htm" />
+      <HelpTOCNode Id="7aaaab58-d5a7-431f-9e18-854fa557e2e7" Title="NineGagModel Properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.htm">
+        <HelpTOCNode Title="Data Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.Data.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="896f1637-d5a8-4054-b249-6df4c157595b" Title="NineGagPost Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.htm">
+      <HelpTOCNode Title="NineGagPost Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.htm" />
+      <HelpTOCNode Id="0279acb3-f51c-4ad2-818f-797e73cd72a4" Title="NineGagPost Properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.htm">
+        <HelpTOCNode Title="CommentsCount Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.CommentsCount.htm" />
+        <HelpTOCNode Title="CreationTs Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.CreationTs.htm" />
+        <HelpTOCNode Title="DescriptionHtml Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.DescriptionHtml.htm" />
+        <HelpTOCNode Title="DownVoteCount Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.DownVoteCount.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Id.htm" />
+        <HelpTOCNode Title="Images Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Images.htm" />
+        <HelpTOCNode Title="Nsfw Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Nsfw.htm" />
+        <HelpTOCNode Title="PostSection Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.PostSection.htm" />
+        <HelpTOCNode Title="Tags Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Tags.htm" />
+        <HelpTOCNode Title="Title Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Title.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Type.htm" />
+        <HelpTOCNode Title="UpVoteCount Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.UpVoteCount.htm" />
+        <HelpTOCNode Title="Url Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Url.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cb76187c-901d-43e0-b573-72f881d045dd" Title="PostSection Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.htm">
+      <HelpTOCNode Title="PostSection Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.htm" />
+      <HelpTOCNode Id="880280a5-a8f2-4a0b-87ce-9aa59e4a4a5f" Title="PostSection Properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.htm">
+        <HelpTOCNode Title="ImageUrl Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.ImageUrl.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.Name.htm" />
+        <HelpTOCNode Title="Url Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.Url.htm" />
+        <HelpTOCNode Title="WebpUrl Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.WebpUrl.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c3b1d73b-5aca-4b61-8056-56a7474ad46b" Title="Tag Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.htm">
+      <HelpTOCNode Title="Tag Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.htm" />
+      <HelpTOCNode Id="4bef320e-086f-489e-9d35-55dde8c7b310" Title="Tag Properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.htm">
+        <HelpTOCNode Title="Key Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.Key.htm" />
+        <HelpTOCNode Title="Url Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.Url.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="7bd94d07-c698-489f-b9dd-1554c5a75668" Title="ComedyHub.Core.Services Namespace" Url="html/N-ComedyHub.Core.Services.htm">
+    <HelpTOCNode Id="b1c19342-2066-49e5-94de-155c94e9506b" Title="FilterService Class" Url="html/T-ComedyHub.Core.Services.FilterService.htm">
+      <HelpTOCNode Title="FilterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.FilterService.htm" />
+      <HelpTOCNode Title="FilterService Constructor " Url="html/M-ComedyHub.Core.Services.FilterService.-ctor.htm" />
+      <HelpTOCNode Id="16ea77d8-7779-44e9-a87c-835ef9e60c1b" Title="FilterService Fields" Url="html/Fields.T-ComedyHub.Core.Services.FilterService.htm">
+        <HelpTOCNode Title="_applicationSettings Field" Url="html/F-ComedyHub.Core.Services.FilterService._applicationSettings.htm" />
+        <HelpTOCNode Title="_contentGateway Field" Url="html/F-ComedyHub.Core.Services.FilterService._contentGateway.htm" />
+        <HelpTOCNode Title="_twitterAuth Field" Url="html/F-ComedyHub.Core.Services.FilterService._twitterAuth.htm" />
+        <HelpTOCNode Title="_twitterBotSettings Field" Url="html/F-ComedyHub.Core.Services.FilterService._twitterBotSettings.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ce0068bd-60d9-4c9b-8af1-5ab159783008" Title="FilterService Methods" Url="html/Methods.T-ComedyHub.Core.Services.FilterService.htm">
+        <HelpTOCNode Title="FilterMemes Method " Url="html/M-ComedyHub.Core.Services.FilterService.FilterMemes.htm" />
+        <HelpTOCNode Title="GetRandomPost Method " Url="html/M-ComedyHub.Core.Services.FilterService.GetRandomPost.htm" />
+        <HelpTOCNode Title="RemoveDuplicates Method " Url="html/M-ComedyHub.Core.Services.FilterService.RemoveDuplicates.htm" />
+        <HelpTOCNode Title="RemoveImagesWithSizeLimit Method " Url="html/M-ComedyHub.Core.Services.FilterService.RemoveImagesWithSizeLimit.htm" />
+        <HelpTOCNode Title="RemovePostsWithoutImage Method " Url="html/M-ComedyHub.Core.Services.FilterService.RemovePostsWithoutImage.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5edb36b2-b02b-4ee7-a8f7-1ff524adca8c" Title="MapperService Class" Url="html/T-ComedyHub.Core.Services.MapperService.htm">
+      <HelpTOCNode Title="MapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.MapperService.htm" />
+      <HelpTOCNode Title="MapperService Constructor " Url="html/M-ComedyHub.Core.Services.MapperService.-ctor.htm" />
+      <HelpTOCNode Id="2f414f52-b41e-47c1-af77-5ac8dbad4894" Title="MapperService Fields" Url="html/Fields.T-ComedyHub.Core.Services.MapperService.htm">
+        <HelpTOCNode Title="_applicationSettings Field" Url="html/F-ComedyHub.Core.Services.MapperService._applicationSettings.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="82deaf0d-45a7-48f2-b813-f6fade55e102" Title="MapperService Methods" Url="html/Methods.T-ComedyHub.Core.Services.MapperService.htm">
+        <HelpTOCNode Title="AddTagsToTitle Method " Url="html/M-ComedyHub.Core.Services.MapperService.AddTagsToTitle.htm" />
+        <HelpTOCNode Title="MapToMemeModels Method " Url="html/M-ComedyHub.Core.Services.MapperService.MapToMemeModels.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="abadf353-e555-4ea8-856b-3ae65f9c3b9b" Title="NineGagFetchService Class" Url="html/T-ComedyHub.Core.Services.NineGagFetchService.htm">
+      <HelpTOCNode Title="NineGagFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.NineGagFetchService.htm" />
+      <HelpTOCNode Title="NineGagFetchService Constructor " Url="html/M-ComedyHub.Core.Services.NineGagFetchService.-ctor.htm" />
+      <HelpTOCNode Id="0203a887-b945-45aa-942c-24e31dd24c0d" Title="NineGagFetchService Fields" Url="html/Fields.T-ComedyHub.Core.Services.NineGagFetchService.htm">
+        <HelpTOCNode Title="_nineGagGateway Field" Url="html/F-ComedyHub.Core.Services.NineGagFetchService._nineGagGateway.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="165daf27-be99-4197-9774-0b5e4ae28311" Title="NineGagFetchService Methods" Url="html/Methods.T-ComedyHub.Core.Services.NineGagFetchService.htm">
+        <HelpTOCNode Title="GetNineGagModelMeme Method " Url="html/M-ComedyHub.Core.Services.NineGagFetchService.GetNineGagModelMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6c611299-54a6-44bb-b1e2-5d299f9e1f16" Title="NineGagMapperService Class" Url="html/T-ComedyHub.Core.Services.NineGagMapperService.htm">
+      <HelpTOCNode Title="NineGagMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.NineGagMapperService.htm" />
+      <HelpTOCNode Title="NineGagMapperService Constructor " Url="html/M-ComedyHub.Core.Services.NineGagMapperService.-ctor.htm" />
+      <HelpTOCNode Id="2adb8be7-2b8f-4221-b64a-1f222c4fc143" Title="NineGagMapperService Fields" Url="html/Fields.T-ComedyHub.Core.Services.NineGagMapperService.htm">
+        <HelpTOCNode Title="_mapperService Field" Url="html/F-ComedyHub.Core.Services.NineGagMapperService._mapperService.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d9a126f8-c745-4893-a107-5c91a265e85d" Title="NineGagMapperService Methods" Url="html/Methods.T-ComedyHub.Core.Services.NineGagMapperService.htm">
+        <HelpTOCNode Title="NineGagModelToMemes Method " Url="html/M-ComedyHub.Core.Services.NineGagMapperService.NineGagModelToMemes.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c013e434-9615-427c-bafc-aacd7dc7f79d" Title="NotificationTelegramService Class" Url="html/T-ComedyHub.Core.Services.NotificationTelegramService.htm">
+      <HelpTOCNode Title="NotificationTelegramService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.NotificationTelegramService.htm" />
+      <HelpTOCNode Title="NotificationTelegramService Constructor " Url="html/M-ComedyHub.Core.Services.NotificationTelegramService.-ctor.htm" />
+      <HelpTOCNode Id="86f7579c-98a2-4fc3-a5ef-4814aa5a2f6e" Title="NotificationTelegramService Fields" Url="html/Fields.T-ComedyHub.Core.Services.NotificationTelegramService.htm">
+        <HelpTOCNode Title="_logger Field" Url="html/F-ComedyHub.Core.Services.NotificationTelegramService._logger.htm" />
+        <HelpTOCNode Title="_telegramApiSettings Field" Url="html/F-ComedyHub.Core.Services.NotificationTelegramService._telegramApiSettings.htm" />
+        <HelpTOCNode Title="_telegramGateway Field" Url="html/F-ComedyHub.Core.Services.NotificationTelegramService._telegramGateway.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="51e15eeb-cfc4-4d8f-b3b4-004c345bcc07" Title="NotificationTelegramService Methods" Url="html/Methods.T-ComedyHub.Core.Services.NotificationTelegramService.htm">
+        <HelpTOCNode Title="SendTelegramFailureNotification Method " Url="html/M-ComedyHub.Core.Services.NotificationTelegramService.SendTelegramFailureNotification.htm" />
+        <HelpTOCNode Title="SendTelegramSucessNotification Method " Url="html/M-ComedyHub.Core.Services.NotificationTelegramService.SendTelegramSucessNotification.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="06679ab8-9532-4469-88ab-260509f0b73c" Title="PublishTwitterService Class" Url="html/T-ComedyHub.Core.Services.PublishTwitterService.htm">
+      <HelpTOCNode Title="PublishTwitterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.PublishTwitterService.htm" />
+      <HelpTOCNode Id="2ffb65a5-2c5c-40c0-b8d3-0ea6aacfe96b" Title="PublishTwitterService Methods" Url="html/Methods.T-ComedyHub.Core.Services.PublishTwitterService.htm">
+        <HelpTOCNode Title="PublishToTwitter Method " Url="html/M-ComedyHub.Core.Services.PublishTwitterService.PublishToTwitter.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b84fd87e-66f9-4090-8154-abdebb9b176e" Title="RedditFetchService Class" Url="html/T-ComedyHub.Core.Services.RedditFetchService.htm">
+      <HelpTOCNode Title="RedditFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.RedditFetchService.htm" />
+      <HelpTOCNode Title="RedditFetchService Constructor " Url="html/M-ComedyHub.Core.Services.RedditFetchService.-ctor.htm" />
+      <HelpTOCNode Id="35f33b6d-91bd-4e56-9557-963879d000ac" Title="RedditFetchService Fields" Url="html/Fields.T-ComedyHub.Core.Services.RedditFetchService.htm">
+        <HelpTOCNode Title="_redditGateway Field" Url="html/F-ComedyHub.Core.Services.RedditFetchService._redditGateway.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ee8cf7c6-476a-4fe5-86f3-5228b76491ea" Title="RedditFetchService Methods" Url="html/Methods.T-ComedyHub.Core.Services.RedditFetchService.htm">
+        <HelpTOCNode Title="GetRedditModelMeme Method " Url="html/M-ComedyHub.Core.Services.RedditFetchService.GetRedditModelMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2e50778b-e967-4b1f-a253-244892c843a3" Title="RedditMapperService Class" Url="html/T-ComedyHub.Core.Services.RedditMapperService.htm">
+      <HelpTOCNode Title="RedditMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.RedditMapperService.htm" />
+      <HelpTOCNode Title="RedditMapperService Constructor " Url="html/M-ComedyHub.Core.Services.RedditMapperService.-ctor.htm" />
+      <HelpTOCNode Id="626ccb4d-f5b7-405e-bbf6-63e76b1c464a" Title="RedditMapperService Fields" Url="html/Fields.T-ComedyHub.Core.Services.RedditMapperService.htm">
+        <HelpTOCNode Title="_applicationSettings Field" Url="html/F-ComedyHub.Core.Services.RedditMapperService._applicationSettings.htm" />
+        <HelpTOCNode Title="_mapperService Field" Url="html/F-ComedyHub.Core.Services.RedditMapperService._mapperService.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="03c7d448-7d69-4565-91e1-99b83768250e" Title="RedditMapperService Methods" Url="html/Methods.T-ComedyHub.Core.Services.RedditMapperService.htm">
+        <HelpTOCNode Title="RedditModelToMemes Method " Url="html/M-ComedyHub.Core.Services.RedditMapperService.RedditModelToMemes.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="4391bbcb-8032-4edb-85fe-bc501734831e" Title="ComedyHub.Core.Services.Contracts Namespace" Url="html/N-ComedyHub.Core.Services.Contracts.htm">
+    <HelpTOCNode Id="8cc529c8-d7f9-4f2a-92d4-b40232468222" Title="IFilterService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IFilterService.htm">
+      <HelpTOCNode Title="IFilterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IFilterService.htm" />
+      <HelpTOCNode Id="de34a6e9-f8cf-439d-91ee-5c595ec0affa" Title="IFilterService Methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.IFilterService.htm">
+        <HelpTOCNode Title="FilterMemes Method " Url="html/M-ComedyHub.Core.Services.Contracts.IFilterService.FilterMemes.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="731c0c75-f51a-4212-b4fe-185a2daead72" Title="IMapperService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IMapperService.htm">
+      <HelpTOCNode Title="IMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IMapperService.htm" />
+      <HelpTOCNode Id="721be81a-b54d-45eb-95b9-57f164c5daa3" Title="IMapperService Methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.IMapperService.htm">
+        <HelpTOCNode Title="MapToMemeModels Method " Url="html/M-ComedyHub.Core.Services.Contracts.IMapperService.MapToMemeModels.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f97f370c-05df-4df5-bb75-54247f7f8660" Title="INineGagFetchService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.INineGagFetchService.htm">
+      <HelpTOCNode Title="INineGagFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INineGagFetchService.htm" />
+      <HelpTOCNode Id="60ab78d1-5112-4ec0-ae61-3ef1b61e3092" Title="INineGagFetchService Methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.INineGagFetchService.htm">
+        <HelpTOCNode Title="GetNineGagModelMeme Method " Url="html/M-ComedyHub.Core.Services.Contracts.INineGagFetchService.GetNineGagModelMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="28e38640-1321-47ef-ab24-cf6ad5d2fb8b" Title="INineGagMapperService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.INineGagMapperService.htm">
+      <HelpTOCNode Title="INineGagMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INineGagMapperService.htm" />
+      <HelpTOCNode Id="08322a34-124b-4256-ab7b-7f06fbfcbf02" Title="INineGagMapperService Methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.INineGagMapperService.htm">
+        <HelpTOCNode Title="NineGagModelToMemes Method " Url="html/M-ComedyHub.Core.Services.Contracts.INineGagMapperService.NineGagModelToMemes.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0dcdd2c9-0af8-469a-9709-5ed57b70543c" Title="INotificationTelegramService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.INotificationTelegramService.htm">
+      <HelpTOCNode Title="INotificationTelegramService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INotificationTelegramService.htm" />
+      <HelpTOCNode Id="d5e98fc5-6318-4ec3-b33f-ad8ab7cc7cf1" Title="INotificationTelegramService Methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.INotificationTelegramService.htm">
+        <HelpTOCNode Title="SendTelegramFailureNotification Method " Url="html/M-ComedyHub.Core.Services.Contracts.INotificationTelegramService.SendTelegramFailureNotification.htm" />
+        <HelpTOCNode Title="SendTelegramSucessNotification Method " Url="html/M-ComedyHub.Core.Services.Contracts.INotificationTelegramService.SendTelegramSucessNotification.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="037ac64e-3202-4772-b7eb-d422cddedcba" Title="IPublishTwitterService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IPublishTwitterService.htm">
+      <HelpTOCNode Title="IPublishTwitterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IPublishTwitterService.htm" />
+      <HelpTOCNode Id="82af5ce7-3013-498d-89e5-fc29ca8a8dab" Title="IPublishTwitterService Methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.IPublishTwitterService.htm">
+        <HelpTOCNode Title="PublishToTwitter Method " Url="html/M-ComedyHub.Core.Services.Contracts.IPublishTwitterService.PublishToTwitter.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b37032f8-4bb7-4837-a73e-87381516ace5" Title="IRedditFetchService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IRedditFetchService.htm">
+      <HelpTOCNode Title="IRedditFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IRedditFetchService.htm" />
+      <HelpTOCNode Id="4e4ca23d-a837-46d7-960c-cacb9e76083e" Title="IRedditFetchService Methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.IRedditFetchService.htm">
+        <HelpTOCNode Title="GetRedditModelMeme Method " Url="html/M-ComedyHub.Core.Services.Contracts.IRedditFetchService.GetRedditModelMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="84560a6a-b659-484a-ac78-e00b38f0ebed" Title="IRedditMapperService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IRedditMapperService.htm">
+      <HelpTOCNode Title="IRedditMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IRedditMapperService.htm" />
+      <HelpTOCNode Id="a96ad22c-1e6d-49ad-8a30-4e4849b42116" Title="IRedditMapperService Methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.IRedditMapperService.htm">
+        <HelpTOCNode Title="RedditModelToMemes Method " Url="html/M-ComedyHub.Core.Services.Contracts.IRedditMapperService.RedditModelToMemes.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="e9f11729-9512-4202-b9e9-52675735b4e4" Title="ComedyHub.Host Namespace" Url="html/N-ComedyHub.Host.htm">
+    <HelpTOCNode Id="6abac26b-c70d-47c3-82fd-82c04dbc7935" Title="Program Class" Url="html/T-ComedyHub.Host.Program.htm">
+      <HelpTOCNode Title="Program Members" Url="html/AllMembers.T-ComedyHub.Host.Program.htm" />
+      <HelpTOCNode Id="e28968ec-f4a7-4ab3-a380-08aec4db179d" Title="Program Methods" Url="html/Methods.T-ComedyHub.Host.Program.htm">
+        <HelpTOCNode Title="CreateHostBuilder Method " Url="html/M-ComedyHub.Host.Program.CreateHostBuilder.htm" />
+        <HelpTOCNode Title="Main Method " Url="html/M-ComedyHub.Host.Program.Main.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e780f17a-37df-45bd-8670-2162b3e60627" Title="Startup Class" Url="html/T-ComedyHub.Host.Startup.htm">
+      <HelpTOCNode Title="Startup Members" Url="html/AllMembers.T-ComedyHub.Host.Startup.htm" />
+      <HelpTOCNode Title="Startup Constructor " Url="html/M-ComedyHub.Host.Startup.-ctor.htm" />
+      <HelpTOCNode Id="565e1c57-26fa-482d-b8bf-89d20db3fa3f" Title="Startup Methods" Url="html/Methods.T-ComedyHub.Host.Startup.htm">
+        <HelpTOCNode Title="Configure Method " Url="html/M-ComedyHub.Host.Startup.Configure.htm" />
+        <HelpTOCNode Title="ConfigureServices Method " Url="html/M-ComedyHub.Host.Startup.ConfigureServices.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0addd3c6-1a44-4c52-b5fb-2f02c7e848ad" Title="Startup Properties" Url="html/Properties.T-ComedyHub.Host.Startup.htm">
+        <HelpTOCNode Title="Configuration Property " Url="html/P-ComedyHub.Host.Startup.Configuration.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5879b5fe-2e04-4868-a558-ad1932995332" Title="ComedyHub.Host.Configuration Namespace" Url="html/N-ComedyHub.Host.Configuration.htm">
+    <HelpTOCNode Id="fbb39545-c916-4902-8844-7dc336e18ed0" Title="StartupConfiguration Class" Url="html/T-ComedyHub.Host.Configuration.StartupConfiguration.htm">
+      <HelpTOCNode Title="StartupConfiguration Members" Url="html/AllMembers.T-ComedyHub.Host.Configuration.StartupConfiguration.htm" />
+      <HelpTOCNode Id="6b168e4b-b158-42c9-8bb4-a6aa190c66f2" Title="StartupConfiguration Methods" Url="html/Methods.T-ComedyHub.Host.Configuration.StartupConfiguration.htm">
+        <HelpTOCNode Title="RegisterAuth Method " Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterAuth.htm" />
+        <HelpTOCNode Title="RegisterComponents Method " Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterComponents.htm" />
+        <HelpTOCNode Title="RegisterConfigurations Method " Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterConfigurations.htm" />
+        <HelpTOCNode Title="RegisterInfrastructure Method " Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterInfrastructure.htm" />
+        <HelpTOCNode Title="RegisterServices Method " Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterServices.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="0de9336d-cd59-4118-a131-6c9c1ab5b73b" Title="ComedyHub.Host.Controllers Namespace" Url="html/N-ComedyHub.Host.Controllers.htm">
+    <HelpTOCNode Id="a18401e4-61b6-4137-b079-d05dbd21fdd7" Title="MemesController Class" Url="html/T-ComedyHub.Host.Controllers.MemesController.htm">
+      <HelpTOCNode Title="MemesController Members" Url="html/AllMembers.T-ComedyHub.Host.Controllers.MemesController.htm" />
+      <HelpTOCNode Title="MemesController Constructor " Url="html/M-ComedyHub.Host.Controllers.MemesController.-ctor.htm" />
+      <HelpTOCNode Id="a2bb6186-bce7-4439-9f27-f6e079c235cf" Title="MemesController Fields" Url="html/Fields.T-ComedyHub.Host.Controllers.MemesController.htm">
+        <HelpTOCNode Title="_logger Field" Url="html/F-ComedyHub.Host.Controllers.MemesController._logger.htm" />
+        <HelpTOCNode Title="_memeOrchestrator Field" Url="html/F-ComedyHub.Host.Controllers.MemesController._memeOrchestrator.htm" />
+        <HelpTOCNode Title="_memeProcessor Field" Url="html/F-ComedyHub.Host.Controllers.MemesController._memeProcessor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="81b87e4a-658d-451c-be40-e3a215009f17" Title="MemesController Methods" Url="html/Methods.T-ComedyHub.Host.Controllers.MemesController.htm">
+        <HelpTOCNode Title="GetMeme Method " Url="html/M-ComedyHub.Host.Controllers.MemesController.GetMeme.htm" />
+        <HelpTOCNode Title="ProcessMeme Method " Url="html/M-ComedyHub.Host.Controllers.MemesController.ProcessMeme.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="71d1e62f-c0a6-43cc-ace0-fd3fc4519e92" Title="ComedyHub.Model.Meme Namespace" Url="html/N-ComedyHub.Model.Meme.htm">
+    <HelpTOCNode Id="c06d7c94-9e9e-49e7-bb93-74027678d056" Title="MemeModel Class" Url="html/T-ComedyHub.Model.Meme.MemeModel.htm">
+      <HelpTOCNode Title="MemeModel Members" Url="html/AllMembers.T-ComedyHub.Model.Meme.MemeModel.htm" />
+      <HelpTOCNode Id="ae15c9cb-a55e-45ce-8f2b-d7723381b629" Title="MemeModel Properties" Url="html/Properties.T-ComedyHub.Model.Meme.MemeModel.htm">
+        <HelpTOCNode Title="CommentsCount Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.CommentsCount.htm" />
+        <HelpTOCNode Title="DownVoteCount Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.DownVoteCount.htm" />
+        <HelpTOCNode Title="FileExtension Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.FileExtension.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.Id.htm" />
+        <HelpTOCNode Title="ImageUrl Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.ImageUrl.htm" />
+        <HelpTOCNode Title="MediaType Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.MediaType.htm" />
+        <HelpTOCNode Title="Nsfw Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.Nsfw.htm" />
+        <HelpTOCNode Title="Provider Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.Provider.htm" />
+        <HelpTOCNode Title="PublishedDate Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.PublishedDate.htm" />
+        <HelpTOCNode Title="Tags Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.Tags.htm" />
+        <HelpTOCNode Title="Title Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.Title.htm" />
+        <HelpTOCNode Title="UpVoteCount Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.UpVoteCount.htm" />
+        <HelpTOCNode Title="Url Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.Url.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="0392ecd6-8f98-40ff-b543-3289970afbb1" Title="ComedyHub.Model.Notification.TelegramMessage Namespace" Url="html/N-ComedyHub.Model.Notification.TelegramMessage.htm">
+    <HelpTOCNode Title="TelegramMessage Class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramMessage.htm" />
+    <HelpTOCNode Id="98055a66-ab03-4ff5-b79e-220655d7fbf2" Title="TelegramPhotoMessage Class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.htm">
+      <HelpTOCNode Title="TelegramPhotoMessage Members" Url="html/AllMembers.T-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.htm" />
+      <HelpTOCNode Id="514b6c66-556a-4223-87cc-f693c69135eb" Title="TelegramPhotoMessage Properties" Url="html/Properties.T-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.htm">
+        <HelpTOCNode Title="Caption Property " Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.Caption.htm" />
+        <HelpTOCNode Title="ChatId Property " Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.ChatId.htm" />
+        <HelpTOCNode Title="ParseMode Property " Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.ParseMode.htm" />
+        <HelpTOCNode Title="PhotoUrl Property " Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.PhotoUrl.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="36de31ae-9f03-4960-9dad-23ce9bdd913d" Title="TelegramTextMessage Class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.htm">
+      <HelpTOCNode Title="TelegramTextMessage Members" Url="html/AllMembers.T-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.htm" />
+      <HelpTOCNode Id="6c06b07f-acc3-401c-81b1-183638b53f04" Title="TelegramTextMessage Properties" Url="html/Properties.T-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.htm">
+        <HelpTOCNode Title="ChatId Property " Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.ChatId.htm" />
+        <HelpTOCNode Title="ParseMode Property " Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.ParseMode.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.Text.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="444f17da-845e-4247-82d6-d83b8cb25012" Title="ComedyHub.Model.Publish Namespace" Url="html/N-ComedyHub.Model.Publish.htm">
+    <HelpTOCNode Id="c2593570-5b97-4d19-8df7-49d7a8417d19" Title="PublishedModel Class" Url="html/T-ComedyHub.Model.Publish.PublishedModel.htm">
+      <HelpTOCNode Title="PublishedModel Members" Url="html/AllMembers.T-ComedyHub.Model.Publish.PublishedModel.htm" />
+      <HelpTOCNode Id="01661df9-f7ac-4878-9c6d-f799b176891f" Title="PublishedModel Properties" Url="html/Properties.T-ComedyHub.Model.Publish.PublishedModel.htm">
+        <HelpTOCNode Title="ImageUrl Property " Url="html/P-ComedyHub.Model.Publish.PublishedModel.ImageUrl.htm" />
+        <HelpTOCNode Title="MemeProvider Property " Url="html/P-ComedyHub.Model.Publish.PublishedModel.MemeProvider.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/P-ComedyHub.Model.Publish.PublishedModel.Message.htm" />
+        <HelpTOCNode Title="PublishedAt Property " Url="html/P-ComedyHub.Model.Publish.PublishedModel.PublishedAt.htm" />
+        <HelpTOCNode Title="PublishedURL Property " Url="html/P-ComedyHub.Model.Publish.PublishedModel.PublishedURL.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

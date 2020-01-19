@@ -1,0 +1,1335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AccessToken class">
+    <HelpKINode Title="AccessToken Class" Url="html/T-ComedyHub.Core.Auth.AccessToken.htm" />
+    <HelpKINode Title="AccessToken Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.AccessToken.htm" />
+    <HelpKINode Title="about AccessToken class" Url="html/T-ComedyHub.Core.Auth.AccessToken.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Auth.AccessToken.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Auth.AccessToken.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AccessToken.ACCESS_TOKEN_SECRET_TWITTER field" Url="html/F-ComedyHub.Core.Auth.AccessToken.ACCESS_TOKEN_SECRET_TWITTER.htm" />
+  <HelpKINode Title="AccessToken.ACCESS_TOKEN_TELEGRAM field" Url="html/F-ComedyHub.Core.Auth.AccessToken.ACCESS_TOKEN_TELEGRAM.htm" />
+  <HelpKINode Title="AccessToken.ACCESS_TOKEN_TWITTER field" Url="html/F-ComedyHub.Core.Auth.AccessToken.ACCESS_TOKEN_TWITTER.htm" />
+  <HelpKINode Title="ACCESS_TOKEN_SECRET_TWITTER field" Url="html/F-ComedyHub.Core.Auth.AccessToken.ACCESS_TOKEN_SECRET_TWITTER.htm" />
+  <HelpKINode Title="ACCESS_TOKEN_TELEGRAM field" Url="html/F-ComedyHub.Core.Auth.AccessToken.ACCESS_TOKEN_TELEGRAM.htm" />
+  <HelpKINode Title="ACCESS_TOKEN_TWITTER field" Url="html/F-ComedyHub.Core.Auth.AccessToken.ACCESS_TOKEN_TWITTER.htm" />
+  <HelpKINode Title="AddTagsToTitle method" Url="html/M-ComedyHub.Core.Services.MapperService.AddTagsToTitle.htm" />
+  <HelpKINode Title="AppInfo class">
+    <HelpKINode Title="AppInfo Class" Url="html/T-ComedyHub.Core.Auth.AppInfo.htm" />
+    <HelpKINode Title="AppInfo Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.AppInfo.htm" />
+    <HelpKINode Title="about AppInfo class" Url="html/T-ComedyHub.Core.Auth.AppInfo.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Auth.AppInfo.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Auth.AppInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AppInfo.REDDIT_APP_ID field" Url="html/F-ComedyHub.Core.Auth.AppInfo.REDDIT_APP_ID.htm" />
+  <HelpKINode Title="ApplicationSettings class">
+    <HelpKINode Title="ApplicationSettings Class" Url="html/T-ComedyHub.Core.Configuration.ApplicationSettings.htm" />
+    <HelpKINode Title="ApplicationSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.ApplicationSettings.htm" />
+    <HelpKINode Title="about ApplicationSettings class" Url="html/T-ComedyHub.Core.Configuration.ApplicationSettings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.ApplicationSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Configuration.ApplicationSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApplicationSettings.DefaultTags property" Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.DefaultTags.htm" />
+  <HelpKINode Title="ApplicationSettings.ServicesToFetch property" Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.ServicesToFetch.htm" />
+  <HelpKINode Title="ApplicationSettings.SizeLimitMegaBytes property" Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.SizeLimitMegaBytes.htm" />
+  <HelpKINode Title="ApplicationSettings.SupportedImageExtensions property" Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.SupportedImageExtensions.htm" />
+  <HelpKINode Title="BotScreenName property">
+    <HelpKINode Title="BotScreenName Property " Url="html/P-ComedyHub.Core.Configuration.TwitterBotSettings.BotScreenName.htm" />
+    <HelpKINode Title="BotScreenName Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.BotScreenName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Caption property" Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.Caption.htm" />
+  <HelpKINode Title="ChatId property">
+    <HelpKINode Title="ChatId Property " Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.ChatId.htm" />
+    <HelpKINode Title="ChatId Property " Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.ChatId.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Auth namespace" Url="html/N-ComedyHub.Core.Auth.htm" />
+  <HelpKINode Title="ComedyHub.Core.Auth.AccessToken class">
+    <HelpKINode Title="AccessToken Class" Url="html/T-ComedyHub.Core.Auth.AccessToken.htm" />
+    <HelpKINode Title="AccessToken Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.AccessToken.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Auth.AppInfo class">
+    <HelpKINode Title="AppInfo Class" Url="html/T-ComedyHub.Core.Auth.AppInfo.htm" />
+    <HelpKINode Title="AppInfo Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.AppInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Auth.ConsumerToken class">
+    <HelpKINode Title="ConsumerToken Class" Url="html/T-ComedyHub.Core.Auth.ConsumerToken.htm" />
+    <HelpKINode Title="ConsumerToken Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.ConsumerToken.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Auth.Contracts namespace" Url="html/N-ComedyHub.Core.Auth.Contracts.htm" />
+  <HelpKINode Title="ComedyHub.Core.Auth.Contracts.IRedditAuth interface">
+    <HelpKINode Title="IRedditAuth Interface" Url="html/T-ComedyHub.Core.Auth.Contracts.IRedditAuth.htm" />
+    <HelpKINode Title="IRedditAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.Contracts.IRedditAuth.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Auth.Contracts.ITwitterAuth interface">
+    <HelpKINode Title="ITwitterAuth Interface" Url="html/T-ComedyHub.Core.Auth.Contracts.ITwitterAuth.htm" />
+    <HelpKINode Title="ITwitterAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.Contracts.ITwitterAuth.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Auth.ReceiverInfo class">
+    <HelpKINode Title="ReceiverInfo Class" Url="html/T-ComedyHub.Core.Auth.ReceiverInfo.htm" />
+    <HelpKINode Title="ReceiverInfo Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.ReceiverInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Auth.RedditAuth class">
+    <HelpKINode Title="RedditAuth Class" Url="html/T-ComedyHub.Core.Auth.RedditAuth.htm" />
+    <HelpKINode Title="RedditAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.RedditAuth.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Auth.TwitterAuth class">
+    <HelpKINode Title="TwitterAuth Class" Url="html/T-ComedyHub.Core.Auth.TwitterAuth.htm" />
+    <HelpKINode Title="TwitterAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.TwitterAuth.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components namespace" Url="html/N-ComedyHub.Core.Components.htm" />
+  <HelpKINode Title="ComedyHub.Core.Components.Contracts namespace" Url="html/N-ComedyHub.Core.Components.Contracts.htm" />
+  <HelpKINode Title="ComedyHub.Core.Components.Contracts.IMemeOrchestrator interface">
+    <HelpKINode Title="IMemeOrchestrator Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.htm" />
+    <HelpKINode Title="IMemeOrchestrator Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components.Contracts.IMemeProcessor interface">
+    <HelpKINode Title="IMemeProcessor Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IMemeProcessor.htm" />
+    <HelpKINode Title="IMemeProcessor Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IMemeProcessor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components.Contracts.INineGagComponent interface">
+    <HelpKINode Title="INineGagComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.INineGagComponent.htm" />
+    <HelpKINode Title="INineGagComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.INineGagComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components.Contracts.INotificationComponent interface">
+    <HelpKINode Title="INotificationComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.INotificationComponent.htm" />
+    <HelpKINode Title="INotificationComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.INotificationComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components.Contracts.IPublishComponent interface">
+    <HelpKINode Title="IPublishComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IPublishComponent.htm" />
+    <HelpKINode Title="IPublishComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IPublishComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components.Contracts.IRedditComponent interface">
+    <HelpKINode Title="IRedditComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IRedditComponent.htm" />
+    <HelpKINode Title="IRedditComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IRedditComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components.MemeOrchestrator class">
+    <HelpKINode Title="MemeOrchestrator Class" Url="html/T-ComedyHub.Core.Components.MemeOrchestrator.htm" />
+    <HelpKINode Title="MemeOrchestrator Members" Url="html/AllMembers.T-ComedyHub.Core.Components.MemeOrchestrator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components.MemeProcessor class">
+    <HelpKINode Title="MemeProcessor Class" Url="html/T-ComedyHub.Core.Components.MemeProcessor.htm" />
+    <HelpKINode Title="MemeProcessor Members" Url="html/AllMembers.T-ComedyHub.Core.Components.MemeProcessor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components.NineGagComponent class">
+    <HelpKINode Title="NineGagComponent Class" Url="html/T-ComedyHub.Core.Components.NineGagComponent.htm" />
+    <HelpKINode Title="NineGagComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.NineGagComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components.NotificationComponent class">
+    <HelpKINode Title="NotificationComponent Class" Url="html/T-ComedyHub.Core.Components.NotificationComponent.htm" />
+    <HelpKINode Title="NotificationComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.NotificationComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components.PublishComponent class">
+    <HelpKINode Title="PublishComponent Class" Url="html/T-ComedyHub.Core.Components.PublishComponent.htm" />
+    <HelpKINode Title="PublishComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.PublishComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Components.RedditComponent class">
+    <HelpKINode Title="RedditComponent Class" Url="html/T-ComedyHub.Core.Components.RedditComponent.htm" />
+    <HelpKINode Title="RedditComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.RedditComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Configuration namespace" Url="html/N-ComedyHub.Core.Configuration.htm" />
+  <HelpKINode Title="ComedyHub.Core.Configuration.ApplicationSettings class">
+    <HelpKINode Title="ApplicationSettings Class" Url="html/T-ComedyHub.Core.Configuration.ApplicationSettings.htm" />
+    <HelpKINode Title="ApplicationSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.ApplicationSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Configuration.Contracts namespace" Url="html/N-ComedyHub.Core.Configuration.Contracts.htm" />
+  <HelpKINode Title="ComedyHub.Core.Configuration.Contracts.IApplicationSettings interface">
+    <HelpKINode Title="IApplicationSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.htm" />
+    <HelpKINode Title="IApplicationSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Configuration.Contracts.INineGagApiSettings interface">
+    <HelpKINode Title="INineGagApiSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.htm" />
+    <HelpKINode Title="INineGagApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Configuration.Contracts.IRedditApiSettings interface">
+    <HelpKINode Title="IRedditApiSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.htm" />
+    <HelpKINode Title="IRedditApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings interface">
+    <HelpKINode Title="ITelegramApiSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.htm" />
+    <HelpKINode Title="ITelegramApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings interface">
+    <HelpKINode Title="ITwitterBotSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.htm" />
+    <HelpKINode Title="ITwitterBotSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Configuration.NineGagApiSettings class">
+    <HelpKINode Title="NineGagApiSettings Class" Url="html/T-ComedyHub.Core.Configuration.NineGagApiSettings.htm" />
+    <HelpKINode Title="NineGagApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.NineGagApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Configuration.RedditApiSettings class">
+    <HelpKINode Title="RedditApiSettings Class" Url="html/T-ComedyHub.Core.Configuration.RedditApiSettings.htm" />
+    <HelpKINode Title="RedditApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.RedditApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Configuration.TelegramApiSettings class">
+    <HelpKINode Title="TelegramApiSettings Class" Url="html/T-ComedyHub.Core.Configuration.TelegramApiSettings.htm" />
+    <HelpKINode Title="TelegramApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.TelegramApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Configuration.TwitterBotSettings class">
+    <HelpKINode Title="TwitterBotSettings Class" Url="html/T-ComedyHub.Core.Configuration.TwitterBotSettings.htm" />
+    <HelpKINode Title="TwitterBotSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.TwitterBotSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Constants namespace" Url="html/N-ComedyHub.Core.Constants.htm" />
+  <HelpKINode Title="ComedyHub.Core.Constants.MediaType class">
+    <HelpKINode Title="MediaType Class" Url="html/T-ComedyHub.Core.Constants.MediaType.htm" />
+    <HelpKINode Title="MediaType Members" Url="html/AllMembers.T-ComedyHub.Core.Constants.MediaType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Constants.MemeProvider class">
+    <HelpKINode Title="MemeProvider Class" Url="html/T-ComedyHub.Core.Constants.MemeProvider.htm" />
+    <HelpKINode Title="MemeProvider Members" Url="html/AllMembers.T-ComedyHub.Core.Constants.MemeProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway namespace" Url="html/N-ComedyHub.Core.Infrastructure.Gateway.htm" />
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.ContentGateway class">
+    <HelpKINode Title="ContentGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.htm" />
+    <HelpKINode Title="ContentGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Contracts namespace" Url="html/N-ComedyHub.Core.Infrastructure.Gateway.Contracts.htm" />
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway interface">
+    <HelpKINode Title="IContentGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.htm" />
+    <HelpKINode Title="IContentGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway interface">
+    <HelpKINode Title="INineGagGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.htm" />
+    <HelpKINode Title="INineGagGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway interface">
+    <HelpKINode Title="IRedditGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.htm" />
+    <HelpKINode Title="IRedditGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway interface">
+    <HelpKINode Title="ITelegramGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.htm" />
+    <HelpKINode Title="ITelegramGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels namespace" Url="html/N-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.htm" />
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data class">
+    <HelpKINode Title="Data Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.htm" />
+    <HelpKINode Title="Data Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image class">
+    <HelpKINode Title="Image Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.htm" />
+    <HelpKINode Title="Image Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images class">
+    <HelpKINode Title="Images Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.htm" />
+    <HelpKINode Title="Images Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel class">
+    <HelpKINode Title="NineGagModel Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.htm" />
+    <HelpKINode Title="NineGagModel Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost class">
+    <HelpKINode Title="NineGagPost Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.htm" />
+    <HelpKINode Title="NineGagPost Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection class">
+    <HelpKINode Title="PostSection Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.htm" />
+    <HelpKINode Title="PostSection Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag class">
+    <HelpKINode Title="Tag Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.htm" />
+    <HelpKINode Title="Tag Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.NineGagGateway class">
+    <HelpKINode Title="NineGagGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm" />
+    <HelpKINode Title="NineGagGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.RedditGateway class">
+    <HelpKINode Title="RedditGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm" />
+    <HelpKINode Title="RedditGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Infrastructure.Gateway.TelegramGateway class">
+    <HelpKINode Title="TelegramGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm" />
+    <HelpKINode Title="TelegramGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services namespace" Url="html/N-ComedyHub.Core.Services.htm" />
+  <HelpKINode Title="ComedyHub.Core.Services.Contracts namespace" Url="html/N-ComedyHub.Core.Services.Contracts.htm" />
+  <HelpKINode Title="ComedyHub.Core.Services.Contracts.IFilterService interface">
+    <HelpKINode Title="IFilterService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IFilterService.htm" />
+    <HelpKINode Title="IFilterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IFilterService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.Contracts.IMapperService interface">
+    <HelpKINode Title="IMapperService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IMapperService.htm" />
+    <HelpKINode Title="IMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IMapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.Contracts.INineGagFetchService interface">
+    <HelpKINode Title="INineGagFetchService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.INineGagFetchService.htm" />
+    <HelpKINode Title="INineGagFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INineGagFetchService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.Contracts.INineGagMapperService interface">
+    <HelpKINode Title="INineGagMapperService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.INineGagMapperService.htm" />
+    <HelpKINode Title="INineGagMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INineGagMapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.Contracts.INotificationTelegramService interface">
+    <HelpKINode Title="INotificationTelegramService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.INotificationTelegramService.htm" />
+    <HelpKINode Title="INotificationTelegramService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INotificationTelegramService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.Contracts.IPublishTwitterService interface">
+    <HelpKINode Title="IPublishTwitterService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IPublishTwitterService.htm" />
+    <HelpKINode Title="IPublishTwitterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IPublishTwitterService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.Contracts.IRedditFetchService interface">
+    <HelpKINode Title="IRedditFetchService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IRedditFetchService.htm" />
+    <HelpKINode Title="IRedditFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IRedditFetchService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.Contracts.IRedditMapperService interface">
+    <HelpKINode Title="IRedditMapperService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IRedditMapperService.htm" />
+    <HelpKINode Title="IRedditMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IRedditMapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.FilterService class">
+    <HelpKINode Title="FilterService Class" Url="html/T-ComedyHub.Core.Services.FilterService.htm" />
+    <HelpKINode Title="FilterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.FilterService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.MapperService class">
+    <HelpKINode Title="MapperService Class" Url="html/T-ComedyHub.Core.Services.MapperService.htm" />
+    <HelpKINode Title="MapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.MapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.NineGagFetchService class">
+    <HelpKINode Title="NineGagFetchService Class" Url="html/T-ComedyHub.Core.Services.NineGagFetchService.htm" />
+    <HelpKINode Title="NineGagFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.NineGagFetchService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.NineGagMapperService class">
+    <HelpKINode Title="NineGagMapperService Class" Url="html/T-ComedyHub.Core.Services.NineGagMapperService.htm" />
+    <HelpKINode Title="NineGagMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.NineGagMapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.NotificationTelegramService class">
+    <HelpKINode Title="NotificationTelegramService Class" Url="html/T-ComedyHub.Core.Services.NotificationTelegramService.htm" />
+    <HelpKINode Title="NotificationTelegramService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.NotificationTelegramService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.PublishTwitterService class">
+    <HelpKINode Title="PublishTwitterService Class" Url="html/T-ComedyHub.Core.Services.PublishTwitterService.htm" />
+    <HelpKINode Title="PublishTwitterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.PublishTwitterService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.RedditFetchService class">
+    <HelpKINode Title="RedditFetchService Class" Url="html/T-ComedyHub.Core.Services.RedditFetchService.htm" />
+    <HelpKINode Title="RedditFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.RedditFetchService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Core.Services.RedditMapperService class">
+    <HelpKINode Title="RedditMapperService Class" Url="html/T-ComedyHub.Core.Services.RedditMapperService.htm" />
+    <HelpKINode Title="RedditMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.RedditMapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Host namespace" Url="html/N-ComedyHub.Host.htm" />
+  <HelpKINode Title="ComedyHub.Host.Configuration namespace" Url="html/N-ComedyHub.Host.Configuration.htm" />
+  <HelpKINode Title="ComedyHub.Host.Configuration.StartupConfiguration class">
+    <HelpKINode Title="StartupConfiguration Class" Url="html/T-ComedyHub.Host.Configuration.StartupConfiguration.htm" />
+    <HelpKINode Title="StartupConfiguration Members" Url="html/AllMembers.T-ComedyHub.Host.Configuration.StartupConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Host.Controllers namespace" Url="html/N-ComedyHub.Host.Controllers.htm" />
+  <HelpKINode Title="ComedyHub.Host.Controllers.MemesController class">
+    <HelpKINode Title="MemesController Class" Url="html/T-ComedyHub.Host.Controllers.MemesController.htm" />
+    <HelpKINode Title="MemesController Members" Url="html/AllMembers.T-ComedyHub.Host.Controllers.MemesController.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Host.Program class">
+    <HelpKINode Title="Program Class" Url="html/T-ComedyHub.Host.Program.htm" />
+    <HelpKINode Title="Program Members" Url="html/AllMembers.T-ComedyHub.Host.Program.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Host.Startup class">
+    <HelpKINode Title="Startup Class" Url="html/T-ComedyHub.Host.Startup.htm" />
+    <HelpKINode Title="Startup Members" Url="html/AllMembers.T-ComedyHub.Host.Startup.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Model.Meme namespace" Url="html/N-ComedyHub.Model.Meme.htm" />
+  <HelpKINode Title="ComedyHub.Model.Meme.MemeModel class">
+    <HelpKINode Title="MemeModel Class" Url="html/T-ComedyHub.Model.Meme.MemeModel.htm" />
+    <HelpKINode Title="MemeModel Members" Url="html/AllMembers.T-ComedyHub.Model.Meme.MemeModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Model.Notification.TelegramMessage namespace" Url="html/N-ComedyHub.Model.Notification.TelegramMessage.htm" />
+  <HelpKINode Title="ComedyHub.Model.Notification.TelegramMessage.TelegramMessage class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramMessage.htm" />
+  <HelpKINode Title="ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage class">
+    <HelpKINode Title="TelegramPhotoMessage Class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.htm" />
+    <HelpKINode Title="TelegramPhotoMessage Members" Url="html/AllMembers.T-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage class">
+    <HelpKINode Title="TelegramTextMessage Class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.htm" />
+    <HelpKINode Title="TelegramTextMessage Members" Url="html/AllMembers.T-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComedyHub.Model.Publish namespace" Url="html/N-ComedyHub.Model.Publish.htm" />
+  <HelpKINode Title="ComedyHub.Model.Publish.PublishedModel class">
+    <HelpKINode Title="PublishedModel Class" Url="html/T-ComedyHub.Model.Publish.PublishedModel.htm" />
+    <HelpKINode Title="PublishedModel Members" Url="html/AllMembers.T-ComedyHub.Model.Publish.PublishedModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommentsCount property">
+    <HelpKINode Title="CommentsCount Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.CommentsCount.htm" />
+    <HelpKINode Title="CommentsCount Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.CommentsCount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Configuration property" Url="html/P-ComedyHub.Host.Startup.Configuration.htm" />
+  <HelpKINode Title="Configure method" Url="html/M-ComedyHub.Host.Startup.Configure.htm" />
+  <HelpKINode Title="ConfigureServices method" Url="html/M-ComedyHub.Host.Startup.ConfigureServices.htm" />
+  <HelpKINode Title="ConsumerToken class">
+    <HelpKINode Title="ConsumerToken Class" Url="html/T-ComedyHub.Core.Auth.ConsumerToken.htm" />
+    <HelpKINode Title="ConsumerToken Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.ConsumerToken.htm" />
+    <HelpKINode Title="about ConsumerToken class" Url="html/T-ComedyHub.Core.Auth.ConsumerToken.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Auth.ConsumerToken.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Auth.ConsumerToken.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConsumerToken.CONSUMER_KEY_TWITTER field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_KEY_TWITTER.htm" />
+  <HelpKINode Title="ConsumerToken.CONSUMER_REFRESH_REDDIT field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_REFRESH_REDDIT.htm" />
+  <HelpKINode Title="ConsumerToken.CONSUMER_SECRET_REDDIT field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_SECRET_REDDIT.htm" />
+  <HelpKINode Title="ConsumerToken.CONSUMER_SECRET_TWITTER field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_SECRET_TWITTER.htm" />
+  <HelpKINode Title="CONSUMER_KEY_TWITTER field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_KEY_TWITTER.htm" />
+  <HelpKINode Title="CONSUMER_REFRESH_REDDIT field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_REFRESH_REDDIT.htm" />
+  <HelpKINode Title="CONSUMER_SECRET_REDDIT field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_SECRET_REDDIT.htm" />
+  <HelpKINode Title="CONSUMER_SECRET_TWITTER field" Url="html/F-ComedyHub.Core.Auth.ConsumerToken.CONSUMER_SECRET_TWITTER.htm" />
+  <HelpKINode Title="ContentGateway class">
+    <HelpKINode Title="ContentGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.htm" />
+    <HelpKINode Title="ContentGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.htm" />
+    <HelpKINode Title="about ContentGateway class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContentGateway.GetContentHeaders method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.GetContentHeaders.htm" />
+  <HelpKINode Title="ConvertToJsonData method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.ConvertToJsonData.htm" />
+  <HelpKINode Title="CreateHostBuilder method" Url="html/M-ComedyHub.Host.Program.CreateHostBuilder.htm" />
+  <HelpKINode Title="CreationTs property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.CreationTs.htm" />
+  <HelpKINode Title="Data class">
+    <HelpKINode Title="Data Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.htm" />
+    <HelpKINode Title="Data Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.htm" />
+    <HelpKINode Title="about Data class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Data property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.Data.htm" />
+  <HelpKINode Title="Data.NextCursor property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.NextCursor.htm" />
+  <HelpKINode Title="Data.Posts property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.Posts.htm" />
+  <HelpKINode Title="DefaultTags property">
+    <HelpKINode Title="DefaultTags Property " Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.DefaultTags.htm" />
+    <HelpKINode Title="DefaultTags Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.DefaultTags.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DescriptionHtml property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.DescriptionHtml.htm" />
+  <HelpKINode Title="DownVoteCount property">
+    <HelpKINode Title="DownVoteCount Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.DownVoteCount.htm" />
+    <HelpKINode Title="DownVoteCount Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.DownVoteCount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileExtension property" Url="html/P-ComedyHub.Model.Meme.MemeModel.FileExtension.htm" />
+  <HelpKINode Title="FilterMemes method">
+    <HelpKINode Title="FilterMemes Method " Url="html/M-ComedyHub.Core.Services.FilterService.FilterMemes.htm" />
+    <HelpKINode Title="FilterMemes Method " Url="html/M-ComedyHub.Core.Services.Contracts.IFilterService.FilterMemes.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FilterService class">
+    <HelpKINode Title="FilterService Class" Url="html/T-ComedyHub.Core.Services.FilterService.htm" />
+    <HelpKINode Title="FilterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.FilterService.htm" />
+    <HelpKINode Title="about FilterService class" Url="html/T-ComedyHub.Core.Services.FilterService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.FilterService.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Services.FilterService.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Services.FilterService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.FilterService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FilterService.FilterMemes method" Url="html/M-ComedyHub.Core.Services.FilterService.FilterMemes.htm" />
+  <HelpKINode Title="FilterService.FilterService constructor" Url="html/M-ComedyHub.Core.Services.FilterService.-ctor.htm" />
+  <HelpKINode Title="FilterService.GetRandomPost method" Url="html/M-ComedyHub.Core.Services.FilterService.GetRandomPost.htm" />
+  <HelpKINode Title="FilterService.RemoveDuplicates method" Url="html/M-ComedyHub.Core.Services.FilterService.RemoveDuplicates.htm" />
+  <HelpKINode Title="FilterService.RemoveImagesWithSizeLimit method" Url="html/M-ComedyHub.Core.Services.FilterService.RemoveImagesWithSizeLimit.htm" />
+  <HelpKINode Title="FilterService.RemovePostsWithoutImage method" Url="html/M-ComedyHub.Core.Services.FilterService.RemovePostsWithoutImage.htm" />
+  <HelpKINode Title="FilterService._applicationSettings field" Url="html/F-ComedyHub.Core.Services.FilterService._applicationSettings.htm" />
+  <HelpKINode Title="FilterService._contentGateway field" Url="html/F-ComedyHub.Core.Services.FilterService._contentGateway.htm" />
+  <HelpKINode Title="FilterService._twitterAuth field" Url="html/F-ComedyHub.Core.Services.FilterService._twitterAuth.htm" />
+  <HelpKINode Title="FilterService._twitterBotSettings field" Url="html/F-ComedyHub.Core.Services.FilterService._twitterBotSettings.htm" />
+  <HelpKINode Title="GetContentHeaders method">
+    <HelpKINode Title="GetContentHeaders Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.GetContentHeaders.htm" />
+    <HelpKINode Title="GetContentHeaders Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.ContentGateway.GetContentHeaders.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetMeme method" Url="html/M-ComedyHub.Host.Controllers.MemesController.GetMeme.htm" />
+  <HelpKINode Title="GetNineGagMeme method">
+    <HelpKINode Title="GetNineGagMeme Method " Url="html/M-ComedyHub.Core.Components.Contracts.INineGagComponent.GetNineGagMeme.htm" />
+    <HelpKINode Title="GetNineGagMeme Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.GetNineGagMeme.htm" />
+    <HelpKINode Title="GetNineGagMeme Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.GetNineGagMeme.htm" />
+    <HelpKINode Title="GetNineGagMeme Method " Url="html/M-ComedyHub.Core.Components.NineGagComponent.GetNineGagMeme.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetNineGagModelMeme method">
+    <HelpKINode Title="GetNineGagModelMeme Method " Url="html/M-ComedyHub.Core.Services.Contracts.INineGagFetchService.GetNineGagModelMeme.htm" />
+    <HelpKINode Title="GetNineGagModelMeme Method " Url="html/M-ComedyHub.Core.Services.NineGagFetchService.GetNineGagModelMeme.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetRandomPost method" Url="html/M-ComedyHub.Core.Services.FilterService.GetRandomPost.htm" />
+  <HelpKINode Title="GetRedditMeme method">
+    <HelpKINode Title="GetRedditMeme Method " Url="html/M-ComedyHub.Core.Components.Contracts.IRedditComponent.GetRedditMeme.htm" />
+    <HelpKINode Title="GetRedditMeme Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.GetRedditMeme.htm" />
+    <HelpKINode Title="GetRedditMeme Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.GetRedditMeme.htm" />
+    <HelpKINode Title="GetRedditMeme Method " Url="html/M-ComedyHub.Core.Components.RedditComponent.GetRedditMeme.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetRedditModelMeme method">
+    <HelpKINode Title="GetRedditModelMeme Method " Url="html/M-ComedyHub.Core.Services.Contracts.IRedditFetchService.GetRedditModelMeme.htm" />
+    <HelpKINode Title="GetRedditModelMeme Method " Url="html/M-ComedyHub.Core.Services.RedditFetchService.GetRedditModelMeme.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Height property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.Height.htm" />
+  <HelpKINode Title="IApplicationSettings interface">
+    <HelpKINode Title="IApplicationSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.htm" />
+    <HelpKINode Title="IApplicationSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.htm" />
+    <HelpKINode Title="about IApplicationSettings interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IApplicationSettings.DefaultTags property" Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.DefaultTags.htm" />
+  <HelpKINode Title="IApplicationSettings.ServicesToFetch property" Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.ServicesToFetch.htm" />
+  <HelpKINode Title="IApplicationSettings.SizeLimitMegaBytes property" Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.SizeLimitMegaBytes.htm" />
+  <HelpKINode Title="IApplicationSettings.SupportedImageExtensions property" Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.SupportedImageExtensions.htm" />
+  <HelpKINode Title="IContentGateway interface">
+    <HelpKINode Title="IContentGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.htm" />
+    <HelpKINode Title="IContentGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.htm" />
+    <HelpKINode Title="about IContentGateway interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IContentGateway.GetContentHeaders method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.IContentGateway.GetContentHeaders.htm" />
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="Id Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Id.htm" />
+    <HelpKINode Title="Id Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.Id.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFilterService interface">
+    <HelpKINode Title="IFilterService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IFilterService.htm" />
+    <HelpKINode Title="IFilterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IFilterService.htm" />
+    <HelpKINode Title="about IFilterService interface" Url="html/T-ComedyHub.Core.Services.Contracts.IFilterService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IFilterService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.IFilterService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFilterService.FilterMemes method" Url="html/M-ComedyHub.Core.Services.Contracts.IFilterService.FilterMemes.htm" />
+  <HelpKINode Title="Image class">
+    <HelpKINode Title="Image Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.htm" />
+    <HelpKINode Title="Image Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.htm" />
+    <HelpKINode Title="about Image class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Image.Height property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.Height.htm" />
+  <HelpKINode Title="Image.Url property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.Url.htm" />
+  <HelpKINode Title="Image.WebpUrl property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.WebpUrl.htm" />
+  <HelpKINode Title="Image.Width property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.Width.htm" />
+  <HelpKINode Title="Image460 property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.Image460.htm" />
+  <HelpKINode Title="Image700 property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.Image700.htm" />
+  <HelpKINode Title="Images class">
+    <HelpKINode Title="Images Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.htm" />
+    <HelpKINode Title="Images Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.htm" />
+    <HelpKINode Title="about Images class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Images property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Images.htm" />
+  <HelpKINode Title="Images.Image460 property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.Image460.htm" />
+  <HelpKINode Title="Images.Image700 property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Images.Image700.htm" />
+  <HelpKINode Title="ImageUrl property">
+    <HelpKINode Title="ImageUrl Property " Url="html/P-ComedyHub.Model.Publish.PublishedModel.ImageUrl.htm" />
+    <HelpKINode Title="ImageUrl Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.ImageUrl.htm" />
+    <HelpKINode Title="ImageUrl Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.ImageUrl.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMapperService interface">
+    <HelpKINode Title="IMapperService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IMapperService.htm" />
+    <HelpKINode Title="IMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IMapperService.htm" />
+    <HelpKINode Title="about IMapperService interface" Url="html/T-ComedyHub.Core.Services.Contracts.IMapperService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IMapperService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.IMapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMapperService.MapToMemeModels method" Url="html/M-ComedyHub.Core.Services.Contracts.IMapperService.MapToMemeModels.htm" />
+  <HelpKINode Title="IMemeOrchestrator interface">
+    <HelpKINode Title="IMemeOrchestrator Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.htm" />
+    <HelpKINode Title="IMemeOrchestrator Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.htm" />
+    <HelpKINode Title="about IMemeOrchestrator interface" Url="html/T-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMemeOrchestrator.Process method" Url="html/M-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.Process.htm" />
+  <HelpKINode Title="IMemeProcessor interface">
+    <HelpKINode Title="IMemeProcessor Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IMemeProcessor.htm" />
+    <HelpKINode Title="IMemeProcessor Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IMemeProcessor.htm" />
+    <HelpKINode Title="about IMemeProcessor interface" Url="html/T-ComedyHub.Core.Components.Contracts.IMemeProcessor.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IMemeProcessor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.IMemeProcessor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMemeProcessor.ProcessMeme method" Url="html/M-ComedyHub.Core.Components.Contracts.IMemeProcessor.ProcessMeme.htm" />
+  <HelpKINode Title="INineGagApiSettings interface">
+    <HelpKINode Title="INineGagApiSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.htm" />
+    <HelpKINode Title="INineGagApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.htm" />
+    <HelpKINode Title="about INineGagApiSettings interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INineGagApiSettings.Url property" Url="html/P-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.Url.htm" />
+  <HelpKINode Title="INineGagComponent interface">
+    <HelpKINode Title="INineGagComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.INineGagComponent.htm" />
+    <HelpKINode Title="INineGagComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.INineGagComponent.htm" />
+    <HelpKINode Title="about INineGagComponent interface" Url="html/T-ComedyHub.Core.Components.Contracts.INineGagComponent.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.INineGagComponent.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.INineGagComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INineGagComponent.GetNineGagMeme method" Url="html/M-ComedyHub.Core.Components.Contracts.INineGagComponent.GetNineGagMeme.htm" />
+  <HelpKINode Title="INineGagFetchService interface">
+    <HelpKINode Title="INineGagFetchService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.INineGagFetchService.htm" />
+    <HelpKINode Title="INineGagFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INineGagFetchService.htm" />
+    <HelpKINode Title="about INineGagFetchService interface" Url="html/T-ComedyHub.Core.Services.Contracts.INineGagFetchService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INineGagFetchService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.INineGagFetchService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INineGagFetchService.GetNineGagModelMeme method" Url="html/M-ComedyHub.Core.Services.Contracts.INineGagFetchService.GetNineGagModelMeme.htm" />
+  <HelpKINode Title="INineGagGateway interface">
+    <HelpKINode Title="INineGagGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.htm" />
+    <HelpKINode Title="INineGagGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.htm" />
+    <HelpKINode Title="about INineGagGateway interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INineGagGateway.GetNineGagMeme method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.INineGagGateway.GetNineGagMeme.htm" />
+  <HelpKINode Title="INineGagMapperService interface">
+    <HelpKINode Title="INineGagMapperService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.INineGagMapperService.htm" />
+    <HelpKINode Title="INineGagMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INineGagMapperService.htm" />
+    <HelpKINode Title="about INineGagMapperService interface" Url="html/T-ComedyHub.Core.Services.Contracts.INineGagMapperService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INineGagMapperService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.INineGagMapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INineGagMapperService.NineGagModelToMemes method" Url="html/M-ComedyHub.Core.Services.Contracts.INineGagMapperService.NineGagModelToMemes.htm" />
+  <HelpKINode Title="INotificationComponent interface">
+    <HelpKINode Title="INotificationComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.INotificationComponent.htm" />
+    <HelpKINode Title="INotificationComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.INotificationComponent.htm" />
+    <HelpKINode Title="about INotificationComponent interface" Url="html/T-ComedyHub.Core.Components.Contracts.INotificationComponent.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.INotificationComponent.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.INotificationComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INotificationComponent.SendFailureNotification method" Url="html/M-ComedyHub.Core.Components.Contracts.INotificationComponent.SendFailureNotification.htm" />
+  <HelpKINode Title="INotificationComponent.SendSucessfulNotification method" Url="html/M-ComedyHub.Core.Components.Contracts.INotificationComponent.SendSucessfulNotification.htm" />
+  <HelpKINode Title="INotificationTelegramService interface">
+    <HelpKINode Title="INotificationTelegramService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.INotificationTelegramService.htm" />
+    <HelpKINode Title="INotificationTelegramService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INotificationTelegramService.htm" />
+    <HelpKINode Title="about INotificationTelegramService interface" Url="html/T-ComedyHub.Core.Services.Contracts.INotificationTelegramService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.INotificationTelegramService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.INotificationTelegramService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INotificationTelegramService.SendTelegramFailureNotification method" Url="html/M-ComedyHub.Core.Services.Contracts.INotificationTelegramService.SendTelegramFailureNotification.htm" />
+  <HelpKINode Title="INotificationTelegramService.SendTelegramSucessNotification method" Url="html/M-ComedyHub.Core.Services.Contracts.INotificationTelegramService.SendTelegramSucessNotification.htm" />
+  <HelpKINode Title="IPublishComponent interface">
+    <HelpKINode Title="IPublishComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IPublishComponent.htm" />
+    <HelpKINode Title="IPublishComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IPublishComponent.htm" />
+    <HelpKINode Title="about IPublishComponent interface" Url="html/T-ComedyHub.Core.Components.Contracts.IPublishComponent.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IPublishComponent.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.IPublishComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPublishComponent.PublishMeme method" Url="html/M-ComedyHub.Core.Components.Contracts.IPublishComponent.PublishMeme.htm" />
+  <HelpKINode Title="IPublishTwitterService interface">
+    <HelpKINode Title="IPublishTwitterService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IPublishTwitterService.htm" />
+    <HelpKINode Title="IPublishTwitterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IPublishTwitterService.htm" />
+    <HelpKINode Title="about IPublishTwitterService interface" Url="html/T-ComedyHub.Core.Services.Contracts.IPublishTwitterService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IPublishTwitterService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.IPublishTwitterService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPublishTwitterService.PublishToTwitter method" Url="html/M-ComedyHub.Core.Services.Contracts.IPublishTwitterService.PublishToTwitter.htm" />
+  <HelpKINode Title="IRedditApiSettings interface">
+    <HelpKINode Title="IRedditApiSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.htm" />
+    <HelpKINode Title="IRedditApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.htm" />
+    <HelpKINode Title="about IRedditApiSettings interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRedditApiSettings.NumPostsToReceive property" Url="html/P-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.NumPostsToReceive.htm" />
+  <HelpKINode Title="IRedditApiSettings.SubredditToFetch property" Url="html/P-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.SubredditToFetch.htm" />
+  <HelpKINode Title="IRedditAuth interface">
+    <HelpKINode Title="IRedditAuth Interface" Url="html/T-ComedyHub.Core.Auth.Contracts.IRedditAuth.htm" />
+    <HelpKINode Title="IRedditAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.Contracts.IRedditAuth.htm" />
+    <HelpKINode Title="about IRedditAuth interface" Url="html/T-ComedyHub.Core.Auth.Contracts.IRedditAuth.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Auth.Contracts.IRedditAuth.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Auth.Contracts.IRedditAuth.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRedditAuth.SetRedditAuth method" Url="html/M-ComedyHub.Core.Auth.Contracts.IRedditAuth.SetRedditAuth.htm" />
+  <HelpKINode Title="IRedditComponent interface">
+    <HelpKINode Title="IRedditComponent Interface" Url="html/T-ComedyHub.Core.Components.Contracts.IRedditComponent.htm" />
+    <HelpKINode Title="IRedditComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IRedditComponent.htm" />
+    <HelpKINode Title="about IRedditComponent interface" Url="html/T-ComedyHub.Core.Components.Contracts.IRedditComponent.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.Contracts.IRedditComponent.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.Contracts.IRedditComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRedditComponent.GetRedditMeme method" Url="html/M-ComedyHub.Core.Components.Contracts.IRedditComponent.GetRedditMeme.htm" />
+  <HelpKINode Title="IRedditFetchService interface">
+    <HelpKINode Title="IRedditFetchService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IRedditFetchService.htm" />
+    <HelpKINode Title="IRedditFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IRedditFetchService.htm" />
+    <HelpKINode Title="about IRedditFetchService interface" Url="html/T-ComedyHub.Core.Services.Contracts.IRedditFetchService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IRedditFetchService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.IRedditFetchService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRedditFetchService.GetRedditModelMeme method" Url="html/M-ComedyHub.Core.Services.Contracts.IRedditFetchService.GetRedditModelMeme.htm" />
+  <HelpKINode Title="IRedditGateway interface">
+    <HelpKINode Title="IRedditGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.htm" />
+    <HelpKINode Title="IRedditGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.htm" />
+    <HelpKINode Title="about IRedditGateway interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRedditGateway.GetRedditMeme method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.IRedditGateway.GetRedditMeme.htm" />
+  <HelpKINode Title="IRedditMapperService interface">
+    <HelpKINode Title="IRedditMapperService Interface" Url="html/T-ComedyHub.Core.Services.Contracts.IRedditMapperService.htm" />
+    <HelpKINode Title="IRedditMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IRedditMapperService.htm" />
+    <HelpKINode Title="about IRedditMapperService interface" Url="html/T-ComedyHub.Core.Services.Contracts.IRedditMapperService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.Contracts.IRedditMapperService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.Contracts.IRedditMapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRedditMapperService.RedditModelToMemes method" Url="html/M-ComedyHub.Core.Services.Contracts.IRedditMapperService.RedditModelToMemes.htm" />
+  <HelpKINode Title="ITelegramApiSettings interface">
+    <HelpKINode Title="ITelegramApiSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.htm" />
+    <HelpKINode Title="ITelegramApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.htm" />
+    <HelpKINode Title="about ITelegramApiSettings interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITelegramApiSettings.ParseMode property" Url="html/P-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.ParseMode.htm" />
+  <HelpKINode Title="ITelegramApiSettings.Url property" Url="html/P-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.Url.htm" />
+  <HelpKINode Title="ITelegramGateway interface">
+    <HelpKINode Title="ITelegramGateway Interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.htm" />
+    <HelpKINode Title="ITelegramGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.htm" />
+    <HelpKINode Title="about ITelegramGateway interface" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITelegramGateway.SendPhotoMessage method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.SendPhotoMessage.htm" />
+  <HelpKINode Title="ITelegramGateway.SendTextMessage method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.SendTextMessage.htm" />
+  <HelpKINode Title="ITwitterAuth interface">
+    <HelpKINode Title="ITwitterAuth Interface" Url="html/T-ComedyHub.Core.Auth.Contracts.ITwitterAuth.htm" />
+    <HelpKINode Title="ITwitterAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.Contracts.ITwitterAuth.htm" />
+    <HelpKINode Title="about ITwitterAuth interface" Url="html/T-ComedyHub.Core.Auth.Contracts.ITwitterAuth.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Auth.Contracts.ITwitterAuth.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Auth.Contracts.ITwitterAuth.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITwitterAuth.SetTwitterAuth method" Url="html/M-ComedyHub.Core.Auth.Contracts.ITwitterAuth.SetTwitterAuth.htm" />
+  <HelpKINode Title="ITwitterBotSettings interface">
+    <HelpKINode Title="ITwitterBotSettings Interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.htm" />
+    <HelpKINode Title="ITwitterBotSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.htm" />
+    <HelpKINode Title="about ITwitterBotSettings interface" Url="html/T-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITwitterBotSettings.BotScreenName property" Url="html/P-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.BotScreenName.htm" />
+  <HelpKINode Title="ITwitterBotSettings.NumStatusToFetch property" Url="html/P-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.NumStatusToFetch.htm" />
+  <HelpKINode Title="Key property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.Key.htm" />
+  <HelpKINode Title="Main method" Url="html/M-ComedyHub.Host.Program.Main.htm" />
+  <HelpKINode Title="MapperService class">
+    <HelpKINode Title="MapperService Class" Url="html/T-ComedyHub.Core.Services.MapperService.htm" />
+    <HelpKINode Title="MapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.MapperService.htm" />
+    <HelpKINode Title="about MapperService class" Url="html/T-ComedyHub.Core.Services.MapperService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.MapperService.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Services.MapperService.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Services.MapperService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.MapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MapperService.AddTagsToTitle method" Url="html/M-ComedyHub.Core.Services.MapperService.AddTagsToTitle.htm" />
+  <HelpKINode Title="MapperService.MapperService constructor" Url="html/M-ComedyHub.Core.Services.MapperService.-ctor.htm" />
+  <HelpKINode Title="MapperService.MapToMemeModels method" Url="html/M-ComedyHub.Core.Services.MapperService.MapToMemeModels.htm" />
+  <HelpKINode Title="MapperService._applicationSettings field" Url="html/F-ComedyHub.Core.Services.MapperService._applicationSettings.htm" />
+  <HelpKINode Title="MapToMemeModels method">
+    <HelpKINode Title="MapToMemeModels Method " Url="html/M-ComedyHub.Core.Services.Contracts.IMapperService.MapToMemeModels.htm" />
+    <HelpKINode Title="MapToMemeModels Method " Url="html/M-ComedyHub.Core.Services.MapperService.MapToMemeModels.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MediaFileAnimated field" Url="html/F-ComedyHub.Core.Constants.MediaType.MediaFileAnimated.htm" />
+  <HelpKINode Title="MediaFilePhoto field" Url="html/F-ComedyHub.Core.Constants.MediaType.MediaFilePhoto.htm" />
+  <HelpKINode Title="MediaType class">
+    <HelpKINode Title="MediaType Class" Url="html/T-ComedyHub.Core.Constants.MediaType.htm" />
+    <HelpKINode Title="MediaType Members" Url="html/AllMembers.T-ComedyHub.Core.Constants.MediaType.htm" />
+    <HelpKINode Title="about MediaType class" Url="html/T-ComedyHub.Core.Constants.MediaType.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Constants.MediaType.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Constants.MediaType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MediaType property" Url="html/P-ComedyHub.Model.Meme.MemeModel.MediaType.htm" />
+  <HelpKINode Title="MediaType.MediaFileAnimated field" Url="html/F-ComedyHub.Core.Constants.MediaType.MediaFileAnimated.htm" />
+  <HelpKINode Title="MediaType.MediaFilePhoto field" Url="html/F-ComedyHub.Core.Constants.MediaType.MediaFilePhoto.htm" />
+  <HelpKINode Title="MemeModel class">
+    <HelpKINode Title="MemeModel Class" Url="html/T-ComedyHub.Model.Meme.MemeModel.htm" />
+    <HelpKINode Title="MemeModel Members" Url="html/AllMembers.T-ComedyHub.Model.Meme.MemeModel.htm" />
+    <HelpKINode Title="about MemeModel class" Url="html/T-ComedyHub.Model.Meme.MemeModel.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Model.Meme.MemeModel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Model.Meme.MemeModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MemeModel.CommentsCount property" Url="html/P-ComedyHub.Model.Meme.MemeModel.CommentsCount.htm" />
+  <HelpKINode Title="MemeModel.DownVoteCount property" Url="html/P-ComedyHub.Model.Meme.MemeModel.DownVoteCount.htm" />
+  <HelpKINode Title="MemeModel.FileExtension property" Url="html/P-ComedyHub.Model.Meme.MemeModel.FileExtension.htm" />
+  <HelpKINode Title="MemeModel.Id property" Url="html/P-ComedyHub.Model.Meme.MemeModel.Id.htm" />
+  <HelpKINode Title="MemeModel.ImageUrl property" Url="html/P-ComedyHub.Model.Meme.MemeModel.ImageUrl.htm" />
+  <HelpKINode Title="MemeModel.MediaType property" Url="html/P-ComedyHub.Model.Meme.MemeModel.MediaType.htm" />
+  <HelpKINode Title="MemeModel.Nsfw property" Url="html/P-ComedyHub.Model.Meme.MemeModel.Nsfw.htm" />
+  <HelpKINode Title="MemeModel.Provider property" Url="html/P-ComedyHub.Model.Meme.MemeModel.Provider.htm" />
+  <HelpKINode Title="MemeModel.PublishedDate property" Url="html/P-ComedyHub.Model.Meme.MemeModel.PublishedDate.htm" />
+  <HelpKINode Title="MemeModel.Tags property" Url="html/P-ComedyHub.Model.Meme.MemeModel.Tags.htm" />
+  <HelpKINode Title="MemeModel.Title property" Url="html/P-ComedyHub.Model.Meme.MemeModel.Title.htm" />
+  <HelpKINode Title="MemeModel.UpVoteCount property" Url="html/P-ComedyHub.Model.Meme.MemeModel.UpVoteCount.htm" />
+  <HelpKINode Title="MemeModel.Url property" Url="html/P-ComedyHub.Model.Meme.MemeModel.Url.htm" />
+  <HelpKINode Title="MemeOrchestrator class">
+    <HelpKINode Title="MemeOrchestrator Class" Url="html/T-ComedyHub.Core.Components.MemeOrchestrator.htm" />
+    <HelpKINode Title="MemeOrchestrator Members" Url="html/AllMembers.T-ComedyHub.Core.Components.MemeOrchestrator.htm" />
+    <HelpKINode Title="about MemeOrchestrator class" Url="html/T-ComedyHub.Core.Components.MemeOrchestrator.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.MemeOrchestrator.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Components.MemeOrchestrator.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Components.MemeOrchestrator.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.MemeOrchestrator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MemeOrchestrator.MemeOrchestrator constructor" Url="html/M-ComedyHub.Core.Components.MemeOrchestrator.-ctor.htm" />
+  <HelpKINode Title="MemeOrchestrator.Process method" Url="html/M-ComedyHub.Core.Components.MemeOrchestrator.Process.htm" />
+  <HelpKINode Title="MemeOrchestrator._logger field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._logger.htm" />
+  <HelpKINode Title="MemeOrchestrator._memeProcessor field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._memeProcessor.htm" />
+  <HelpKINode Title="MemeOrchestrator._notificationComponent field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._notificationComponent.htm" />
+  <HelpKINode Title="MemeOrchestrator._publishComponent field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._publishComponent.htm" />
+  <HelpKINode Title="MemeProcessor class">
+    <HelpKINode Title="MemeProcessor Class" Url="html/T-ComedyHub.Core.Components.MemeProcessor.htm" />
+    <HelpKINode Title="MemeProcessor Members" Url="html/AllMembers.T-ComedyHub.Core.Components.MemeProcessor.htm" />
+    <HelpKINode Title="about MemeProcessor class" Url="html/T-ComedyHub.Core.Components.MemeProcessor.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.MemeProcessor.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Components.MemeProcessor.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Components.MemeProcessor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.MemeProcessor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MemeProcessor.MemeProcessor constructor" Url="html/M-ComedyHub.Core.Components.MemeProcessor.-ctor.htm" />
+  <HelpKINode Title="MemeProcessor.ProcessMeme method" Url="html/M-ComedyHub.Core.Components.MemeProcessor.ProcessMeme.htm" />
+  <HelpKINode Title="MemeProcessor.ProcessRandomService method" Url="html/M-ComedyHub.Core.Components.MemeProcessor.ProcessRandomService.htm" />
+  <HelpKINode Title="MemeProcessor._applicationSettings field" Url="html/F-ComedyHub.Core.Components.MemeProcessor._applicationSettings.htm" />
+  <HelpKINode Title="MemeProcessor._nineGagComponent field" Url="html/F-ComedyHub.Core.Components.MemeProcessor._nineGagComponent.htm" />
+  <HelpKINode Title="MemeProcessor._redditComponent field" Url="html/F-ComedyHub.Core.Components.MemeProcessor._redditComponent.htm" />
+  <HelpKINode Title="MemeProvider class">
+    <HelpKINode Title="MemeProvider Class" Url="html/T-ComedyHub.Core.Constants.MemeProvider.htm" />
+    <HelpKINode Title="MemeProvider Members" Url="html/AllMembers.T-ComedyHub.Core.Constants.MemeProvider.htm" />
+    <HelpKINode Title="about MemeProvider class" Url="html/T-ComedyHub.Core.Constants.MemeProvider.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Constants.MemeProvider.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Constants.MemeProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MemeProvider property" Url="html/P-ComedyHub.Model.Publish.PublishedModel.MemeProvider.htm" />
+  <HelpKINode Title="MemeProvider.NineGag field" Url="html/F-ComedyHub.Core.Constants.MemeProvider.NineGag.htm" />
+  <HelpKINode Title="MemeProvider.Reddit field" Url="html/F-ComedyHub.Core.Constants.MemeProvider.Reddit.htm" />
+  <HelpKINode Title="MemesController class">
+    <HelpKINode Title="MemesController Class" Url="html/T-ComedyHub.Host.Controllers.MemesController.htm" />
+    <HelpKINode Title="MemesController Members" Url="html/AllMembers.T-ComedyHub.Host.Controllers.MemesController.htm" />
+    <HelpKINode Title="about MemesController class" Url="html/T-ComedyHub.Host.Controllers.MemesController.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Host.Controllers.MemesController.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Host.Controllers.MemesController.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Host.Controllers.MemesController.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Host.Controllers.MemesController.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MemesController.GetMeme method" Url="html/M-ComedyHub.Host.Controllers.MemesController.GetMeme.htm" />
+  <HelpKINode Title="MemesController.MemesController constructor" Url="html/M-ComedyHub.Host.Controllers.MemesController.-ctor.htm" />
+  <HelpKINode Title="MemesController.ProcessMeme method" Url="html/M-ComedyHub.Host.Controllers.MemesController.ProcessMeme.htm" />
+  <HelpKINode Title="MemesController._logger field" Url="html/F-ComedyHub.Host.Controllers.MemesController._logger.htm" />
+  <HelpKINode Title="MemesController._memeOrchestrator field" Url="html/F-ComedyHub.Host.Controllers.MemesController._memeOrchestrator.htm" />
+  <HelpKINode Title="MemesController._memeProcessor field" Url="html/F-ComedyHub.Host.Controllers.MemesController._memeProcessor.htm" />
+  <HelpKINode Title="Message property" Url="html/P-ComedyHub.Model.Publish.PublishedModel.Message.htm" />
+  <HelpKINode Title="Name property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.Name.htm" />
+  <HelpKINode Title="NextCursor property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.NextCursor.htm" />
+  <HelpKINode Title="NineGag field" Url="html/F-ComedyHub.Core.Constants.MemeProvider.NineGag.htm" />
+  <HelpKINode Title="NineGagApiSettings class">
+    <HelpKINode Title="NineGagApiSettings Class" Url="html/T-ComedyHub.Core.Configuration.NineGagApiSettings.htm" />
+    <HelpKINode Title="NineGagApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.NineGagApiSettings.htm" />
+    <HelpKINode Title="about NineGagApiSettings class" Url="html/T-ComedyHub.Core.Configuration.NineGagApiSettings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.NineGagApiSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Configuration.NineGagApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NineGagApiSettings.Url property" Url="html/P-ComedyHub.Core.Configuration.NineGagApiSettings.Url.htm" />
+  <HelpKINode Title="NineGagComponent class">
+    <HelpKINode Title="NineGagComponent Class" Url="html/T-ComedyHub.Core.Components.NineGagComponent.htm" />
+    <HelpKINode Title="NineGagComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.NineGagComponent.htm" />
+    <HelpKINode Title="about NineGagComponent class" Url="html/T-ComedyHub.Core.Components.NineGagComponent.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.NineGagComponent.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Components.NineGagComponent.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Components.NineGagComponent.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.NineGagComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NineGagComponent.GetNineGagMeme method" Url="html/M-ComedyHub.Core.Components.NineGagComponent.GetNineGagMeme.htm" />
+  <HelpKINode Title="NineGagComponent.NineGagComponent constructor" Url="html/M-ComedyHub.Core.Components.NineGagComponent.-ctor.htm" />
+  <HelpKINode Title="NineGagComponent._filterService field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._filterService.htm" />
+  <HelpKINode Title="NineGagComponent._logger field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._logger.htm" />
+  <HelpKINode Title="NineGagComponent._nineGagFetchService field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._nineGagFetchService.htm" />
+  <HelpKINode Title="NineGagComponent._nineGagMapperService field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._nineGagMapperService.htm" />
+  <HelpKINode Title="NineGagFetchService class">
+    <HelpKINode Title="NineGagFetchService Class" Url="html/T-ComedyHub.Core.Services.NineGagFetchService.htm" />
+    <HelpKINode Title="NineGagFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.NineGagFetchService.htm" />
+    <HelpKINode Title="about NineGagFetchService class" Url="html/T-ComedyHub.Core.Services.NineGagFetchService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.NineGagFetchService.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Services.NineGagFetchService.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Services.NineGagFetchService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.NineGagFetchService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NineGagFetchService.GetNineGagModelMeme method" Url="html/M-ComedyHub.Core.Services.NineGagFetchService.GetNineGagModelMeme.htm" />
+  <HelpKINode Title="NineGagFetchService.NineGagFetchService constructor" Url="html/M-ComedyHub.Core.Services.NineGagFetchService.-ctor.htm" />
+  <HelpKINode Title="NineGagFetchService._nineGagGateway field" Url="html/F-ComedyHub.Core.Services.NineGagFetchService._nineGagGateway.htm" />
+  <HelpKINode Title="NineGagGateway class">
+    <HelpKINode Title="NineGagGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm" />
+    <HelpKINode Title="NineGagGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm" />
+    <HelpKINode Title="about NineGagGateway class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NineGagGateway.GetNineGagMeme method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.GetNineGagMeme.htm" />
+  <HelpKINode Title="NineGagGateway.NineGagGateway constructor" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway.-ctor.htm" />
+  <HelpKINode Title="NineGagGateway._nineGagApiSettings field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway._nineGagApiSettings.htm" />
+  <HelpKINode Title="NineGagMapperService class">
+    <HelpKINode Title="NineGagMapperService Class" Url="html/T-ComedyHub.Core.Services.NineGagMapperService.htm" />
+    <HelpKINode Title="NineGagMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.NineGagMapperService.htm" />
+    <HelpKINode Title="about NineGagMapperService class" Url="html/T-ComedyHub.Core.Services.NineGagMapperService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.NineGagMapperService.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Services.NineGagMapperService.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Services.NineGagMapperService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.NineGagMapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NineGagMapperService.NineGagMapperService constructor" Url="html/M-ComedyHub.Core.Services.NineGagMapperService.-ctor.htm" />
+  <HelpKINode Title="NineGagMapperService.NineGagModelToMemes method" Url="html/M-ComedyHub.Core.Services.NineGagMapperService.NineGagModelToMemes.htm" />
+  <HelpKINode Title="NineGagMapperService._mapperService field" Url="html/F-ComedyHub.Core.Services.NineGagMapperService._mapperService.htm" />
+  <HelpKINode Title="NineGagModel class">
+    <HelpKINode Title="NineGagModel Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.htm" />
+    <HelpKINode Title="NineGagModel Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.htm" />
+    <HelpKINode Title="about NineGagModel class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NineGagModel.Data property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagModel.Data.htm" />
+  <HelpKINode Title="NineGagModelToMemes method">
+    <HelpKINode Title="NineGagModelToMemes Method " Url="html/M-ComedyHub.Core.Services.Contracts.INineGagMapperService.NineGagModelToMemes.htm" />
+    <HelpKINode Title="NineGagModelToMemes Method " Url="html/M-ComedyHub.Core.Services.NineGagMapperService.NineGagModelToMemes.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NineGagPost class">
+    <HelpKINode Title="NineGagPost Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.htm" />
+    <HelpKINode Title="NineGagPost Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.htm" />
+    <HelpKINode Title="about NineGagPost class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NineGagPost.CommentsCount property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.CommentsCount.htm" />
+  <HelpKINode Title="NineGagPost.CreationTs property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.CreationTs.htm" />
+  <HelpKINode Title="NineGagPost.DescriptionHtml property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.DescriptionHtml.htm" />
+  <HelpKINode Title="NineGagPost.DownVoteCount property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.DownVoteCount.htm" />
+  <HelpKINode Title="NineGagPost.Id property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Id.htm" />
+  <HelpKINode Title="NineGagPost.Images property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Images.htm" />
+  <HelpKINode Title="NineGagPost.Nsfw property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Nsfw.htm" />
+  <HelpKINode Title="NineGagPost.PostSection property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.PostSection.htm" />
+  <HelpKINode Title="NineGagPost.Tags property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Tags.htm" />
+  <HelpKINode Title="NineGagPost.Title property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Title.htm" />
+  <HelpKINode Title="NineGagPost.Type property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Type.htm" />
+  <HelpKINode Title="NineGagPost.UpVoteCount property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.UpVoteCount.htm" />
+  <HelpKINode Title="NineGagPost.Url property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Url.htm" />
+  <HelpKINode Title="NotificationComponent class">
+    <HelpKINode Title="NotificationComponent Class" Url="html/T-ComedyHub.Core.Components.NotificationComponent.htm" />
+    <HelpKINode Title="NotificationComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.NotificationComponent.htm" />
+    <HelpKINode Title="about NotificationComponent class" Url="html/T-ComedyHub.Core.Components.NotificationComponent.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.NotificationComponent.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Components.NotificationComponent.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Components.NotificationComponent.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.NotificationComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NotificationComponent.NotificationComponent constructor" Url="html/M-ComedyHub.Core.Components.NotificationComponent.-ctor.htm" />
+  <HelpKINode Title="NotificationComponent.SendFailureNotification method" Url="html/M-ComedyHub.Core.Components.NotificationComponent.SendFailureNotification.htm" />
+  <HelpKINode Title="NotificationComponent.SendSucessfulNotification method" Url="html/M-ComedyHub.Core.Components.NotificationComponent.SendSucessfulNotification.htm" />
+  <HelpKINode Title="NotificationComponent._notificationTelegramService field" Url="html/F-ComedyHub.Core.Components.NotificationComponent._notificationTelegramService.htm" />
+  <HelpKINode Title="NotificationTelegramService class">
+    <HelpKINode Title="NotificationTelegramService Class" Url="html/T-ComedyHub.Core.Services.NotificationTelegramService.htm" />
+    <HelpKINode Title="NotificationTelegramService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.NotificationTelegramService.htm" />
+    <HelpKINode Title="about NotificationTelegramService class" Url="html/T-ComedyHub.Core.Services.NotificationTelegramService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.NotificationTelegramService.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Services.NotificationTelegramService.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Services.NotificationTelegramService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.NotificationTelegramService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NotificationTelegramService.NotificationTelegramService constructor" Url="html/M-ComedyHub.Core.Services.NotificationTelegramService.-ctor.htm" />
+  <HelpKINode Title="NotificationTelegramService.SendTelegramFailureNotification method" Url="html/M-ComedyHub.Core.Services.NotificationTelegramService.SendTelegramFailureNotification.htm" />
+  <HelpKINode Title="NotificationTelegramService.SendTelegramSucessNotification method" Url="html/M-ComedyHub.Core.Services.NotificationTelegramService.SendTelegramSucessNotification.htm" />
+  <HelpKINode Title="NotificationTelegramService._logger field" Url="html/F-ComedyHub.Core.Services.NotificationTelegramService._logger.htm" />
+  <HelpKINode Title="NotificationTelegramService._telegramApiSettings field" Url="html/F-ComedyHub.Core.Services.NotificationTelegramService._telegramApiSettings.htm" />
+  <HelpKINode Title="NotificationTelegramService._telegramGateway field" Url="html/F-ComedyHub.Core.Services.NotificationTelegramService._telegramGateway.htm" />
+  <HelpKINode Title="Nsfw property">
+    <HelpKINode Title="Nsfw Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Nsfw.htm" />
+    <HelpKINode Title="Nsfw Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.Nsfw.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NumPostsToReceive property">
+    <HelpKINode Title="NumPostsToReceive Property " Url="html/P-ComedyHub.Core.Configuration.RedditApiSettings.NumPostsToReceive.htm" />
+    <HelpKINode Title="NumPostsToReceive Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.NumPostsToReceive.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NumStatusToFetch property">
+    <HelpKINode Title="NumStatusToFetch Property " Url="html/P-ComedyHub.Core.Configuration.TwitterBotSettings.NumStatusToFetch.htm" />
+    <HelpKINode Title="NumStatusToFetch Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.ITwitterBotSettings.NumStatusToFetch.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ParseMode property">
+    <HelpKINode Title="ParseMode Property " Url="html/P-ComedyHub.Core.Configuration.TelegramApiSettings.ParseMode.htm" />
+    <HelpKINode Title="ParseMode Property " Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.ParseMode.htm" />
+    <HelpKINode Title="ParseMode Property " Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.ParseMode.htm" />
+    <HelpKINode Title="ParseMode Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.ParseMode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PhotoUrl property" Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.PhotoUrl.htm" />
+  <HelpKINode Title="Posts property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Data.Posts.htm" />
+  <HelpKINode Title="PostSection class">
+    <HelpKINode Title="PostSection Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.htm" />
+    <HelpKINode Title="PostSection Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.htm" />
+    <HelpKINode Title="about PostSection class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PostSection property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.PostSection.htm" />
+  <HelpKINode Title="PostSection.ImageUrl property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.ImageUrl.htm" />
+  <HelpKINode Title="PostSection.Name property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.Name.htm" />
+  <HelpKINode Title="PostSection.Url property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.Url.htm" />
+  <HelpKINode Title="PostSection.WebpUrl property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.WebpUrl.htm" />
+  <HelpKINode Title="Process method">
+    <HelpKINode Title="Process Method " Url="html/M-ComedyHub.Core.Components.Contracts.IMemeOrchestrator.Process.htm" />
+    <HelpKINode Title="Process Method " Url="html/M-ComedyHub.Core.Components.MemeOrchestrator.Process.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProcessMeme method">
+    <HelpKINode Title="ProcessMeme Method " Url="html/M-ComedyHub.Core.Components.MemeProcessor.ProcessMeme.htm" />
+    <HelpKINode Title="ProcessMeme Method " Url="html/M-ComedyHub.Core.Components.Contracts.IMemeProcessor.ProcessMeme.htm" />
+    <HelpKINode Title="ProcessMeme Method " Url="html/M-ComedyHub.Host.Controllers.MemesController.ProcessMeme.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProcessRandomService method" Url="html/M-ComedyHub.Core.Components.MemeProcessor.ProcessRandomService.htm" />
+  <HelpKINode Title="Program class">
+    <HelpKINode Title="Program Class" Url="html/T-ComedyHub.Host.Program.htm" />
+    <HelpKINode Title="Program Members" Url="html/AllMembers.T-ComedyHub.Host.Program.htm" />
+    <HelpKINode Title="about Program class" Url="html/T-ComedyHub.Host.Program.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Host.Program.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Host.Program.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Program.CreateHostBuilder method" Url="html/M-ComedyHub.Host.Program.CreateHostBuilder.htm" />
+  <HelpKINode Title="Program.Main method" Url="html/M-ComedyHub.Host.Program.Main.htm" />
+  <HelpKINode Title="Provider property" Url="html/P-ComedyHub.Model.Meme.MemeModel.Provider.htm" />
+  <HelpKINode Title="PublishComponent class">
+    <HelpKINode Title="PublishComponent Class" Url="html/T-ComedyHub.Core.Components.PublishComponent.htm" />
+    <HelpKINode Title="PublishComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.PublishComponent.htm" />
+    <HelpKINode Title="about PublishComponent class" Url="html/T-ComedyHub.Core.Components.PublishComponent.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.PublishComponent.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Components.PublishComponent.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Components.PublishComponent.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.PublishComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PublishComponent.PublishComponent constructor" Url="html/M-ComedyHub.Core.Components.PublishComponent.-ctor.htm" />
+  <HelpKINode Title="PublishComponent.PublishMeme method" Url="html/M-ComedyHub.Core.Components.PublishComponent.PublishMeme.htm" />
+  <HelpKINode Title="PublishComponent._publishTwitterService field" Url="html/F-ComedyHub.Core.Components.PublishComponent._publishTwitterService.htm" />
+  <HelpKINode Title="PublishedAt property" Url="html/P-ComedyHub.Model.Publish.PublishedModel.PublishedAt.htm" />
+  <HelpKINode Title="PublishedDate property" Url="html/P-ComedyHub.Model.Meme.MemeModel.PublishedDate.htm" />
+  <HelpKINode Title="PublishedModel class">
+    <HelpKINode Title="PublishedModel Class" Url="html/T-ComedyHub.Model.Publish.PublishedModel.htm" />
+    <HelpKINode Title="PublishedModel Members" Url="html/AllMembers.T-ComedyHub.Model.Publish.PublishedModel.htm" />
+    <HelpKINode Title="about PublishedModel class" Url="html/T-ComedyHub.Model.Publish.PublishedModel.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Model.Publish.PublishedModel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Model.Publish.PublishedModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PublishedModel.ImageUrl property" Url="html/P-ComedyHub.Model.Publish.PublishedModel.ImageUrl.htm" />
+  <HelpKINode Title="PublishedModel.MemeProvider property" Url="html/P-ComedyHub.Model.Publish.PublishedModel.MemeProvider.htm" />
+  <HelpKINode Title="PublishedModel.Message property" Url="html/P-ComedyHub.Model.Publish.PublishedModel.Message.htm" />
+  <HelpKINode Title="PublishedModel.PublishedAt property" Url="html/P-ComedyHub.Model.Publish.PublishedModel.PublishedAt.htm" />
+  <HelpKINode Title="PublishedModel.PublishedURL property" Url="html/P-ComedyHub.Model.Publish.PublishedModel.PublishedURL.htm" />
+  <HelpKINode Title="PublishedURL property" Url="html/P-ComedyHub.Model.Publish.PublishedModel.PublishedURL.htm" />
+  <HelpKINode Title="PublishMeme method">
+    <HelpKINode Title="PublishMeme Method " Url="html/M-ComedyHub.Core.Components.Contracts.IPublishComponent.PublishMeme.htm" />
+    <HelpKINode Title="PublishMeme Method " Url="html/M-ComedyHub.Core.Components.PublishComponent.PublishMeme.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PublishToTwitter method">
+    <HelpKINode Title="PublishToTwitter Method " Url="html/M-ComedyHub.Core.Services.PublishTwitterService.PublishToTwitter.htm" />
+    <HelpKINode Title="PublishToTwitter Method " Url="html/M-ComedyHub.Core.Services.Contracts.IPublishTwitterService.PublishToTwitter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PublishTwitterService class">
+    <HelpKINode Title="PublishTwitterService Class" Url="html/T-ComedyHub.Core.Services.PublishTwitterService.htm" />
+    <HelpKINode Title="PublishTwitterService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.PublishTwitterService.htm" />
+    <HelpKINode Title="about PublishTwitterService class" Url="html/T-ComedyHub.Core.Services.PublishTwitterService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.PublishTwitterService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.PublishTwitterService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PublishTwitterService.PublishToTwitter method" Url="html/M-ComedyHub.Core.Services.PublishTwitterService.PublishToTwitter.htm" />
+  <HelpKINode Title="ReceiverInfo class">
+    <HelpKINode Title="ReceiverInfo Class" Url="html/T-ComedyHub.Core.Auth.ReceiverInfo.htm" />
+    <HelpKINode Title="ReceiverInfo Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.ReceiverInfo.htm" />
+    <HelpKINode Title="about ReceiverInfo class" Url="html/T-ComedyHub.Core.Auth.ReceiverInfo.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Auth.ReceiverInfo.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Auth.ReceiverInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReceiverInfo.TELEGRAM_MESSAGE_RECEIVER_ID field" Url="html/F-ComedyHub.Core.Auth.ReceiverInfo.TELEGRAM_MESSAGE_RECEIVER_ID.htm" />
+  <HelpKINode Title="Reddit field" Url="html/F-ComedyHub.Core.Constants.MemeProvider.Reddit.htm" />
+  <HelpKINode Title="RedditApiSettings class">
+    <HelpKINode Title="RedditApiSettings Class" Url="html/T-ComedyHub.Core.Configuration.RedditApiSettings.htm" />
+    <HelpKINode Title="RedditApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.RedditApiSettings.htm" />
+    <HelpKINode Title="about RedditApiSettings class" Url="html/T-ComedyHub.Core.Configuration.RedditApiSettings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.RedditApiSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Configuration.RedditApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RedditApiSettings.NumPostsToReceive property" Url="html/P-ComedyHub.Core.Configuration.RedditApiSettings.NumPostsToReceive.htm" />
+  <HelpKINode Title="RedditApiSettings.SubredditToFetch property" Url="html/P-ComedyHub.Core.Configuration.RedditApiSettings.SubredditToFetch.htm" />
+  <HelpKINode Title="RedditAuth class">
+    <HelpKINode Title="RedditAuth Class" Url="html/T-ComedyHub.Core.Auth.RedditAuth.htm" />
+    <HelpKINode Title="RedditAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.RedditAuth.htm" />
+    <HelpKINode Title="about RedditAuth class" Url="html/T-ComedyHub.Core.Auth.RedditAuth.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Auth.RedditAuth.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Auth.RedditAuth.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RedditAuth.SetRedditAuth method" Url="html/M-ComedyHub.Core.Auth.RedditAuth.SetRedditAuth.htm" />
+  <HelpKINode Title="RedditComponent class">
+    <HelpKINode Title="RedditComponent Class" Url="html/T-ComedyHub.Core.Components.RedditComponent.htm" />
+    <HelpKINode Title="RedditComponent Members" Url="html/AllMembers.T-ComedyHub.Core.Components.RedditComponent.htm" />
+    <HelpKINode Title="about RedditComponent class" Url="html/T-ComedyHub.Core.Components.RedditComponent.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Components.RedditComponent.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Components.RedditComponent.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Components.RedditComponent.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Components.RedditComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RedditComponent.GetRedditMeme method" Url="html/M-ComedyHub.Core.Components.RedditComponent.GetRedditMeme.htm" />
+  <HelpKINode Title="RedditComponent.RedditComponent constructor" Url="html/M-ComedyHub.Core.Components.RedditComponent.-ctor.htm" />
+  <HelpKINode Title="RedditComponent._filterService field" Url="html/F-ComedyHub.Core.Components.RedditComponent._filterService.htm" />
+  <HelpKINode Title="RedditComponent._logger field" Url="html/F-ComedyHub.Core.Components.RedditComponent._logger.htm" />
+  <HelpKINode Title="RedditComponent._redditFetchService field" Url="html/F-ComedyHub.Core.Components.RedditComponent._redditFetchService.htm" />
+  <HelpKINode Title="RedditComponent._redditMapperService field" Url="html/F-ComedyHub.Core.Components.RedditComponent._redditMapperService.htm" />
+  <HelpKINode Title="RedditFetchService class">
+    <HelpKINode Title="RedditFetchService Class" Url="html/T-ComedyHub.Core.Services.RedditFetchService.htm" />
+    <HelpKINode Title="RedditFetchService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.RedditFetchService.htm" />
+    <HelpKINode Title="about RedditFetchService class" Url="html/T-ComedyHub.Core.Services.RedditFetchService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.RedditFetchService.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Services.RedditFetchService.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Services.RedditFetchService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.RedditFetchService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RedditFetchService.GetRedditModelMeme method" Url="html/M-ComedyHub.Core.Services.RedditFetchService.GetRedditModelMeme.htm" />
+  <HelpKINode Title="RedditFetchService.RedditFetchService constructor" Url="html/M-ComedyHub.Core.Services.RedditFetchService.-ctor.htm" />
+  <HelpKINode Title="RedditFetchService._redditGateway field" Url="html/F-ComedyHub.Core.Services.RedditFetchService._redditGateway.htm" />
+  <HelpKINode Title="RedditGateway class">
+    <HelpKINode Title="RedditGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm" />
+    <HelpKINode Title="RedditGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm" />
+    <HelpKINode Title="about RedditGateway class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RedditGateway.GetRedditMeme method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.GetRedditMeme.htm" />
+  <HelpKINode Title="RedditGateway.RedditGateway constructor" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.RedditGateway.-ctor.htm" />
+  <HelpKINode Title="RedditGateway._redditApiSettings field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.RedditGateway._redditApiSettings.htm" />
+  <HelpKINode Title="RedditGateway._redditAuth field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.RedditGateway._redditAuth.htm" />
+  <HelpKINode Title="RedditMapperService class">
+    <HelpKINode Title="RedditMapperService Class" Url="html/T-ComedyHub.Core.Services.RedditMapperService.htm" />
+    <HelpKINode Title="RedditMapperService Members" Url="html/AllMembers.T-ComedyHub.Core.Services.RedditMapperService.htm" />
+    <HelpKINode Title="about RedditMapperService class" Url="html/T-ComedyHub.Core.Services.RedditMapperService.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Services.RedditMapperService.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Services.RedditMapperService.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Services.RedditMapperService.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Services.RedditMapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RedditMapperService.RedditMapperService constructor" Url="html/M-ComedyHub.Core.Services.RedditMapperService.-ctor.htm" />
+  <HelpKINode Title="RedditMapperService.RedditModelToMemes method" Url="html/M-ComedyHub.Core.Services.RedditMapperService.RedditModelToMemes.htm" />
+  <HelpKINode Title="RedditMapperService._applicationSettings field" Url="html/F-ComedyHub.Core.Services.RedditMapperService._applicationSettings.htm" />
+  <HelpKINode Title="RedditMapperService._mapperService field" Url="html/F-ComedyHub.Core.Services.RedditMapperService._mapperService.htm" />
+  <HelpKINode Title="RedditModelToMemes method">
+    <HelpKINode Title="RedditModelToMemes Method " Url="html/M-ComedyHub.Core.Services.Contracts.IRedditMapperService.RedditModelToMemes.htm" />
+    <HelpKINode Title="RedditModelToMemes Method " Url="html/M-ComedyHub.Core.Services.RedditMapperService.RedditModelToMemes.htm" />
+  </HelpKINode>
+  <HelpKINode Title="REDDIT_APP_ID field" Url="html/F-ComedyHub.Core.Auth.AppInfo.REDDIT_APP_ID.htm" />
+  <HelpKINode Title="RegisterAuth method" Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterAuth.htm" />
+  <HelpKINode Title="RegisterComponents method" Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterComponents.htm" />
+  <HelpKINode Title="RegisterConfigurations method" Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterConfigurations.htm" />
+  <HelpKINode Title="RegisterInfrastructure method" Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterInfrastructure.htm" />
+  <HelpKINode Title="RegisterServices method" Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterServices.htm" />
+  <HelpKINode Title="RemoveDuplicates method" Url="html/M-ComedyHub.Core.Services.FilterService.RemoveDuplicates.htm" />
+  <HelpKINode Title="RemoveImagesWithSizeLimit method" Url="html/M-ComedyHub.Core.Services.FilterService.RemoveImagesWithSizeLimit.htm" />
+  <HelpKINode Title="RemovePostsWithoutImage method" Url="html/M-ComedyHub.Core.Services.FilterService.RemovePostsWithoutImage.htm" />
+  <HelpKINode Title="SendFailureNotification method">
+    <HelpKINode Title="SendFailureNotification Method " Url="html/M-ComedyHub.Core.Components.Contracts.INotificationComponent.SendFailureNotification.htm" />
+    <HelpKINode Title="SendFailureNotification Method " Url="html/M-ComedyHub.Core.Components.NotificationComponent.SendFailureNotification.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SendPhotoMessage method">
+    <HelpKINode Title="SendPhotoMessage Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.SendPhotoMessage.htm" />
+    <HelpKINode Title="SendPhotoMessage Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.SendPhotoMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SendSucessfulNotification method">
+    <HelpKINode Title="SendSucessfulNotification Method " Url="html/M-ComedyHub.Core.Components.Contracts.INotificationComponent.SendSucessfulNotification.htm" />
+    <HelpKINode Title="SendSucessfulNotification Method " Url="html/M-ComedyHub.Core.Components.NotificationComponent.SendSucessfulNotification.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SendTelegramFailureNotification method">
+    <HelpKINode Title="SendTelegramFailureNotification Method " Url="html/M-ComedyHub.Core.Services.Contracts.INotificationTelegramService.SendTelegramFailureNotification.htm" />
+    <HelpKINode Title="SendTelegramFailureNotification Method " Url="html/M-ComedyHub.Core.Services.NotificationTelegramService.SendTelegramFailureNotification.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SendTelegramSucessNotification method">
+    <HelpKINode Title="SendTelegramSucessNotification Method " Url="html/M-ComedyHub.Core.Services.Contracts.INotificationTelegramService.SendTelegramSucessNotification.htm" />
+    <HelpKINode Title="SendTelegramSucessNotification Method " Url="html/M-ComedyHub.Core.Services.NotificationTelegramService.SendTelegramSucessNotification.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SendTextMessage method">
+    <HelpKINode Title="SendTextMessage Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.Contracts.ITelegramGateway.SendTextMessage.htm" />
+    <HelpKINode Title="SendTextMessage Method " Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.SendTextMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServicesToFetch property">
+    <HelpKINode Title="ServicesToFetch Property " Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.ServicesToFetch.htm" />
+    <HelpKINode Title="ServicesToFetch Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.ServicesToFetch.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetRedditAuth method">
+    <HelpKINode Title="SetRedditAuth Method " Url="html/M-ComedyHub.Core.Auth.Contracts.IRedditAuth.SetRedditAuth.htm" />
+    <HelpKINode Title="SetRedditAuth Method " Url="html/M-ComedyHub.Core.Auth.RedditAuth.SetRedditAuth.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetTwitterAuth method">
+    <HelpKINode Title="SetTwitterAuth Method " Url="html/M-ComedyHub.Core.Auth.TwitterAuth.SetTwitterAuth.htm" />
+    <HelpKINode Title="SetTwitterAuth Method " Url="html/M-ComedyHub.Core.Auth.Contracts.ITwitterAuth.SetTwitterAuth.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SizeLimitMegaBytes property">
+    <HelpKINode Title="SizeLimitMegaBytes Property " Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.SizeLimitMegaBytes.htm" />
+    <HelpKINode Title="SizeLimitMegaBytes Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.SizeLimitMegaBytes.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Startup class">
+    <HelpKINode Title="Startup Class" Url="html/T-ComedyHub.Host.Startup.htm" />
+    <HelpKINode Title="Startup Members" Url="html/AllMembers.T-ComedyHub.Host.Startup.htm" />
+    <HelpKINode Title="about Startup class" Url="html/T-ComedyHub.Host.Startup.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Host.Startup.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Host.Startup.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Host.Startup.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Host.Startup.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Startup.Configuration property" Url="html/P-ComedyHub.Host.Startup.Configuration.htm" />
+  <HelpKINode Title="Startup.Configure method" Url="html/M-ComedyHub.Host.Startup.Configure.htm" />
+  <HelpKINode Title="Startup.ConfigureServices method" Url="html/M-ComedyHub.Host.Startup.ConfigureServices.htm" />
+  <HelpKINode Title="Startup.Startup constructor" Url="html/M-ComedyHub.Host.Startup.-ctor.htm" />
+  <HelpKINode Title="StartupConfiguration class">
+    <HelpKINode Title="StartupConfiguration Class" Url="html/T-ComedyHub.Host.Configuration.StartupConfiguration.htm" />
+    <HelpKINode Title="StartupConfiguration Members" Url="html/AllMembers.T-ComedyHub.Host.Configuration.StartupConfiguration.htm" />
+    <HelpKINode Title="about StartupConfiguration class" Url="html/T-ComedyHub.Host.Configuration.StartupConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Host.Configuration.StartupConfiguration.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Host.Configuration.StartupConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StartupConfiguration.RegisterAuth method" Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterAuth.htm" />
+  <HelpKINode Title="StartupConfiguration.RegisterComponents method" Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterComponents.htm" />
+  <HelpKINode Title="StartupConfiguration.RegisterConfigurations method" Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterConfigurations.htm" />
+  <HelpKINode Title="StartupConfiguration.RegisterInfrastructure method" Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterInfrastructure.htm" />
+  <HelpKINode Title="StartupConfiguration.RegisterServices method" Url="html/M-ComedyHub.Host.Configuration.StartupConfiguration.RegisterServices.htm" />
+  <HelpKINode Title="SubredditToFetch property">
+    <HelpKINode Title="SubredditToFetch Property " Url="html/P-ComedyHub.Core.Configuration.RedditApiSettings.SubredditToFetch.htm" />
+    <HelpKINode Title="SubredditToFetch Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IRedditApiSettings.SubredditToFetch.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SupportedImageExtensions property">
+    <HelpKINode Title="SupportedImageExtensions Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.IApplicationSettings.SupportedImageExtensions.htm" />
+    <HelpKINode Title="SupportedImageExtensions Property " Url="html/P-ComedyHub.Core.Configuration.ApplicationSettings.SupportedImageExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tag class">
+    <HelpKINode Title="Tag Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.htm" />
+    <HelpKINode Title="Tag Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.htm" />
+    <HelpKINode Title="about Tag class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tag.Key property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.Key.htm" />
+  <HelpKINode Title="Tag.Url property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.Url.htm" />
+  <HelpKINode Title="Tags property">
+    <HelpKINode Title="Tags Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Tags.htm" />
+    <HelpKINode Title="Tags Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.Tags.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TelegramApiSettings class">
+    <HelpKINode Title="TelegramApiSettings Class" Url="html/T-ComedyHub.Core.Configuration.TelegramApiSettings.htm" />
+    <HelpKINode Title="TelegramApiSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.TelegramApiSettings.htm" />
+    <HelpKINode Title="about TelegramApiSettings class" Url="html/T-ComedyHub.Core.Configuration.TelegramApiSettings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.TelegramApiSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Configuration.TelegramApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TelegramApiSettings.ParseMode property" Url="html/P-ComedyHub.Core.Configuration.TelegramApiSettings.ParseMode.htm" />
+  <HelpKINode Title="TelegramApiSettings.Url property" Url="html/P-ComedyHub.Core.Configuration.TelegramApiSettings.Url.htm" />
+  <HelpKINode Title="TelegramGateway class">
+    <HelpKINode Title="TelegramGateway Class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm" />
+    <HelpKINode Title="TelegramGateway Members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm" />
+    <HelpKINode Title="about TelegramGateway class" Url="html/T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm" />
+    <HelpKINode Title="constructor" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TelegramGateway.ConvertToJsonData method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.ConvertToJsonData.htm" />
+  <HelpKINode Title="TelegramGateway.SendPhotoMessage method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.SendPhotoMessage.htm" />
+  <HelpKINode Title="TelegramGateway.SendTextMessage method" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.SendTextMessage.htm" />
+  <HelpKINode Title="TelegramGateway.TelegramGateway constructor" Url="html/M-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway.-ctor.htm" />
+  <HelpKINode Title="TelegramGateway._telegramApiSettings field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway._telegramApiSettings.htm" />
+  <HelpKINode Title="TelegramMessage class">
+    <HelpKINode Title="TelegramMessage Class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramMessage.htm" />
+    <HelpKINode Title="about TelegramMessage class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TelegramPhotoMessage class">
+    <HelpKINode Title="TelegramPhotoMessage Class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.htm" />
+    <HelpKINode Title="TelegramPhotoMessage Members" Url="html/AllMembers.T-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.htm" />
+    <HelpKINode Title="about TelegramPhotoMessage class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TelegramPhotoMessage.Caption property" Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.Caption.htm" />
+  <HelpKINode Title="TelegramPhotoMessage.ChatId property" Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.ChatId.htm" />
+  <HelpKINode Title="TelegramPhotoMessage.ParseMode property" Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.ParseMode.htm" />
+  <HelpKINode Title="TelegramPhotoMessage.PhotoUrl property" Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramPhotoMessage.PhotoUrl.htm" />
+  <HelpKINode Title="TelegramTextMessage class">
+    <HelpKINode Title="TelegramTextMessage Class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.htm" />
+    <HelpKINode Title="TelegramTextMessage Members" Url="html/AllMembers.T-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.htm" />
+    <HelpKINode Title="about TelegramTextMessage class" Url="html/T-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TelegramTextMessage.ChatId property" Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.ChatId.htm" />
+  <HelpKINode Title="TelegramTextMessage.ParseMode property" Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.ParseMode.htm" />
+  <HelpKINode Title="TelegramTextMessage.Text property" Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.Text.htm" />
+  <HelpKINode Title="TELEGRAM_MESSAGE_RECEIVER_ID field" Url="html/F-ComedyHub.Core.Auth.ReceiverInfo.TELEGRAM_MESSAGE_RECEIVER_ID.htm" />
+  <HelpKINode Title="Text property" Url="html/P-ComedyHub.Model.Notification.TelegramMessage.TelegramTextMessage.Text.htm" />
+  <HelpKINode Title="Title property">
+    <HelpKINode Title="Title Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Title.htm" />
+    <HelpKINode Title="Title Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.Title.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TwitterAuth class">
+    <HelpKINode Title="TwitterAuth Class" Url="html/T-ComedyHub.Core.Auth.TwitterAuth.htm" />
+    <HelpKINode Title="TwitterAuth Members" Url="html/AllMembers.T-ComedyHub.Core.Auth.TwitterAuth.htm" />
+    <HelpKINode Title="about TwitterAuth class" Url="html/T-ComedyHub.Core.Auth.TwitterAuth.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Auth.TwitterAuth.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-ComedyHub.Core.Auth.TwitterAuth.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TwitterAuth.SetTwitterAuth method" Url="html/M-ComedyHub.Core.Auth.TwitterAuth.SetTwitterAuth.htm" />
+  <HelpKINode Title="TwitterBotSettings class">
+    <HelpKINode Title="TwitterBotSettings Class" Url="html/T-ComedyHub.Core.Configuration.TwitterBotSettings.htm" />
+    <HelpKINode Title="TwitterBotSettings Members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.TwitterBotSettings.htm" />
+    <HelpKINode Title="about TwitterBotSettings class" Url="html/T-ComedyHub.Core.Configuration.TwitterBotSettings.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-ComedyHub.Core.Configuration.TwitterBotSettings.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-ComedyHub.Core.Configuration.TwitterBotSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TwitterBotSettings.BotScreenName property" Url="html/P-ComedyHub.Core.Configuration.TwitterBotSettings.BotScreenName.htm" />
+  <HelpKINode Title="TwitterBotSettings.NumStatusToFetch property" Url="html/P-ComedyHub.Core.Configuration.TwitterBotSettings.NumStatusToFetch.htm" />
+  <HelpKINode Title="Type property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Type.htm" />
+  <HelpKINode Title="UpVoteCount property">
+    <HelpKINode Title="UpVoteCount Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.UpVoteCount.htm" />
+    <HelpKINode Title="UpVoteCount Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.UpVoteCount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Url property">
+    <HelpKINode Title="Url Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.Url.htm" />
+    <HelpKINode Title="Url Property " Url="html/P-ComedyHub.Core.Configuration.NineGagApiSettings.Url.htm" />
+    <HelpKINode Title="Url Property " Url="html/P-ComedyHub.Core.Configuration.TelegramApiSettings.Url.htm" />
+    <HelpKINode Title="Url Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.Url.htm" />
+    <HelpKINode Title="Url Property " Url="html/P-ComedyHub.Model.Meme.MemeModel.Url.htm" />
+    <HelpKINode Title="Url Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.NineGagPost.Url.htm" />
+    <HelpKINode Title="Url Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Tag.Url.htm" />
+    <HelpKINode Title="Url Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.INineGagApiSettings.Url.htm" />
+    <HelpKINode Title="Url Property " Url="html/P-ComedyHub.Core.Configuration.Contracts.ITelegramApiSettings.Url.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebpUrl property">
+    <HelpKINode Title="WebpUrl Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.PostSection.WebpUrl.htm" />
+    <HelpKINode Title="WebpUrl Property " Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.WebpUrl.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Width property" Url="html/P-ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels.Image.Width.htm" />
+  <HelpKINode Title="_applicationSettings field">
+    <HelpKINode Title="_applicationSettings Field" Url="html/F-ComedyHub.Core.Services.MapperService._applicationSettings.htm" />
+    <HelpKINode Title="_applicationSettings Field" Url="html/F-ComedyHub.Core.Services.RedditMapperService._applicationSettings.htm" />
+    <HelpKINode Title="_applicationSettings Field" Url="html/F-ComedyHub.Core.Services.FilterService._applicationSettings.htm" />
+    <HelpKINode Title="_applicationSettings Field" Url="html/F-ComedyHub.Core.Components.MemeProcessor._applicationSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_contentGateway field" Url="html/F-ComedyHub.Core.Services.FilterService._contentGateway.htm" />
+  <HelpKINode Title="_filterService field">
+    <HelpKINode Title="_filterService Field" Url="html/F-ComedyHub.Core.Components.RedditComponent._filterService.htm" />
+    <HelpKINode Title="_filterService Field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._filterService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_logger field">
+    <HelpKINode Title="_logger Field" Url="html/F-ComedyHub.Core.Services.NotificationTelegramService._logger.htm" />
+    <HelpKINode Title="_logger Field" Url="html/F-ComedyHub.Host.Controllers.MemesController._logger.htm" />
+    <HelpKINode Title="_logger Field" Url="html/F-ComedyHub.Core.Components.RedditComponent._logger.htm" />
+    <HelpKINode Title="_logger Field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._logger.htm" />
+    <HelpKINode Title="_logger Field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._logger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_mapperService field">
+    <HelpKINode Title="_mapperService Field" Url="html/F-ComedyHub.Core.Services.RedditMapperService._mapperService.htm" />
+    <HelpKINode Title="_mapperService Field" Url="html/F-ComedyHub.Core.Services.NineGagMapperService._mapperService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_memeOrchestrator field" Url="html/F-ComedyHub.Host.Controllers.MemesController._memeOrchestrator.htm" />
+  <HelpKINode Title="_memeProcessor field">
+    <HelpKINode Title="_memeProcessor Field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._memeProcessor.htm" />
+    <HelpKINode Title="_memeProcessor Field" Url="html/F-ComedyHub.Host.Controllers.MemesController._memeProcessor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_nineGagApiSettings field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.NineGagGateway._nineGagApiSettings.htm" />
+  <HelpKINode Title="_nineGagComponent field" Url="html/F-ComedyHub.Core.Components.MemeProcessor._nineGagComponent.htm" />
+  <HelpKINode Title="_nineGagFetchService field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._nineGagFetchService.htm" />
+  <HelpKINode Title="_nineGagGateway field" Url="html/F-ComedyHub.Core.Services.NineGagFetchService._nineGagGateway.htm" />
+  <HelpKINode Title="_nineGagMapperService field" Url="html/F-ComedyHub.Core.Components.NineGagComponent._nineGagMapperService.htm" />
+  <HelpKINode Title="_notificationComponent field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._notificationComponent.htm" />
+  <HelpKINode Title="_notificationTelegramService field" Url="html/F-ComedyHub.Core.Components.NotificationComponent._notificationTelegramService.htm" />
+  <HelpKINode Title="_publishComponent field" Url="html/F-ComedyHub.Core.Components.MemeOrchestrator._publishComponent.htm" />
+  <HelpKINode Title="_publishTwitterService field" Url="html/F-ComedyHub.Core.Components.PublishComponent._publishTwitterService.htm" />
+  <HelpKINode Title="_redditApiSettings field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.RedditGateway._redditApiSettings.htm" />
+  <HelpKINode Title="_redditAuth field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.RedditGateway._redditAuth.htm" />
+  <HelpKINode Title="_redditComponent field" Url="html/F-ComedyHub.Core.Components.MemeProcessor._redditComponent.htm" />
+  <HelpKINode Title="_redditFetchService field" Url="html/F-ComedyHub.Core.Components.RedditComponent._redditFetchService.htm" />
+  <HelpKINode Title="_redditGateway field" Url="html/F-ComedyHub.Core.Services.RedditFetchService._redditGateway.htm" />
+  <HelpKINode Title="_redditMapperService field" Url="html/F-ComedyHub.Core.Components.RedditComponent._redditMapperService.htm" />
+  <HelpKINode Title="_telegramApiSettings field">
+    <HelpKINode Title="_telegramApiSettings Field" Url="html/F-ComedyHub.Core.Services.NotificationTelegramService._telegramApiSettings.htm" />
+    <HelpKINode Title="_telegramApiSettings Field" Url="html/F-ComedyHub.Core.Infrastructure.Gateway.TelegramGateway._telegramApiSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="_telegramGateway field" Url="html/F-ComedyHub.Core.Services.NotificationTelegramService._telegramGateway.htm" />
+  <HelpKINode Title="_twitterAuth field" Url="html/F-ComedyHub.Core.Services.FilterService._twitterAuth.htm" />
+  <HelpKINode Title="_twitterBotSettings field" Url="html/F-ComedyHub.Core.Services.FilterService._twitterBotSettings.htm" />
+</HelpKI>
