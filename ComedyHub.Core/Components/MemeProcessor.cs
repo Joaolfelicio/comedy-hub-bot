@@ -47,7 +47,7 @@ namespace ComedyHub.Core.Components
                     return await _nineGagComponent.GetNineGagMeme();
 
                 case Constants.MemeProvider.Reddit:
-                    return _redditComponent.GetRedditMeme();
+                    return await _redditComponent.GetRedditMeme();
 
                 default:
                     return await _nineGagComponent.GetNineGagMeme();

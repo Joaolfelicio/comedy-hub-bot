@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ComedyHub.Core.Components
 {
@@ -25,7 +26,7 @@ namespace ComedyHub.Core.Components
             _filterService = filterService;
             _logger = logger;
         }
-        public MemeModel GetRedditMeme()
+        public async Task<MemeModel> GetRedditMeme()
         {
             var redditMemes = _redditFetchService.GetRedditModelMeme();
 
@@ -35,7 +36,7 @@ namespace ComedyHub.Core.Components
 
             _logger.LogInformation("Mapped to memes models");
 
-            var filteredMeme = _filterService.FilterMemes(mappedMemes);
+            var filteredMeme = await _filterService.FilterMemes(mappedMemes);
 
             _logger.LogInformation("Filtered memes to meme");
 

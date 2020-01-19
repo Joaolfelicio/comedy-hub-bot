@@ -51,6 +51,7 @@ namespace ComedyHub.Host.Configuration
             services.AddSingleton<ITelegramGateway, TelegramGateway>();
             services.AddSingleton<IRedditGateway, RedditGateway>();
             services.AddSingleton<INineGagGateway, NineGagGateway>();
+            services.AddSingleton<IContentGateway, ContentGateway>();
 
             return services;
         }

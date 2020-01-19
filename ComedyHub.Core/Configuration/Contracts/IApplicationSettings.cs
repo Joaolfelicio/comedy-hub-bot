@@ -9,5 +9,6 @@ namespace ComedyHub.Core.Configuration.Contracts
         string ServicesToFetch { get;}
         string DefaultTags { get; }
         string ImagesExtensions { get; }
+        int SizeLimitMegaBytes { get; }
     }
 }

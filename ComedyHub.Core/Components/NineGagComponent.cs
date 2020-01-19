@@ -36,7 +36,7 @@ namespace ComedyHub.Core.Components
 
             _logger.LogInformation("Mapped to memes models");
 
-            var memeModel = _filterService.FilterMemes(nineGagPostModel);
+            var memeModel = await _filterService.FilterMemes(nineGagPostModel);
 
             _logger.LogInformation("Filtered memes models to meme models");
 

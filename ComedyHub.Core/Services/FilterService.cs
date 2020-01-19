@@ -12,6 +12,9 @@ using System.Text;
 using System.Web;
 using Tweetinvi;
 using ComedyHub.Core.Constants;
+using System.Net.Http;
+using System.Threading.Tasks;
+using ComedyHub.Core.Infrastructure.Gateway.Contracts;
 
 namespace ComedyHub.Core.Services
 {
@@ -19,19 +22,27 @@ namespace ComedyHub.Core.Services
     {
         private readonly ITwitterBotSettings _twitterBotSettings;
         private readonly ITwitterAuth _twitterAuth;
+        private readonly IApplicationSettings _applicationSettings;
+        private readonly IContentGateway _contentGateway;
 
         public FilterService(ITwitterBotSettings twitterBotSettings,
-                             ITwitterAuth twitterAuth)
+                             ITwitterAuth twitterAuth,
+                             IApplicationSettings applicationSettings,
+                             IContentGateway contentGateway)
         {
             _twitterBotSettings = twitterBotSettings;
             _twitterAuth = twitterAuth;
+            _applicationSettings = applicationSettings;
+            _contentGateway = contentGateway;
         }
 
-        public MemeModel FilterMemes(List<MemeModel> posts)
+        public async Task<MemeModel> FilterMemes(List<MemeModel> posts)
         {
             var postsWithImage = RemovePostsWithoutImage(posts);
 
-            var distinctPosts = RemoveDuplicates(postsWithImage);
+            var imagesWithSizeLimit = await RemoveImagesWithSizeLimit(postsWithImage);
+
+            var distinctPosts = RemoveDuplicates(imagesWithSizeLimit);
 
             var randomFilteredMeme = GetRandomPost(distinctPosts);
 
@@ -84,6 +95,24 @@ namespace ComedyHub.Core.Services
                 }
             }
             return postsWithImage;
+        }
+
+        private async Task<List<MemeModel>> RemoveImagesWithSizeLimit(List<MemeModel> posts)
+        {
+            var sizeLimitBytes = _applicationSettings.SizeLimitMegaBytes * 1000000;
+
+            var imagesWithSizeLimit = new List<MemeModel>();
+
+            foreach (var post in posts)
+            {
+                var imageHeaders = await _contentGateway.GetContentHeaders(post.ImageUrl);
+
+                if (sizeLimitBytes > imageHeaders.ContentLength)
+                {
+                    imagesWithSizeLimit.Add(post);
+                }
+            }
+            return imagesWithSizeLimit;
         }
     }
 }

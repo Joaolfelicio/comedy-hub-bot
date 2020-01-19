@@ -10,6 +10,6 @@ namespace ComedyHub.Core.Services.Contracts
 {
     public interface IFilterService
     {
-        MemeModel FilterMemes(List<MemeModel> posts);
+        Task<MemeModel> FilterMemes(List<MemeModel> posts);
     }
 }
