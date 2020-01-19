@@ -8,6 +8,6 @@ namespace ComedyHub.Core.Services.Contracts
 {
     public interface IRedditMapperService
     {
-        MemeModel RedditModelToMeme(Post redditPost);
+        List<MemeModel> RedditModelToMemes(List<Post> redditPosts);
     }
 }

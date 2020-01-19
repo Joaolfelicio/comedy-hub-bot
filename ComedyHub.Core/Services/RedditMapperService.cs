@@ -3,40 +3,58 @@ using ComedyHub.Model.Meme;
 using Reddit.Controllers;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Web;
+using ComedyHub.Core.Constants;
+using ComedyHub.Core.Configuration.Contracts;
+using System.Linq;
 
 namespace ComedyHub.Core.Services
 {
     public class RedditMapperService : IRedditMapperService
     {
         private readonly IMapperService _mapperService;
+        private readonly IApplicationSettings _applicationSettings;
 
-        public RedditMapperService(IMapperService mapperService)
+        public RedditMapperService(IMapperService mapperService,
+                                   IApplicationSettings applicationSettings)
         {
             _mapperService = mapperService;
+            _applicationSettings = applicationSettings;
         }
 
-        public MemeModel RedditModelToMeme(Post redditPost)
+        public List<MemeModel> RedditModelToMemes(List<Post> redditPosts)
         {
-            var meme = new MemeModel()
+            var mappedMemes = new List<MemeModel>();
+            var imageExtensionsSupported = _applicationSettings.ImagesExtensions.Split(';').ToList();
+
+            foreach (var post in redditPosts)
             {
-                Id = redditPost.Id,
-                CommentsCount = redditPost.Listing.NumComments,
-                DownVoteCount = redditPost.DownVotes,
-                Title = HttpUtility.HtmlDecode(redditPost.Title),
-                Nsfw = redditPost.NSFW,
-                ImageUrl = redditPost.Listing.URL,
-                PublishedDate = redditPost.Created,
-                UpVoteCount = redditPost.UpVotes,
-                MediaFile = Constants.MediaType.MediaFilePhoto,
-                Url = redditPost.Permalink,
-                Provider = Constants.MemeProvider.Reddit
-            };
+                var fileExtension = Path.GetExtension(post.Listing.URL);
 
-            meme = _mapperService.MapToMemeModel(meme);
+                var meme = new MemeModel()
+                {
+                    Id = post.Id,
+                    CommentsCount = post.Listing.NumComments,
+                    DownVoteCount = post.DownVotes,
+                    Title = HttpUtility.HtmlDecode(post.Title),
+                    Nsfw = post.NSFW,
+                    ImageUrl = post.Listing.URL,
+                    PublishedDate = post.Created,
+                    UpVoteCount = post.UpVotes,
+                    FileExtension = fileExtension,
+                    Url = post.Permalink,
+                    Provider = MemeProvider.Reddit,
+                    MediaType = imageExtensionsSupported.Contains(fileExtension) ? MediaType.MediaFilePhoto : MediaType.MediaFileAnimated
+                };
+             mappedMemes.Add(meme);
+            }
 
-            return meme;
+            //Common mapping method between the memes services
+            mappedMemes = _mapperService.MapToMemeModels(mappedMemes);
+
+            return mappedMemes;
         }
     }
 }

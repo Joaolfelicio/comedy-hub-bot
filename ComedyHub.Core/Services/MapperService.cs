@@ -17,41 +17,48 @@ namespace ComedyHub.Core.Services
             _applicationSettings = applicationSettings;
         }
 
-        public MemeModel MapToMemeModel(MemeModel memeModel)
+        public List<MemeModel> MapToMemeModels(List<MemeModel> memeModels)
         {
-            return AddTagsToTitle(memeModel);
+            return AddTagsToTitle(memeModels);
         }
 
-        private MemeModel AddTagsToTitle(MemeModel memeModel)
+        private List<MemeModel> AddTagsToTitle(List<MemeModel> memeModels)
         {
-            var title = memeModel.Title;
-
             //The default tags on the appsettings
-            var defaultTags = _applicationSettings.DefaultTags.Split(';');
+            var defaultTags = _applicationSettings.DefaultTags.Split(';').ToList();
 
-            //Default tags list
-            var tags = new List<string>(defaultTags);
+            var memesWithTags = new List<MemeModel>();
 
-            if (memeModel.Tags != null && memeModel.Tags.Count > 0)
+            foreach (var meme in memeModels)
             {
-                //Tags from the meme
-                var memeTags = new List<string>(memeModel.Tags);
+                var title = meme.Title;
 
-                //Put everything together, default tags more meme tags
-                tags.AddRange(memeTags);
+                var tagsList = new List<string>();
+
+                // If the meme has tags
+                if (meme.Tags != null && meme.Tags.Count > 0)
+                {
+                    //Tags from the meme
+                    tagsList.AddRange(meme.Tags);
+                }
+
+                //Default tags
+                tagsList.AddRange(defaultTags);
+
+                //Get only the ones that are distincts
+                tagsList = tagsList.Distinct().ToList();
+
+                foreach (var tag in tagsList)
+                {
+                    title = title + " #" + tag;
+                }
+
+                meme.Title = title;
+                meme.Tags = tagsList;
+
+                memesWithTags.Add(meme);
             }
-
-            //Get only the ones that are distincts
-            tags = tags.Distinct().ToList();
-
-            foreach (var tag in tags)
-            {
-                title = title + " #" + tag;
-            }
-
-            memeModel.Title = title;
-
-            return memeModel;
+            return memesWithTags;
         }
     }
 }

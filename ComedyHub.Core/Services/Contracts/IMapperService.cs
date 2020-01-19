@@ -7,6 +7,6 @@ namespace ComedyHub.Core.Services.Contracts
 {
     public interface IMapperService
     {
-        MemeModel MapToMemeModel(MemeModel memeModel);
+        List<MemeModel> MapToMemeModels(List<MemeModel> memeModels);
     }
 }

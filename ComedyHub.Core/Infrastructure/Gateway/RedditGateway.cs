@@ -30,7 +30,7 @@ namespace ComedyHub.Core.Infrastructure.Gateway
             var redditApi = _redditAuth.SetRedditAuth();
 
             var askReddit = redditApi.Subreddit(subredditToFecth).About();
-            var topPosts = askReddit.Posts.GetTop(limit: numPostsToReceive);
+            var topPosts = askReddit.Posts.GetHot(limit: numPostsToReceive);
 
             return topPosts;
         }

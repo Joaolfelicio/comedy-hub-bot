@@ -1,4 +1,5 @@
 ﻿using ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels;
+using ComedyHub.Model.Meme;
 using Reddit.Controllers;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,6 @@ namespace ComedyHub.Core.Services.Contracts
 {
     public interface IFilterService
     {
-        bool HasMemeAlreadyPosted(string memeTitle);
-        T GetRandomPost<T>(List<T> posts);
+        MemeModel FilterMemes(List<MemeModel> posts);
     }
 }

@@ -37,11 +37,11 @@ namespace ComedyHub.Host.Controllers
 
                 await _memeOrchestrator.Process();
 
-                return Ok();
+                return Json(new { Status = "Success", Message = "Sucessfully published meme" });
             }
-            catch
+            catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError);
+                return Json(new { Status = "Failure", Message = ex.Message });
             }
         }
 
@@ -52,7 +52,7 @@ namespace ComedyHub.Host.Controllers
 
             if (meme == null)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError);
+                return Json(new { Status = "Failure", Message = "Meme is null" });
             }
             return Ok(meme);
         }

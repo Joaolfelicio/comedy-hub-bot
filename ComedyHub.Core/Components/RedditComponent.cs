@@ -11,35 +11,36 @@ namespace ComedyHub.Core.Components
     public class RedditComponent : IRedditComponent
     {
         private readonly IRedditFetchService _redditFetchService;
-        private readonly IRedditFilterService _redditFilterService;
         private readonly IRedditMapperService _redditMapperService;
+        private readonly IFilterService _filterService;
         private readonly ILogger<RedditComponent> _logger;
 
         public RedditComponent(IRedditFetchService redditFetchService,
-                               IRedditFilterService redditFilterService,
                                IRedditMapperService redditMapperService,
+                               IFilterService filterService,
                                ILogger<RedditComponent> logger)
         {
             _redditFetchService = redditFetchService;
-            _redditFilterService = redditFilterService;
             _redditMapperService = redditMapperService;
+            _filterService = filterService;
             _logger = logger;
         }
         public MemeModel GetRedditMeme()
         {
             var redditMemes = _redditFetchService.GetRedditModelMeme();
 
-            _logger.LogInformation("Received reddit meme");
+            _logger.LogInformation("Received reddit memes");
 
-            var filteredMeme = _redditFilterService.RedditFilter(redditMemes);
+            var mappedMemes = _redditMapperService.RedditModelToMemes(redditMemes);
 
-            _logger.LogInformation("Filtered reddit meme");
+            _logger.LogInformation("Mapped to memes models");
 
-            var mappedMeme = _redditMapperService.RedditModelToMeme(filteredMeme);
+            var filteredMeme = _filterService.FilterMemes(mappedMemes);
 
-            _logger.LogInformation("Mapped to meme model");
+            _logger.LogInformation("Filtered memes to meme");
 
-            return mappedMeme;
+
+            return filteredMeme;
 
         }
     }

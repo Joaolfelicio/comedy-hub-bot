@@ -13,6 +13,6 @@ namespace ComedyHub.Core.Constants
     public class MediaType
     {
         public const string MediaFilePhoto = "Photo";
-
+        public const string MediaFileAnimated = "Animated";
     }
 }

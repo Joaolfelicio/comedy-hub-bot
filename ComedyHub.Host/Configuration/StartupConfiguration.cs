@@ -23,13 +23,11 @@ namespace ComedyHub.Host.Configuration
         public static IServiceCollection RegisterServices(this IServiceCollection services)
         {
             services.AddSingleton<INineGagFetchService, NineGagFetchService>();
-            services.AddSingleton<INineGagFilterService, NineGagFilterService>();
             services.AddSingleton<INineGagMapperService, NineGagMapperService>();
             services.AddSingleton<IPublishTwitterService, PublishTwitterService>();
             services.AddSingleton<INotificationTelegramService, NotificationTelegramService>();
             services.AddSingleton<IFilterService, FilterService>();
             services.AddSingleton<IRedditFetchService, RedditFetchService>();
-            services.AddSingleton<IRedditFilterService, RedditFilterService>();
             services.AddSingleton<IRedditMapperService, RedditMapperService>();
             services.AddSingleton<IMapperService, MapperService>();
 

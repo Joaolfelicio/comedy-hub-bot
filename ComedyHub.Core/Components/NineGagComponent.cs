@@ -12,17 +12,17 @@ namespace ComedyHub.Core.Components
     public class NineGagComponent : INineGagComponent
     {
         private readonly INineGagFetchService _nineGagFetchService;
-        private readonly INineGagFilterService _nineGagFilterService;
+        private readonly IFilterService _filterService;
         private readonly INineGagMapperService _nineGagMapperService;
         private readonly ILogger<NineGagComponent> _logger;
 
         public NineGagComponent(INineGagFetchService nineGagFetchService,
-                                INineGagFilterService nineGagFilterService,
+                                IFilterService filterService,
                                 INineGagMapperService nineGagMapperService,
                                 ILogger<NineGagComponent> logger)
         {
             _nineGagFetchService = nineGagFetchService;
-            _nineGagFilterService = nineGagFilterService;
+            _filterService = filterService;
             _nineGagMapperService = nineGagMapperService;
             _logger = logger;
         }
@@ -30,15 +30,15 @@ namespace ComedyHub.Core.Components
         {
             var nineGagModels = await _nineGagFetchService.GetNineGagModelMeme();
 
-            _logger.LogInformation("Received nine gag meme");
+            _logger.LogInformation("Received nine gag memes");
 
-            var nineGagPostModel = _nineGagFilterService.NineGagFilter(nineGagModels);
+            var nineGagPostModel = _nineGagMapperService.NineGagModelToMemes(nineGagModels);
 
-            _logger.LogInformation("Filtered nine gag meme");
+            _logger.LogInformation("Mapped to memes models");
 
-            var memeModel = _nineGagMapperService.NineGagModelToMeme(nineGagPostModel);
+            var memeModel = _filterService.FilterMemes(nineGagPostModel);
 
-            _logger.LogInformation("Mapped to meme model");
+            _logger.LogInformation("Filtered memes models to meme models");
 
             return memeModel;
         }

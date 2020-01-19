@@ -9,7 +9,8 @@ namespace ComedyHub.Model.Meme
         public string Id { get; set; }
         public string Url { get; set; }
         public string Title { get; set; }
-        public string MediaFile { get; set; }
+        public string FileExtension { get; set; }
+        public string MediaType { get; set; }
         public bool Nsfw { get; set; }
         public int UpVoteCount { get; set; }
         public int DownVoteCount { get; set; }

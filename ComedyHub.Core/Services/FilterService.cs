@@ -2,12 +2,16 @@
 using ComedyHub.Core.Configuration.Contracts;
 using ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels;
 using ComedyHub.Core.Services.Contracts;
+using ComedyHub.Model.Meme;
 using Reddit.Controllers;
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Text;
 using System.Web;
 using Tweetinvi;
+using ComedyHub.Core.Constants;
 
 namespace ComedyHub.Core.Services
 {
@@ -23,7 +27,18 @@ namespace ComedyHub.Core.Services
             _twitterAuth = twitterAuth;
         }
 
-        public T GetRandomPost<T>(List<T> posts)
+        public MemeModel FilterMemes(List<MemeModel> posts)
+        {
+            var postsWithImage = RemovePostsWithoutImage(posts);
+
+            var distinctPosts = RemoveDuplicates(postsWithImage);
+
+            var randomFilteredMeme = GetRandomPost(distinctPosts);
+
+            return randomFilteredMeme;
+        }
+
+        private MemeModel GetRandomPost(List<MemeModel> posts)
         {
             var random = new Random();
             var randomPostIndex = random.Next(posts.Count);
@@ -31,27 +46,44 @@ namespace ComedyHub.Core.Services
             return posts[randomPostIndex];
         }
 
-        public bool HasMemeAlreadyPosted(string memeTitle)
+        private List<MemeModel> RemoveDuplicates(List<MemeModel> posts)
         {
-
-            var cleanMemeTitle = HttpUtility.HtmlDecode(memeTitle);
-
             string botScreenName = _twitterBotSettings.BotScreenName;
             int numberStatusToFetch = _twitterBotSettings.NumStatusToFetch;
+
+            var notDuplicatedPosts = new List<MemeModel>(posts);
 
             //Set authorization on twitter
             _twitterAuth.SetTwitterAuth();
 
             var lastTweets = Timeline.GetUserTimeline(botScreenName, numberStatusToFetch);
 
-            foreach (var postedTweet in lastTweets)
+            foreach (var post in posts)
             {
-                if (postedTweet.Text == cleanMemeTitle)
+                foreach (var postedTweet in lastTweets)
                 {
-                    return true;
+                    if (postedTweet.Text == post.Title)
+                    {
+                        notDuplicatedPosts.Remove(post);
+                        break;
+                    }
                 }
             }
-            return false;
+            return notDuplicatedPosts;
+        }
+
+        private List<MemeModel> RemovePostsWithoutImage(List<MemeModel> posts)
+        {
+            var postsWithImage = new List<MemeModel>();
+
+            foreach (var post in posts)
+            {
+                if (post.MediaType == MediaType.MediaFilePhoto)
+                {
+                    postsWithImage.Add(post);
+                }
+            }
+            return postsWithImage;
         }
     }
 }
