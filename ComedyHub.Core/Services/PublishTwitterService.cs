@@ -1,4 +1,17 @@
-﻿using ComedyHub.Core.Services.Contracts;
+﻿// ***********************************************************************
+// Assembly         : ComedyHub.Core
+// Author           : Joaolfelicio
+// Created          : 12-28-2019
+//
+// Last Modified By : Joaolfelicio
+// Last Modified On : 01-19-2020
+// ***********************************************************************
+// <copyright file="PublishTwitterService.cs" company="ComedyHub.Core">
+//     Copyright (c) . All rights reserved.
+// </copyright>
+// <summary>Publish the meme throught twitter</summary>
+// ***********************************************************************
+using ComedyHub.Core.Services.Contracts;
 using ComedyHub.Core;
 using ComedyHub.Model.Meme;
 using ComedyHub.Model.Publish;
@@ -15,10 +28,20 @@ using ComedyHub.Core.Auth.Contracts;
 
 namespace ComedyHub.Core.Services
 {
+    /// <summary>
+    /// Class PublishTwitterService.
+    /// Implements the <see cref="ComedyHub.Core.Services.Contracts.IPublishTwitterService" />
+    /// </summary>
+    /// <seealso cref="ComedyHub.Core.Services.Contracts.IPublishTwitterService" />
     public class PublishTwitterService : IPublishTwitterService
     {
 
-        public PublishedModel PublishTwitter(MemeModel memeModel)
+        /// <summary>
+        /// Publishes to twitter.
+        /// </summary>
+        /// <param name="memeModel">The meme model.</param>
+        /// <returns>The PublishedModel.</returns>
+        public PublishedModel PublishToTwitter(MemeModel memeModel)
         { 
             var imageList = new List<byte[]>();
 

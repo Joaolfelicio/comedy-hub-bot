@@ -1,4 +1,17 @@
-﻿using ComedyHub.Core.Services.Contracts;
+﻿// ***********************************************************************
+// Assembly         : ComedyHub.Core
+// Author           : Joaolfelicio
+// Created          : 01-12-2020
+//
+// Last Modified By : Joaolfelicio
+// Last Modified On : 01-19-2020
+// ***********************************************************************
+// <copyright file="RedditMapperService.cs" company="ComedyHub.Core">
+//     Copyright (c) . All rights reserved.
+// </copyright>
+// <summary>Mapps from reddit meme to the meme model</summary>
+// ***********************************************************************
+using ComedyHub.Core.Services.Contracts;
 using ComedyHub.Model.Meme;
 using Reddit.Controllers;
 using System;
@@ -12,11 +25,27 @@ using System.Linq;
 
 namespace ComedyHub.Core.Services
 {
+    /// <summary>
+    /// Class RedditMapperService.
+    /// Implements the <see cref="ComedyHub.Core.Services.Contracts.IRedditMapperService" />
+    /// </summary>
+    /// <seealso cref="ComedyHub.Core.Services.Contracts.IRedditMapperService" />
     public class RedditMapperService : IRedditMapperService
     {
+        /// <summary>
+        /// The mapper service
+        /// </summary>
         private readonly IMapperService _mapperService;
+        /// <summary>
+        /// The application settings
+        /// </summary>
         private readonly IApplicationSettings _applicationSettings;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="RedditMapperService"/> class.
+        /// </summary>
+        /// <param name="mapperService">The mapper service.</param>
+        /// <param name="applicationSettings">The application settings.</param>
         public RedditMapperService(IMapperService mapperService,
                                    IApplicationSettings applicationSettings)
         {
@@ -24,6 +53,11 @@ namespace ComedyHub.Core.Services
             _applicationSettings = applicationSettings;
         }
 
+        /// <summary>
+        /// From reddit model to memes model.
+        /// </summary>
+        /// <param name="redditPosts">The reddit posts.</param>
+        /// <returns>The list of meme models.</returns>
         public List<MemeModel> RedditModelToMemes(List<Post> redditPosts)
         {
             var mappedMemes = new List<MemeModel>();

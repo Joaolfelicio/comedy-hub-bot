@@ -9,7 +9,7 @@
 // <copyright file="PublishComponent.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary></summary>
+// <summary>Handles the publish process</summary>
 // ***********************************************************************
 using ComedyHub.Core.Components.Contracts;
 using ComedyHub.Core.Services.Contracts;
@@ -48,7 +48,7 @@ namespace ComedyHub.Core.Components
         /// <returns>The PublishedModel.</returns>
         public PublishedModel PublishMeme(MemeModel memeModel)
         {
-            return _publishTwitterService.PublishTwitter(memeModel);
+            return _publishTwitterService.PublishToTwitter(memeModel);
         }
     }
 }

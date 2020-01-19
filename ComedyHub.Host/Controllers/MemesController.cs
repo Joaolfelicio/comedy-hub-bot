@@ -1,4 +1,17 @@
-﻿using System;
+﻿// ***********************************************************************
+// Assembly         : ComedyHub.Host
+// Author           : Joaolfelicio
+// Created          : 12-27-2019
+//
+// Last Modified By : Joaolfelicio
+// Last Modified On : 01-19-2020
+// ***********************************************************************
+// <copyright file="MemesController.cs" company="ComedyHub.Host">
+//     Copyright (c) . All rights reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -11,14 +24,34 @@ using Microsoft.Extensions.Logging;
 
 namespace ComedyHub.Host.Controllers
 {
+    /// <summary>
+    /// Class MemesController.
+    /// Implements the <see cref="Microsoft.AspNetCore.Mvc.Controller" />
+    /// </summary>
+    /// <seealso cref="Microsoft.AspNetCore.Mvc.Controller" />
     [ApiController]
     [Route("api/[Controller]")]
     public class MemesController : Controller
     {
+        /// <summary>
+        /// The meme orchestrator
+        /// </summary>
         private readonly IMemeOrchestrator _memeOrchestrator;
+        /// <summary>
+        /// The meme processor
+        /// </summary>
         private readonly IMemeProcessor _memeProcessor;
+        /// <summary>
+        /// The logger
+        /// </summary>
         private readonly ILogger<MemesController> _logger;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MemesController"/> class.
+        /// </summary>
+        /// <param name="memeOrchestrator">The meme orchestrator.</param>
+        /// <param name="memeProcessor">The meme processor.</param>
+        /// <param name="logger">The logger.</param>
         public MemesController(IMemeOrchestrator memeOrchestrator,
                                IMemeProcessor memeProcessor,
                                ILogger<MemesController> logger)
@@ -28,6 +61,10 @@ namespace ComedyHub.Host.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Processes the meme.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> ProcessMeme()
         {
@@ -45,6 +82,10 @@ namespace ComedyHub.Host.Controllers
             }
         }
 
+        /// <summary>
+        /// Gets the meme as Json.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetMeme")]
         public async Task<IActionResult> GetMeme()
         {

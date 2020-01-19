@@ -1,4 +1,17 @@
-﻿using ComedyHub.Core.Auth;
+﻿// ***********************************************************************
+// Assembly         : ComedyHub.Host
+// Author           : Joaolfelicio
+// Created          : 01-16-2020
+//
+// Last Modified By : Joaolfelicio
+// Last Modified On : 01-19-2020
+// ***********************************************************************
+// <copyright file="StartupConfiguration.cs" company="ComedyHub.Host">
+//     Copyright (c) . All rights reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+using ComedyHub.Core.Auth;
 using ComedyHub.Core.Auth.Contracts;
 using ComedyHub.Core.Components;
 using ComedyHub.Core.Components.Contracts;
@@ -18,8 +31,16 @@ using System.Threading.Tasks;
 
 namespace ComedyHub.Host.Configuration
 {
+    /// <summary>
+    /// Class StartupConfiguration.
+    /// </summary>
     public static class StartupConfiguration
     {
+        /// <summary>
+        /// Registers the services.
+        /// </summary>
+        /// <param name="services">The services.</param>
+        /// <returns>IServiceCollection.</returns>
         public static IServiceCollection RegisterServices(this IServiceCollection services)
         {
             services.AddSingleton<INineGagFetchService, NineGagFetchService>();
@@ -34,6 +55,11 @@ namespace ComedyHub.Host.Configuration
             return services;
         }
 
+        /// <summary>
+        /// Registers the components.
+        /// </summary>
+        /// <param name="services">The services.</param>
+        /// <returns>IServiceCollection.</returns>
         public static IServiceCollection RegisterComponents(this IServiceCollection services)
         {
             services.AddSingleton<IMemeProcessor, MemeProcessor>();
@@ -46,6 +72,11 @@ namespace ComedyHub.Host.Configuration
             return services;
         }
 
+        /// <summary>
+        /// Registers the infrastructure.
+        /// </summary>
+        /// <param name="services">The services.</param>
+        /// <returns>IServiceCollection.</returns>
         public static IServiceCollection RegisterInfrastructure(this IServiceCollection services)
         {
             services.AddSingleton<ITelegramGateway, TelegramGateway>();
@@ -56,6 +87,11 @@ namespace ComedyHub.Host.Configuration
             return services;
         }
 
+        /// <summary>
+        /// Registers the authentication.
+        /// </summary>
+        /// <param name="services">The services.</param>
+        /// <returns>IServiceCollection.</returns>
         public static IServiceCollection RegisterAuth(this IServiceCollection services)
         {
             services.AddSingleton<IRedditAuth, RedditAuth>();
@@ -64,6 +100,12 @@ namespace ComedyHub.Host.Configuration
             return services;
         }
 
+        /// <summary>
+        /// Registers the configurations.
+        /// </summary>
+        /// <param name="services">The services.</param>
+        /// <param name="configuration">The configuration.</param>
+        /// <returns>IServiceCollection.</returns>
         public static IServiceCollection RegisterConfigurations(this IServiceCollection services, IConfiguration configuration)
         {
             services.Configure<ApplicationSettings>(configuration.GetSection(nameof(ApplicationSettings)));
