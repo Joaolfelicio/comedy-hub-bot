@@ -27,7 +27,7 @@ namespace ComedyHub.Core.Services
         public List<MemeModel> RedditModelToMemes(List<Post> redditPosts)
         {
             var mappedMemes = new List<MemeModel>();
-            var imageExtensionsSupported = _applicationSettings.ImagesExtensions.Split(';').ToList();
+            var imageExtensionsSupported = _applicationSettings.SupportedImageExtensions.Split(';').ToList();
 
             foreach (var post in redditPosts)
             {
