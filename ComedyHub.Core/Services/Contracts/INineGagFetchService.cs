@@ -9,7 +9,7 @@
 // <copyright file="INineGagFetchService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Fetchs the nine gag memes</summary>
+// <summary>Fetches the nine gag memes</summary>
 // ***********************************************************************
 using ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels;
 using System;

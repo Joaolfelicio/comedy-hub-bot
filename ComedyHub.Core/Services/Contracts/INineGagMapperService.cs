@@ -9,7 +9,7 @@
 // <copyright file="INineGagMapperService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Mapps the nine gag model to the desired model</summary>
+// <summary>Maps the nine gag model to the desired model</summary>
 // ***********************************************************************
 using ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels;
 using ComedyHub.Model.Meme;

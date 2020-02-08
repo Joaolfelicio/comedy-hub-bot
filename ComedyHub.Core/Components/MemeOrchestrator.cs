@@ -9,7 +9,7 @@
 // <copyright file="MemeOrchestrator.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary></summary>
+// <summary>Manages the whole proccess</summary>
 // ***********************************************************************
 using ComedyHub.Core.Auth.Contracts;
 using ComedyHub.Core.Components.Contracts;

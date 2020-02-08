@@ -9,7 +9,7 @@
 // <copyright file="NotificationTelegramService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Handles the notification throught telegram</summary>
+// <summary>Handles the notification through telegram</summary>
 // ***********************************************************************
 using ComedyHub.Core.Services.Contracts;
 using ComedyHub.Model.Publish;
@@ -62,10 +62,10 @@ namespace ComedyHub.Core.Services
         }
 
         /// <summary>
-        /// Sends the telegram sucess notification.
+        /// Sends the telegram success notification.
         /// </summary>
         /// <param name="memePublished">The meme published.</param>
-        public async Task SendTelegramSucessNotification(PublishedModel memePublished)
+        public async Task SendTelegramSuccessNotification(PublishedModel memePublished)
         {
             var telegramMessage = new TelegramPhotoMessage()
             {
@@ -81,7 +81,7 @@ namespace ComedyHub.Core.Services
             {
                 await _telegramGateway.SendPhotoMessage(telegramMessage);
 
-                _logger.LogInformation("Sucessfully sent success notification");
+                _logger.LogInformation("Successfully sent success notification");
             }
             catch (Exception exception)
             {
@@ -107,7 +107,7 @@ namespace ComedyHub.Core.Services
             try
             {
                 await _telegramGateway.SendTextMessage(telegramMessage);
-                _logger.LogInformation("Sucessfully sent failure notification");
+                _logger.LogInformation("Successfully sent failure notification");
             }
             catch (Exception ex)
             {

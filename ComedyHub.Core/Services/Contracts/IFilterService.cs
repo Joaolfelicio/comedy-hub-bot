@@ -9,7 +9,7 @@
 // <copyright file="IFilterService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Filteres the memes</summary>
+// <summary>Filters the memes</summary>
 // ***********************************************************************
 using ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels;
 using ComedyHub.Model.Meme;

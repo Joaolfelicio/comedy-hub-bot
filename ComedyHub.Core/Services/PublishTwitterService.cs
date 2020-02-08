@@ -9,7 +9,7 @@
 // <copyright file="PublishTwitterService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Publish the meme throught twitter</summary>
+// <summary>Publish the meme through twitter</summary>
 // ***********************************************************************
 using ComedyHub.Core.Services.Contracts;
 using ComedyHub.Core;

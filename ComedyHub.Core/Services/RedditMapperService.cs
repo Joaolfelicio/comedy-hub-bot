@@ -9,7 +9,7 @@
 // <copyright file="RedditMapperService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Mapps from reddit meme to the meme model</summary>
+// <summary>Maps from reddit meme to the meme model</summary>
 // ***********************************************************************
 using ComedyHub.Core.Services.Contracts;
 using ComedyHub.Model.Meme;

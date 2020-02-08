@@ -9,7 +9,7 @@
 // <copyright file="FilterService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Filteres the memes</summary>
+// <summary>Filters the memes</summary>
 // ***********************************************************************
 using ComedyHub.Core.Auth.Contracts;
 using ComedyHub.Core.Configuration.Contracts;
@@ -163,7 +163,7 @@ namespace ComedyHub.Core.Services
         private async Task<List<MemeModel>> RemoveImagesWithSizeLimit(List<MemeModel> posts)
         {
             //Multiply to convert from MegaByte to Bytes
-            var sizeLimitBytes = _applicationSettings.SizeLimitMegaBytes * 1000000;
+            var sizeLimitBytes = _applicationSettings.SizeLimitMegaBytes * 1048576;
 
             var imagesWithSizeLimit = new List<MemeModel>();
 

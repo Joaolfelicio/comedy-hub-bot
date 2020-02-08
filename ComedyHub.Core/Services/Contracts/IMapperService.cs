@@ -9,7 +9,7 @@
 // <copyright file="IMapperService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Mapps the memes to the desired model</summary>
+// <summary>Maps the memes to the desired model</summary>
 // ***********************************************************************
 using ComedyHub.Model.Meme;
 using System;

@@ -9,7 +9,7 @@
 // <copyright file="IRedditFetchService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Fetchs the reddit memes</summary>
+// <summary>Fetches the reddit memes</summary>
 // ***********************************************************************
 using Reddit.Controllers;
 using System;

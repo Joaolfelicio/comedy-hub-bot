@@ -16,6 +16,8 @@ using ComedyHub.Core.Configuration;
 using ComedyHub.Core.Configuration.Contracts;
 using ComedyHub.Core.Services.Contracts;
 using ComedyHub.Model.Meme;
+using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,6 +45,7 @@ namespace ComedyHub.Core.Components
         /// The reddit component
         /// </summary>
         private readonly IRedditComponent _redditComponent;
+        private readonly ILogger<MemeProcessor> _logger;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="MemeProcessor"/> class.
@@ -52,11 +55,13 @@ namespace ComedyHub.Core.Components
         /// <param name="redditComponent">The reddit component.</param>
         public MemeProcessor(IApplicationSettings applicationSettings,
                              INineGagComponent nineGagComponent,
-                             IRedditComponent redditComponent)
+                             IRedditComponent redditComponent,
+                             ILogger<MemeProcessor> logger)
         {
             _applicationSettings = applicationSettings;
             _nineGagComponent = nineGagComponent;
             _redditComponent = redditComponent;
+            _logger = logger;
         }
 
 
@@ -76,24 +81,30 @@ namespace ComedyHub.Core.Components
         /// <returns>The MemeModel</returns>
         private async Task<MemeModel> ProcessRandomService()
         {
-            var servicesToFetch = _applicationSettings.ServicesToFetch.Split(';');
+            var servicesToFetch = _applicationSettings.ServicesToFetch.Split(';').ToList();
 
             Random random = new Random();
 
-            int randomNum = random.Next(servicesToFetch.Length);
+            int randomNum = random.Next(servicesToFetch.Count);
+            MemeModel meme;
 
             switch (servicesToFetch[randomNum])
             {
                 case Constants.MemeProvider.NineGag:
-                    return await _nineGagComponent.GetNineGagMeme();
+                    meme = await _nineGagComponent.GetNineGagMeme();
+                    break;
 
                 case Constants.MemeProvider.Reddit:
-                    return await _redditComponent.GetRedditMeme();
+                    meme = await _redditComponent.GetRedditMeme();
+                    break;
 
                 default:
-                    return await _nineGagComponent.GetNineGagMeme();
+                    meme =  await _nineGagComponent.GetNineGagMeme();
+                    break;
             }
+            _logger.LogInformation(JsonConvert.SerializeObject(meme));
 
+            return meme;
         }
     }
 }

@@ -9,7 +9,7 @@
 // <copyright file="IRedditMapperService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Mapps the reddit model to the desired model</summary>
+// <summary>Maps the reddit model to the desired model</summary>
 // ***********************************************************************
 using ComedyHub.Model.Meme;
 using Reddit.Controllers;

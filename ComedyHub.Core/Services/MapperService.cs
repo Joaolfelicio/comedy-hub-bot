@@ -9,7 +9,7 @@
 // <copyright file="MapperService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Mapps to the meme model</summary>
+// <summary>Maps to the meme model</summary>
 // ***********************************************************************
 using ComedyHub.Core.Configuration.Contracts;
 using ComedyHub.Core.Services.Contracts;
@@ -80,8 +80,8 @@ namespace ComedyHub.Core.Services
                 //Default tags
                 tagsList.AddRange(defaultTags);
 
-                //Get only the ones that are distincts
-                tagsList = tagsList.Distinct().ToList();
+                //Get only the ones that are distinct
+                tagsList = tagsList.Distinct(StringComparer.CurrentCultureIgnoreCase).ToList();
 
                 foreach (var tag in tagsList)
                 {

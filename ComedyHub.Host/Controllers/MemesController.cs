@@ -74,7 +74,7 @@ namespace ComedyHub.Host.Controllers
 
                 await _memeOrchestrator.Process();
 
-                return Json(new { Status = "Success", Message = "Sucessfully published meme" });
+                return Json(new { Status = "Success", Message = "Successfully published meme" });
             }
             catch (Exception ex)
             {

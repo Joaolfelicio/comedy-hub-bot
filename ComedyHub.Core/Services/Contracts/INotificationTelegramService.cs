@@ -9,7 +9,7 @@
 // <copyright file="INotificationTelegramService.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Handles the notifications throught telegram</summary>
+// <summary>Handles the notifications through telegram</summary>
 // ***********************************************************************
 using ComedyHub.Model.Publish;
 using System;
@@ -25,11 +25,11 @@ namespace ComedyHub.Core.Services.Contracts
     public interface INotificationTelegramService
     {
         /// <summary>
-        /// Sends the telegram sucess notification.
+        /// Sends the telegram success notification.
         /// </summary>
         /// <param name="memePublished">The meme published.</param>
         /// <returns></returns>
-        Task SendTelegramSucessNotification(PublishedModel memePublished);
+        Task SendTelegramSuccessNotification(PublishedModel memePublished);
         /// <summary>
         /// Sends the telegram failure notification.
         /// </summary>

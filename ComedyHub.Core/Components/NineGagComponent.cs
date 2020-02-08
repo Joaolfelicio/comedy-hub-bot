@@ -9,7 +9,7 @@
 // <copyright file="NineGagComponent.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary>Fetchs, mapp it and filters it </summary>
+// <summary>Fetches, map and filters the nine gag model</summary>
 // ***********************************************************************
 using ComedyHub.Core.Components.Contracts;
 using ComedyHub.Core.Services.Contracts;

@@ -9,7 +9,7 @@
 // <copyright file="NotificationComponent.cs" company="ComedyHub.Core">
 //     Copyright (c) . All rights reserved.
 // </copyright>
-// <summary></summary>
+// <summary>Handles the notification process</summary>
 // ***********************************************************************
 using ComedyHub.Core.Components.Contracts;
 using ComedyHub.Core.Services.Contracts;
@@ -48,7 +48,7 @@ namespace ComedyHub.Core.Components
         /// <param name="publishedModel">The published model.</param>
         public async Task SendSucessfulNotification(PublishedModel publishedModel)
         {
-            await _notificationTelegramService.SendTelegramSucessNotification(publishedModel);
+            await _notificationTelegramService.SendTelegramSuccessNotification(publishedModel);
         }
 
         /// <summary>

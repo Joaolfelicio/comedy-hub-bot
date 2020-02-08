@@ -28,7 +28,7 @@ namespace ComedyHub.Core.Services.Contracts
         /// Publishes to twitter.
         /// </summary>
         /// <param name="memeModel">The meme model.</param>
-        /// <returns>PublishedModel.</returns>
+        /// <returns>The PublishedModel.</returns>
         PublishedModel PublishToTwitter(MemeModel memeModel);
     }
 }
