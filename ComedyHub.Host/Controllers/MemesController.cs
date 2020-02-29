@@ -89,13 +89,21 @@ namespace ComedyHub.Host.Controllers
         [HttpGet("GetMeme")]
         public async Task<IActionResult> GetMeme()
         {
-            var meme = await _memeProcessor.ProcessMeme();
-
-            if (meme == null)
+            try
             {
-                return Json(new { Status = "Failure", Message = "Meme is null" });
+                var meme = await _memeProcessor.ProcessMeme();
+
+                if (meme == null)
+                {
+                    return Json(new { Status = "Failure", Message = "Meme is null" });
+                }
+                return Ok(meme);
             }
-            return Ok(meme);
+            catch (Exception ex)
+            {
+                return Json(new { Status = "Failure", Message = ex.Message });
+            }
+
         }
     }
 }
