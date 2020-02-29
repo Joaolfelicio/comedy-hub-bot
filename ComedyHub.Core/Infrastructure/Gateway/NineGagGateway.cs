@@ -22,6 +22,9 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using ComedyHub.Core.Configuration.Contracts;
 using ComedyHub.Core.Infrastructure.Gateway.Models.NineGagModels;
+using Microsoft.Extensions.Logging;
+using ComedyHub.Core.Exceptions;
+using System.Net.Http.Headers;
 
 namespace ComedyHub.Core.Infrastructure.Gateway
 {
@@ -36,14 +39,17 @@ namespace ComedyHub.Core.Infrastructure.Gateway
         /// The nine gag API settings
         /// </summary>
         private readonly INineGagApiSettings _nineGagApiSettings;
+        private readonly ILogger<NineGagGateway> _logger;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="NineGagGateway"/> class.
         /// </summary>
         /// <param name="nineGagApiSettings">The nine gag API settings.</param>
-        public NineGagGateway(INineGagApiSettings nineGagApiSettings)
+        public NineGagGateway(INineGagApiSettings nineGagApiSettings,
+                              ILogger<NineGagGateway> logger)
         {
             _nineGagApiSettings = nineGagApiSettings;
+            _logger = logger;
         }
         /// <summary>
         /// Gets the nine gag meme.
@@ -57,9 +63,11 @@ namespace ComedyHub.Core.Infrastructure.Gateway
             {
                 client.BaseAddress = new Uri(_nineGagApiSettings.Url);
                 client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
                 HttpResponseMessage response = await client.GetAsync(_nineGagApiSettings.Url);
+
+                _logger.LogInformation($"Call to {_nineGagApiSettings.Url} returned: {response.StatusCode}");
                 if (response.IsSuccessStatusCode)
                 {
                     var data = await response.Content.ReadAsStringAsync();
@@ -67,8 +75,8 @@ namespace ComedyHub.Core.Infrastructure.Gateway
 
                     return memeModel;
                 }
+                throw new InvalidApiCallException(_nineGagApiSettings.Url, response.StatusCode);
             }
-            return memeModel;
         }
     }
 }
